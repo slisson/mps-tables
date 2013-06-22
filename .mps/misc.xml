@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultSearchOptionsComponent">
+    <option class_name="jetbrains.mps.ide.findusages.view.optionseditor.options.FindersOptions">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.ConceptInstances_Finder" />
+      </finders>
+    </option>
+    <option class_name="jetbrains.mps.ide.findusages.view.optionseditor.options.ViewOptions">
+      <flags show_one_result="true" new_tab="false" />
+    </option>
+    <option class_name="jetbrains.mps.ide.findusages.view.optionseditor.options.ScopeOptions">
+      <scope_type scope_type="project_scope" module="&lt;default&gt;" model="&lt;default&gt;" />
+    </option>
+  </component>
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.slisson.mps.tables/de.slisson.mps.tables.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.slisson.mps.tables/runtime/de.slisson.mps.tables.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" folder="" />
+    </projectModules>
+    <genConfs />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules />
+  </component>
+  <component name="ProjectRootManager" version="2" />
+  <component name="ProjectVersion">
+    <option name="version" value="3.0" />
+  </component>
+</project>
+
