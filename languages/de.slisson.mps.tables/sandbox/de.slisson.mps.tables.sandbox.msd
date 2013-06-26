@@ -8,6 +8,7 @@
   <sourcePath />
   <usedLanguages>
     <usedLanguage>7e450f4e-1ac3-41ef-a851-4598161bdb94(de.slisson.mps.tables)</usedLanguage>
+    <usedLanguage>2d56439e-634d-4d25-9d30-963e89ecda48(de.slisson.mps.tables.demolang)</usedLanguage>
     <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>
   </usedLanguages>
 </solution>

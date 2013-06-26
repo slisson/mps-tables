@@ -24,5 +24,17 @@
     </dependencies>
     <rename id="bnk3.1397920687864997153" type="CONCEPT" from="Row" to="StaticRow" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="3" />
+    </dependencies>
+    <rename id="bnk3.1397920687865064415" type="CONCEPT" from="ChildColumns" to="ChildColumn" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="4" />
+    </dependencies>
+    <rename id="bnk3.1397920687864997197" type="CONCEPT" from="ChildsRows" to="ChildsRow" />
+  </StructureModification>
 </history>
 
