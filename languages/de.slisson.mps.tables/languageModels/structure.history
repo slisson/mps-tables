@@ -36,5 +36,11 @@
     </dependencies>
     <rename id="bnk3.1397920687864997197" type="CONCEPT" from="ChildsRows" to="ChildsRow" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="5" />
+    </dependencies>
+    <rename id="bnk3.1397920687866011705" type="CONCEPT" from="HeaderQueryParameter_Node" to="QueryParameter_Node" />
+  </StructureModification>
 </history>
 

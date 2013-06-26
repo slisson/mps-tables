@@ -26,6 +26,7 @@
     <node role="testSuite" roleId="nnej.1397920687866493249" type="nnej.TestSuite" typeId="nnej.1397920687865838768" id="1397920687866914365">
       <link role="rule" roleId="nnej.1397920687865838781" targetNodeId="1397920687866914337" resolveInfo="calculatedPrice" />
     </node>
+    <node role="stateMachine" roleId="nnej.1397920687868193943" type="nnej.StateMachine" typeId="nnej.1397920687866914791" id="1397920687868252668" />
   </root>
 </model>
 
