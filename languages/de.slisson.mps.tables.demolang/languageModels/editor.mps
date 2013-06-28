@@ -8,7 +8,7 @@
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
-  <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="6" implicit="yes" />
+  <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="10" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -60,6 +60,9 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1397920687868135433">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="CellOriented" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.1397920687866914986" resolveInfo="State" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1397920687871100379">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.1397920687871005027" resolveInfo="TestCaseComment" />
     </node>
   </roots>
   <root id="1397920687865224257">
@@ -286,6 +289,9 @@
         </node>
         <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="1397920687865839035">
           <property name="text" nameId="bnk3.1397920687864864274" value="actual" />
+        </node>
+        <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsColumn" typeId="bnk3.1397920687865064415" id="1397920687870997136">
+          <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="nnej.1397920687865838778" />
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1397920687865838838" />
@@ -605,6 +611,26 @@
   <root id="1397920687868135433">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1397920687868135435">
       <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+    </node>
+  </root>
+  <root id="1397920687871100379">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="1397920687871100381">
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticColumn" typeId="bnk3.1397920687864997163" id="1397920687871100385">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687871100388">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1397920687871100394">
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1397920687871100404">
+              <property name="text" nameId="tpc2.1073389577007" value="comment:" />
+            </node>
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1397920687871100416">
+              <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.1397920687871100413" resolveInfo="comment" />
+            </node>
+            <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1397920687871100397" />
+          </node>
+        </node>
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687871100434">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="1397920687871100452" />
+        </node>
+      </node>
     </node>
   </root>
 </model>

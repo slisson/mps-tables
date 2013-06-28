@@ -42,5 +42,29 @@
     </dependencies>
     <rename id="bnk3.1397920687866011705" type="CONCEPT" from="HeaderQueryParameter_Node" to="QueryParameter_Node" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="6" />
+    </dependencies>
+    <rename id="bnk3.1397920687865064415" type="CONCEPT" from="ChildColumn" to="ChildsColumn" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="7" />
+    </dependencies>
+    <rename id="bnk3.1397920687865064415" type="CONCEPT" from="ChildsColumn" to="ChildColumn" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="8" />
+    </dependencies>
+    <rename id="bnk3.1397920687865064415" type="CONCEPT" from="ChildColumn" to="ChildsColumn" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="9" />
+    </dependencies>
+    <rename id="bnk3.1397920687865064415" type="CONCEPT" from="ChildColumn" to="ChildsColumn" />
+  </StructureModification>
 </history>
 
