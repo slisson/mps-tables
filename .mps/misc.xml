@@ -14,21 +14,9 @@
       <scope_type scope_type="project_scope" module="&lt;default&gt;" model="&lt;default&gt;" />
     </option>
   </component>
-  <component name="MPSProject">
-    <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/de.slisson.mps.tables.demolang/de.slisson.mps.tables.demolang.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/de.slisson.mps.tables/de.slisson.mps.tables.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/de.slisson.mps.tables/runtime/de.slisson.mps.tables.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" folder="" />
-    </projectModules>
-    <genConfs />
-  </component>
   <component name="ProjectModuleManager">
     <modules />
   </component>
   <component name="ProjectRootManager" version="2" />
-  <component name="ProjectVersion">
-    <option name="version" value="3.0" />
-  </component>
 </project>
 
