@@ -74,6 +74,8 @@
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687871005027">
       <property name="name" nameId="tpck.1169194664001" value="TestCaseComment" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="DynamicRow" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="comment" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
     </node>
   </roots>

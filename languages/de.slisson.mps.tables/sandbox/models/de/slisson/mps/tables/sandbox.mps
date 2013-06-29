@@ -69,6 +69,9 @@
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795416">
           <property name="value" nameId="tpee.1113006610751" value="14.0" />
         </node>
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.TestCaseComment" typeId="nnej.1397920687871005027" id="1652594944445395544">
+          <property name="comment" nameId="nnej.1397920687871100413" value="Comment on test case 0" />
+        </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795480">
         <property name="name" nameId="tpck.1169194664001" value="TestCase 1dfg jdg djfg" />
@@ -122,6 +125,9 @@
         </node>
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795677">
           <property name="value" nameId="tpee.1113006610751" value="14.0" />
+        </node>
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.TestCaseComment" typeId="nnej.1397920687871005027" id="1652594944445118447">
+          <property name="comment" nameId="nnej.1397920687871100413" value="This is a node annotation attached to a test case" />
         </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779281435111">

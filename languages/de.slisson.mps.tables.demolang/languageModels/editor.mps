@@ -62,6 +62,7 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.1397920687866914986" resolveInfo="State" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1397920687871100379">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="DynamicRow" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.1397920687871005027" resolveInfo="TestCaseComment" />
     </node>
   </roots>
