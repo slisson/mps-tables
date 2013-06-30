@@ -66,5 +66,11 @@
     </dependencies>
     <rename id="bnk3.1397920687865064415" type="CONCEPT" from="ChildColumn" to="ChildsColumn" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="10" />
+    </dependencies>
+    <rename id="bnk3.1397920687865111420" type="CHILD" from="header" to="columnHeader" />
+  </StructureModification>
 </history>
 

@@ -46,7 +46,7 @@
       <node role="variables" roleId="nnej.1397920687865838589" type="nnej.Variable" typeId="nnej.1397920687865838585" id="1397920687866914348">
         <property name="name" nameId="tpck.1169194664001" value="noOfUnits" />
       </node>
-      <node role="variables" roleId="nnej.1397920687865838589" type="nnej.Variable" typeId="nnej.1397920687865838585" id="1397920687866914355">
+      <node role="variables" roleId="nnej.1397920687865838589" type="nnej.Variable" typeId="nnej.1397920687865838585" id="3160705326883253048">
         <property name="name" nameId="tpck.1169194664001" value="rebateFactor" />
       </node>
     </node>
@@ -166,6 +166,24 @@
           <property name="value" nameId="tpee.1113006610751" value="14.0" />
         </node>
       </node>
+      <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="3323012950585878442">
+        <property name="name" nameId="tpck.1169194664001" value="TestCase6" />
+        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878443">
+          <property name="value" nameId="tpee.1113006610751" value="10.0" />
+        </node>
+        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878444">
+          <property name="value" nameId="tpee.1113006610751" value="11.0" />
+        </node>
+        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878445">
+          <property name="value" nameId="tpee.1113006610751" value="12.0" />
+        </node>
+        <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878446">
+          <property name="value" nameId="tpee.1113006610751" value="13.0" />
+        </node>
+        <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878447">
+          <property name="value" nameId="tpee.1113006610751" value="14.0" />
+        </node>
+      </node>
     </node>
     <node role="stateMachine" roleId="nnej.1397920687868193943" type="nnej.StateMachine" typeId="nnej.1397920687866914791" id="1652594944444666763">
       <node role="events" roleId="nnej.1397920687866915008" type="nnej.Event" typeId="nnej.1397920687866914965" id="1652594944444666765">
@@ -236,6 +254,179 @@
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666822" resolveInfo="State5" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666777" resolveInfo="Event2" />
+      </node>
+      <node role="events" roleId="nnej.1397920687866915008" type="nnej.Event" typeId="nnej.1397920687866914965" id="1652594944454520472">
+        <property name="name" nameId="tpck.1169194664001" value="Event7" />
+      </node>
+      <node role="events" roleId="nnej.1397920687866915008" type="nnej.Event" typeId="nnej.1397920687866914965" id="1652594944454520481">
+        <property name="name" nameId="tpck.1169194664001" value="Event8" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="1652594944454520491">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520472" resolveInfo="Event7" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="1652594944454520499">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520481" resolveInfo="Event8" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="1652594944454520508">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="1652594944454520518">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666781" resolveInfo="State2" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618183">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618283">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618296">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666767" resolveInfo="State0" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618310">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666774" resolveInfo="Event1" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618325">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520472" resolveInfo="Event7" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618341">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666781" resolveInfo="State2" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520472" resolveInfo="Event7" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618358">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666777" resolveInfo="Event2" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618376">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618395">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666767" resolveInfo="State0" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618415">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520472" resolveInfo="Event7" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618436">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666767" resolveInfo="State0" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520481" resolveInfo="Event8" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618458">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666790" resolveInfo="Event4" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618481">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666781" resolveInfo="State2" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666814" resolveInfo="Event6" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618505">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666807" resolveInfo="Event5" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618530">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520472" resolveInfo="Event7" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618556">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666781" resolveInfo="State2" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
+      </node>
+      <node role="events" roleId="nnej.1397920687866915008" type="nnej.Event" typeId="nnej.1397920687866914965" id="3160705326882618583">
+        <property name="name" nameId="tpck.1169194664001" value="Event9" />
+      </node>
+      <node role="states" roleId="nnej.1397920687866915011" type="nnej.State" typeId="nnej.1397920687866914986" id="3160705326882618594">
+        <property name="name" nameId="tpck.1169194664001" value="State6" />
+      </node>
+      <node role="states" roleId="nnej.1397920687866915011" type="nnej.State" typeId="nnej.1397920687866914986" id="3160705326882618602">
+        <property name="name" nameId="tpck.1169194664001" value="State7" />
+      </node>
+      <node role="states" roleId="nnej.1397920687866915011" type="nnej.State" typeId="nnej.1397920687866914986" id="3160705326882618611">
+        <property name="name" nameId="tpck.1169194664001" value="State8" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618621">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666767" resolveInfo="State0" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="3160705326882618594" resolveInfo="State6" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666777" resolveInfo="Event2" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618649">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666774" resolveInfo="Event1" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618678">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="3160705326882618611" resolveInfo="State8" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="3160705326882618611" resolveInfo="State8" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666790" resolveInfo="Event4" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618708">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618739">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="3160705326882618602" resolveInfo="State7" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666781" resolveInfo="State2" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618771">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="3160705326882618611" resolveInfo="State8" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666767" resolveInfo="State0" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="3160705326882618583" resolveInfo="Event9" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618804">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666790" resolveInfo="Event4" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618838">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666781" resolveInfo="State2" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618873">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666767" resolveInfo="State0" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618909">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618946">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520481" resolveInfo="Event8" />
       </node>
     </node>
   </root>
