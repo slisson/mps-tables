@@ -74,7 +74,7 @@
         </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795480">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase 1dfg jdg djfg" />
+        <property name="name" nameId="tpck.1169194664001" value="TestCase1a dfg jdg djfg" />
         <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795481">
           <property name="value" nameId="tpee.1113006610751" value="10.0" />
         </node>
@@ -89,6 +89,15 @@
         </node>
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795485">
           <property name="value" nameId="tpee.1113006610751" value="14.0" />
+        </node>
+      </node>
+      <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="4032373061955963111">
+        <property name="name" nameId="tpck.1169194664001" value="TestCase1b" />
+        <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4032373061955963280">
+          <property name="value" nameId="tpee.1113006610751" value="14.0" />
+        </node>
+        <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4032373061955963308">
+          <property name="value" nameId="tpee.1113006610751" value="13.1" />
         </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795567">
