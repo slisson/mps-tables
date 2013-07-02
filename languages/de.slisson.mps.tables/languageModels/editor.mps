@@ -49,6 +49,10 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="bnk3.1397920687866927401" resolveInfo="TableCellQuery" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4032373061958325204">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="bnk3.4032373061957735279" resolveInfo="HeaderQuery_InsertNew" />
+    </node>
   </roots>
   <root id="1397920687864864282">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1397920687864864344">
@@ -311,6 +315,12 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="1196975582231">
         <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="tpen.1196975362614" resolveInfo="ConceptFunction_Component" />
       </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4032373061957779644">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bnk3.4032373061957777955" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4032373061958067248">
+        <property name="text" nameId="tpc2.1073389577007" value=";" />
+      </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1397920687866196431" />
     </node>
   </root>
@@ -355,6 +365,17 @@
       <node role="header" roleId="tpc2.1198489985045" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1397920687867045785">
         <property name="text" nameId="tpc2.1073389577007" value="query" />
       </node>
+    </node>
+  </root>
+  <root id="4032373061958325204">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4032373061958325257">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4032373061958325269">
+        <property name="text" nameId="tpc2.1073389577007" value="insert new header" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="4032373061958325264">
+        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="tpen.1196975362614" resolveInfo="ConceptFunction_Component" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4032373061958325260" />
     </node>
   </root>
 </model>

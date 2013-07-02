@@ -136,6 +136,17 @@
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1397920687869277823">
       <property name="name" nameId="tpck.1169194664001" value="IGeneratesFactoryMethod" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4032373061957735279">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
+      <property name="name" nameId="tpck.1169194664001" value="HeaderQuery_InsertNew" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4032373061957737357">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
+      <property name="name" nameId="tpck.1169194664001" value="Parameter_Index" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="index" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    </node>
   </roots>
   <root id="1397920687864683158">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864864726">
@@ -267,6 +278,11 @@
     </node>
   </root>
   <root id="1397920687865844319">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4032373061957777955">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="insertNew" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4032373061957735279" resolveInfo="HeaderQuery_InsertNew" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865844320">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
     </node>
@@ -311,5 +327,7 @@
   <root id="1397920687867564204" />
   <root id="1397920687867788774" />
   <root id="1397920687869277823" />
+  <root id="4032373061957735279" />
+  <root id="4032373061957737357" />
 </model>
 

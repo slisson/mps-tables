@@ -198,6 +198,9 @@
       <node role="events" roleId="nnej.1397920687866915008" type="nnej.Event" typeId="nnej.1397920687866914965" id="1652594944444666765">
         <property name="name" nameId="tpck.1169194664001" value="Event0" />
       </node>
+      <node role="events" roleId="nnej.1397920687866915008" type="nnej.Event" typeId="nnej.1397920687866914965" id="4032373061963167369">
+        <property name="name" nameId="tpck.1169194664001" value="Event0a" />
+      </node>
       <node role="states" roleId="nnej.1397920687866915011" type="nnej.State" typeId="nnej.1397920687866914986" id="1652594944444666767">
         <property name="name" nameId="tpck.1169194664001" value="State0" />
       </node>
@@ -217,6 +220,9 @@
       </node>
       <node role="states" roleId="nnej.1397920687866915011" type="nnej.State" typeId="nnej.1397920687866914986" id="1652594944444666781">
         <property name="name" nameId="tpck.1169194664001" value="State2" />
+      </node>
+      <node role="states" roleId="nnej.1397920687866915011" type="nnej.State" typeId="nnej.1397920687866914986" id="4032373061963167618">
+        <property name="name" nameId="tpck.1169194664001" value="State2a" />
       </node>
       <node role="events" roleId="nnej.1397920687866915008" type="nnej.Event" typeId="nnej.1397920687866914965" id="1652594944444666785">
         <property name="name" nameId="tpck.1169194664001" value="Event3" />
