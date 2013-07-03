@@ -147,6 +147,17 @@
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="index" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4032373061969726562">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
+      <property name="name" nameId="tpck.1169194664001" value="TableCellQueryGetSubstituteInfo" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4032373061970539014">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
+      <property name="name" nameId="tpck.1169194664001" value="QueryParameter_EditorContext" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="editorContext" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    </node>
   </roots>
   <root id="1397920687864683158">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864864726">
@@ -316,6 +327,11 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687867788774" resolveInfo="TableCellQueryCreate" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4032373061969775284">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="substituteInfo" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4032373061969726562" resolveInfo="TableCellQueryGetSubstituteInfo" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687866927492">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
     </node>
@@ -329,5 +345,7 @@
   <root id="1397920687869277823" />
   <root id="4032373061957735279" />
   <root id="4032373061957737357" />
+  <root id="4032373061969726562" />
+  <root id="4032373061970539014" />
 </model>
 

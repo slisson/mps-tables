@@ -443,6 +443,16 @@
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520481" resolveInfo="Event8" />
       </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="4032373061969616535">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666771" resolveInfo="State1" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="4032373061963167369" resolveInfo="Event0a" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="3160705326882618611" resolveInfo="State8" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="4032373061969617120">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666781" resolveInfo="State2" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="4032373061963167369" resolveInfo="Event0a" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
+      </node>
     </node>
   </root>
 </model>
