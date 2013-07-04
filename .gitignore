@@ -6,3 +6,4 @@ source_gen.caches/
 *.iws
 /build/tmp/*
 /build/artifacts/*
+/.mps/workspace.xml
