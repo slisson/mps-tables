@@ -13,6 +13,13 @@
   </roots>
   <root id="1397920687866914332">
     <node role="requirementsCollection" roleId="nnej.1397920687866492228" type="nnej.RequirementsCollection" typeId="nnej.1397920687865362508" id="1397920687866914333">
+      <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4878629319582246064">
+        <property name="name" nameId="nnej.1397920687865362528" value="R00" />
+        <property name="description" nameId="nnej.1325130842798130132" value="Abc" />
+        <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4878629319582246193">
+          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
+        </node>
+      </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4022433319281014139">
         <property name="name" nameId="nnej.1397920687865362528" value="R0" />
         <property name="description" nameId="nnej.1325130842798130132" value="This is the description of requirement 0" />
@@ -35,6 +42,13 @@
         <property name="description" nameId="nnej.1325130842798130132" value="This is the description of requirement 2" />
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281014332">
           <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014331" resolveInfo="R2" />
+        </node>
+      </node>
+      <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4878629319582246195">
+        <property name="name" nameId="nnej.1397920687865362528" value="R3" />
+        <property name="description" nameId="nnej.1325130842798130132" value="Test" />
+        <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4878629319582246206">
+          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
         </node>
       </node>
     </node>
@@ -92,7 +106,7 @@
         </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="4032373061955963111">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase1b" />
+        <property name="name" nameId="tpck.1169194664001" value="TestCase1" />
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4032373061955963280">
           <property name="value" nameId="tpee.1113006610751" value="14.0" />
         </node>
@@ -403,11 +417,6 @@
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="3160705326882618611" resolveInfo="State8" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666790" resolveInfo="Event4" />
       </node>
-      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618708">
-        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666771" resolveInfo="State1" />
-        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666771" resolveInfo="State1" />
-        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
-      </node>
       <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618739">
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="3160705326882618602" resolveInfo="State7" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666781" resolveInfo="State2" />
@@ -442,16 +451,6 @@
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520481" resolveInfo="Event8" />
-      </node>
-      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="4032373061969616535">
-        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666771" resolveInfo="State1" />
-        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="4032373061963167369" resolveInfo="Event0a" />
-        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="3160705326882618611" resolveInfo="State8" />
-      </node>
-      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="4032373061969617120">
-        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666781" resolveInfo="State2" />
-        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="4032373061963167369" resolveInfo="Event0a" />
-        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
       </node>
     </node>
   </root>
