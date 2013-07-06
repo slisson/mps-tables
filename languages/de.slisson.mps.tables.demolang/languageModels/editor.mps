@@ -15,7 +15,7 @@
   <import index="as9o" modelUID="f:java_stub#3f233e7f-b8a6-46d2-a57f-795d56775243#org.jetbrains.annotations(Annotations/org.jetbrains.annotations@java_stub)" version="-1" />
   <import index="cu2c" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
-  <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="11" implicit="yes" />
+  <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="15" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -202,7 +202,7 @@
   </root>
   <root id="1397920687865457206">
     <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="1397920687865665282">
-      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticRow" typeId="bnk3.1397920687864997153" id="1397920687865753905">
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticHorizontal" typeId="bnk3.1397920687864997153" id="1397920687865753905">
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687865838220">
           <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1397920687865838226">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.1397920687865362528" resolveInfo="name" />
@@ -242,7 +242,7 @@
       <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="1397920687865593387">
         <property name="text" nameId="bnk3.1397920687864864274" value="Relationships" />
       </node>
-      <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsColumn" typeId="bnk3.1397920687865064415" id="4022433319281072253">
+      <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="4022433319281072253">
         <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="nnej.1397920687865457249" />
       </node>
     </node>
@@ -341,7 +341,7 @@
         <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="1397920687865839035">
           <property name="text" nameId="bnk3.1397920687864864274" value="actual" />
         </node>
-        <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsColumn" typeId="bnk3.1397920687865064415" id="1397920687870997136">
+        <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="1397920687870997136">
           <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="nnej.1397920687865838778" />
         </node>
       </node>
@@ -350,7 +350,7 @@
   </root>
   <root id="1397920687866278975">
     <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="1397920687866278977">
-      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticRow" typeId="bnk3.1397920687864997153" id="1397920687866279040">
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticHorizontal" typeId="bnk3.1397920687864997153" id="1397920687866279040">
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687866279043">
           <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1397920687866279049">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
@@ -360,7 +360,7 @@
             <link role="header" roleId="bnk3.1397920687865064692" targetNodeId="1397920687865839014" />
           </node>
         </node>
-        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.ChildsRow" typeId="bnk3.1397920687864997197" id="1397920687866491709">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.ChildsHorizontal" typeId="bnk3.1397920687864997197" id="1397920687866491709">
           <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="nnej.1397920687865838789" />
           <node role="headers" roleId="bnk3.1397920687866284454" type="bnk3.HeaderReference" typeId="bnk3.1397920687865064688" id="1397920687866491755">
             <link role="header" roleId="bnk3.1397920687865064692" targetNodeId="1397920687865967123" resolveInfo="vars" />
@@ -911,7 +911,7 @@
   </root>
   <root id="1397920687871100379">
     <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="1397920687871100381">
-      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticRow" typeId="bnk3.1397920687864997153" id="1652594944446410199">
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticHorizontal" typeId="bnk3.1397920687864997153" id="1652594944446410199">
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687871100434">
           <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="1397920687871100452" />
         </node>

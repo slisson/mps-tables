@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="11">
+<model modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="15">
   <persistence version="7" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -7,7 +7,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="11" implicit="yes" />
+  <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="15" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864683158">
       <property name="name" nameId="tpck.1169194664001" value="Table" />
@@ -33,13 +33,13 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864997153">
-      <property name="name" nameId="tpck.1169194664001" value="StaticRow" />
-      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row" />
+      <property name="name" nameId="tpck.1169194664001" value="StaticHorizontal" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="horizontal" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="1397920687864997170" resolveInfo="TableNodeCollection" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864997163">
-      <property name="name" nameId="tpck.1169194664001" value="StaticColumn" />
-      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column" />
+      <property name="name" nameId="tpck.1169194664001" value="StaticVertical" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="vertical" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="1397920687864997170" resolveInfo="TableNodeCollection" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864997170">
@@ -48,13 +48,13 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864997197">
-      <property name="name" nameId="tpck.1169194664001" value="ChildsRow" />
-      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row%" />
+      <property name="name" nameId="tpck.1169194664001" value="ChildsHorizontal" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="horizontal%" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="1397920687865064509" resolveInfo="ChildCollection" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865064415">
-      <property name="name" nameId="tpck.1169194664001" value="ChildsColumn" />
-      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column%" />
+      <property name="name" nameId="tpck.1169194664001" value="ChildsVertical" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="vertical%" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="1397920687865064509" resolveInfo="ChildCollection" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865064509">

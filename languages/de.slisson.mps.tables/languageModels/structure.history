@@ -72,5 +72,29 @@
     </dependencies>
     <rename id="bnk3.1397920687865111420" type="CHILD" from="header" to="columnHeader" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="11" />
+    </dependencies>
+    <rename id="bnk3.1397920687865064415" type="CONCEPT" from="ChildsColumn" to="ChildsVertical" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="12" />
+    </dependencies>
+    <rename id="bnk3.1397920687864997197" type="CONCEPT" from="ChildsRow" to="ChildsHorizontal" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="13" />
+    </dependencies>
+    <rename id="bnk3.1397920687864997163" type="CONCEPT" from="StaticColumn" to="StaticVertical" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="14" />
+    </dependencies>
+    <rename id="bnk3.1397920687864997153" type="CONCEPT" from="StaticRow" to="StaticHorizontal" />
+  </StructureModification>
 </history>
 
