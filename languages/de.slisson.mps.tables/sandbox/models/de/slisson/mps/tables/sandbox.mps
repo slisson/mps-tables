@@ -36,6 +36,9 @@
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281607254">
           <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014139" resolveInfo="R0" />
         </node>
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="7869003205687529802">
+          <property name="comment" nameId="nnej.7869003205684092902" value="Non table aware annotation" />
+        </node>
       </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4022433319281014331">
         <property name="name" nameId="nnej.1397920687865362528" value="R2" />
@@ -188,6 +191,9 @@
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779281435257">
           <property name="value" nameId="tpee.1113006610751" value="14.0" />
         </node>
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="7869003205684084728">
+          <property name="comment" nameId="nnej.7869003205684092902" value="asdhfksdh gkhdg" />
+        </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="3323012950585878442">
         <property name="name" nameId="tpck.1169194664001" value="TestCase6" />
@@ -273,6 +279,9 @@
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666807" resolveInfo="Event5" />
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="7869003205687530305">
+          <property name="comment" nameId="nnej.7869003205684092902" value="..." />
+        </node>
       </node>
       <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="1652594944444666841">
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666781" resolveInfo="State2" />
@@ -309,6 +318,9 @@
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666796" resolveInfo="State3" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666781" resolveInfo="State2" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="7869003205687530127">
+          <property name="comment" nameId="nnej.7869003205684092902" value="..." />
+        </node>
       </node>
       <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618183">
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />

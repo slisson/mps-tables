@@ -87,6 +87,9 @@
       <property name="name" nameId="tpck.1169194664001" value="am_Trasition_Delete" />
       <link role="applicableConcept" roleId="tpc2.1139535219968" targetNodeId="nnej.1397920687866915007" resolveInfo="Transition" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7869003205684084945">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.7869003205683674568" resolveInfo="BaseConceptComment" />
+    </node>
   </roots>
   <root id="1397920687865224257">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1397920687866492140">
@@ -1295,6 +1298,27 @@
           </node>
         </node>
       </node>
+    </node>
+  </root>
+  <root id="7869003205684084945">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7869003205684092895">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7869003205684092912">
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="7869003205684092914">
+          <property name="flag" nameId="tpc2.1186414551515" value="false" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7869003205684092924">
+          <property name="text" nameId="tpc2.1073389577007" value="/*" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7869003205684092932">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.7869003205684092902" resolveInfo="comment" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7869003205684092941">
+          <property name="text" nameId="tpc2.1073389577007" value="*/" />
+        </node>
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7869003205684092917" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="7869003205684092955" />
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="7869003205684092898" />
     </node>
   </root>
 </model>
