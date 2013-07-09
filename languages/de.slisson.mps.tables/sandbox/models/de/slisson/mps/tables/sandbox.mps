@@ -29,7 +29,7 @@
       </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4022433319281014144">
         <property name="name" nameId="nnej.1397920687865362528" value="R1" />
-        <property name="description" nameId="nnej.1325130842798130132" value="This is the description 1" />
+        <property name="description" nameId="nnej.1325130842798130132" value="This is the description 1 asd" />
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281014145">
           <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
         </node>
@@ -157,7 +157,7 @@
         </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779281435111">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase4f" />
+        <property name="name" nameId="tpck.1169194664001" value="TestCase4fabcdefghijk" />
         <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779281435112">
           <property name="value" nameId="tpee.1113006610751" value="10.0" />
         </node>
@@ -175,7 +175,7 @@
         </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779281435252">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase5" />
+        <property name="name" nameId="tpck.1169194664001" value="TestCase5 acde" />
         <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779281435253">
           <property name="value" nameId="tpee.1113006610751" value="10.0" />
         </node>
