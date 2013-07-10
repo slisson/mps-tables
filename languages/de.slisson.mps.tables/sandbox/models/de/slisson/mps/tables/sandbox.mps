@@ -13,13 +13,6 @@
   </roots>
   <root id="1397920687866914332">
     <node role="requirementsCollection" roleId="nnej.1397920687866492228" type="nnej.RequirementsCollection" typeId="nnej.1397920687865362508" id="1397920687866914333">
-      <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4878629319582246064">
-        <property name="name" nameId="nnej.1397920687865362528" value="R00" />
-        <property name="description" nameId="nnej.1325130842798130132" value="Abc" />
-        <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4878629319582246193">
-          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
-        </node>
-      </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4022433319281014139">
         <property name="name" nameId="nnej.1397920687865362528" value="R0" />
         <property name="description" nameId="nnej.1325130842798130132" value="This is the description of requirement 0" />
