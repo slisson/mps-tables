@@ -17,7 +17,7 @@
         <property name="name" nameId="nnej.1397920687865362528" value="R0" />
         <property name="description" nameId="nnej.1325130842798130132" value="This is the description of requirement 0" />
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281014140">
-          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014139" resolveInfo="R0" />
+          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4878629319582246195" resolveInfo="R3" />
         </node>
       </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4022433319281014144">
