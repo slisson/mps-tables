@@ -767,32 +767,6 @@
           </node>
           <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="7454638779281201391" />
         </node>
-        <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.HeadQuery" typeId="bnk3.1397920687865844319" id="6426882232036107861">
-          <property name="name" nameId="tpck.1169194664001" value="transitionColumn" />
-          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6426882232036107862">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6426882232036114434">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6426882232036114802">
-                <node role="operand" roleId="tpee.1197027771414" type="bnk3.QueryParameter_Node" typeId="bnk3.1397920687866011705" id="6426882232036114433" />
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6426882232036159896">
-                  <link role="link" roleId="tp25.1138056516764" targetNodeId="nnej.1397920687866915087" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="rowHeader" roleId="bnk3.2285587715547822951" type="bnk3.HeadQuery" typeId="bnk3.1397920687865844319" id="6426882232036160302">
-          <property name="name" nameId="tpck.1169194664001" value="transitionRow" />
-          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6426882232036160303">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6426882232036166507">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6426882232036166875">
-                <node role="operand" roleId="tpee.1197027771414" type="bnk3.QueryParameter_Node" typeId="bnk3.1397920687866011705" id="6426882232036166506" />
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6426882232036172409">
-                  <link role="link" roleId="tp25.1138056516764" targetNodeId="nnej.1397920687866915092" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </root>
