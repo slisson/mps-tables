@@ -158,6 +158,22 @@
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="editorContext" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
     </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5662204344885760731">
+      <property name="name" nameId="tpck.1169194664001" value="IStylable" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5662204344885763446">
+      <property name="name" nameId="tpck.1169194664001" value="TableStyle" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="style" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5662204344885774100">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
+      <property name="name" nameId="tpck.1169194664001" value="Parameter_Style" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="style" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    </node>
   </roots>
   <root id="1397920687864683158">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864864726">
@@ -217,6 +233,9 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687864997144">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5662204344887427633">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
     </node>
   </root>
   <root id="1397920687864997153" />
@@ -357,5 +376,14 @@
   <root id="4032373061957737357" />
   <root id="4032373061969726562" />
   <root id="4032373061970539014" />
+  <root id="5662204344885760731">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5662204344887343006">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="style" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5662204344885763446" resolveInfo="TableStyle" />
+    </node>
+  </root>
+  <root id="5662204344885763446" />
+  <root id="5662204344885774100" />
 </model>
 
