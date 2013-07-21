@@ -1188,7 +1188,7 @@
         <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5662204344885675564" nodeInfo="nn">
           <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5662204344885681395" resolveInfo="TableStyleAttribute" />
           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5662204344885675565" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="border-top-color" />
+            <property name="value" nameId="tpee.1070475926801" value="shade-color" />
           </node>
           <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5662204344885675567" nodeInfo="in">
             <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
