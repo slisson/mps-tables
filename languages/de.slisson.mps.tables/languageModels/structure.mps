@@ -65,6 +65,8 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865064688">
       <property name="name" nameId="tpck.1169194664001" value="HeaderReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="#" />
+      <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="header reference" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865593407">
@@ -239,11 +241,21 @@
     </node>
   </root>
   <root id="1397920687864997153">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5220503293661425138">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="rowHeader" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6260631713569931276">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
     </node>
   </root>
   <root id="1397920687864997163">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5220503293661233944">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="columnHeader" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6260631713570009084">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
     </node>
