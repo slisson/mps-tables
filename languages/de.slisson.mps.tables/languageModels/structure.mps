@@ -176,6 +176,28 @@
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="style" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7946551912908713904">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
+      <property name="name" nameId="tpck.1169194664001" value="SubstituteNodeFunction" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7946551912908761959">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
+      <property name="name" nameId="tpck.1169194664001" value="SubstituteNodeFunction_LinkReference" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7946551912910120072">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
+      <property name="name" nameId="tpck.1169194664001" value="SubstituteNodeFunction_CurrentNode" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="currentNode" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7946551912910240557">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
+      <property name="name" nameId="tpck.1169194664001" value="SubstituteNodeFunction_NewValue" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="newValue" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    </node>
   </roots>
   <root id="1397920687864683158">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864864726">
@@ -369,13 +391,18 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687867792071">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="create" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687867788774" resolveInfo="TableCellQueryCreate" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4032373061969775284">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="substituteInfo" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="4032373061969726562" resolveInfo="TableCellQueryGetSubstituteInfo" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7946551912909981380">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="substituteNode" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="7946551912908713904" resolveInfo="SubstituteNodeFunction" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="934534792595028981">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -411,5 +438,23 @@
   </root>
   <root id="5662204344885763446" />
   <root id="5662204344885774100" />
+  <root id="7946551912908713904">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7946551912909694162">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="rolePath" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="7946551912908761959" resolveInfo="SubstituteNodeFunction_LinkReference" />
+    </node>
+  </root>
+  <root id="7946551912908761959">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7946551912908762110">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="link" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpce.1071489288298" resolveInfo="LinkDeclaration" />
+    </node>
+  </root>
+  <root id="7946551912910120072" />
+  <root id="7946551912910240557" />
 </model>
 

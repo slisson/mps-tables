@@ -109,6 +109,17 @@
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795485">
           <property name="value" nameId="tpee.1113006610751" value="14.0" />
         </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="5220503293669748838">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914348" resolveInfo="noOfUnits" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5220503293669752147">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5220503293669752150">
+              <property name="value" nameId="tpee.1068580320021" value="20" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5220503293669748837">
+              <property name="value" nameId="tpee.1068580320021" value="10" />
+            </node>
+          </node>
+        </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="4032373061955963111">
         <property name="name" nameId="tpck.1169194664001" value="TestCase1" />
@@ -120,6 +131,12 @@
         </node>
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4032373061955963308">
           <property name="value" nameId="tpee.1113006610751" value="13.1" />
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7946551912918737702">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912918737701">
+            <property name="value" nameId="tpee.1068580320021" value="32" />
+          </node>
         </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795567">
@@ -151,6 +168,12 @@
             <property name="value" nameId="tpee.1068580320021" value="1" />
           </node>
         </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7946551912918732977">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912918733019">
+            <property name="value" nameId="tpee.1068580320021" value="101" />
+          </node>
+        </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795672">
         <property name="name" nameId="tpck.1169194664001" value="TestCase3f" />
@@ -171,6 +194,17 @@
         </node>
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795677">
           <property name="value" nameId="tpee.1113006610751" value="44.0" />
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7946551912917381495">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="7946551912917386005">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912917386008">
+              <property name="value" nameId="tpee.1068580320021" value="5" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912917381494">
+              <property name="value" nameId="tpee.1068580320021" value="32" />
+            </node>
+          </node>
         </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779281435252">
@@ -203,6 +237,12 @@
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914348" resolveInfo="noOfUnits" />
           <node role="value" roleId="nnej.934534792594006925" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="5137787392872086411">
             <property name="value" nameId="tpee.1113006610751" value="12.3" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7946551912917390644">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912917390643">
+            <property name="value" nameId="tpee.1068580320021" value="43" />
           </node>
         </node>
       </node>
@@ -486,6 +526,11 @@
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666801" resolveInfo="State4" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944454520481" resolveInfo="Event8" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="7946551912919963990">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666774" resolveInfo="Event1" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666767" resolveInfo="State0" />
       </node>
     </node>
   </root>
