@@ -298,6 +298,12 @@
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="shade-color" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
     </node>
+    <node type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="3785936898452718941">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
+      <property name="name" nameId="tpck.1169194664001" value="ListDisplayType" />
+      <property name="memberIdentifierPolicy" nameId="tpce.1197591154882" value="derive_from_internal_value" />
+      <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
   </roots>
   <root id="1397920687864683158">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864864726">
@@ -520,7 +526,12 @@
   </root>
   <root id="1397920687866927536" />
   <root id="1397920687866927557" />
-  <root id="1397920687866928166" />
+  <root id="1397920687866928166">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3785936898452719116">
+      <property name="name" nameId="tpck.1169194664001" value="displayType" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="3785936898452718941" resolveInfo="ListDisplayType" />
+    </node>
+  </root>
   <root id="1397920687867563604" />
   <root id="1397920687867564204" />
   <root id="1397920687867788774" />
@@ -617,5 +628,23 @@
   <root id="3785936898438628594" />
   <root id="3785936898438628815" />
   <root id="3785936898438629036" />
+  <root id="3785936898452718941">
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3785936898452719053">
+      <property name="externalValue" nameId="tpce.1083923523172" value="vertical list" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="vlist" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3785936898452719057">
+      <property name="externalValue" nameId="tpce.1083923523172" value="horizontal list" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="hlist" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3785936898452718942">
+      <property name="externalValue" nameId="tpce.1083923523172" value="vertical cells" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="vcells" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3785936898452719050">
+      <property name="externalValue" nameId="tpce.1083923523172" value="horizontal cells" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="hcells" />
+    </node>
+  </root>
 </model>
 
