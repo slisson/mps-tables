@@ -15,6 +15,7 @@
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
+  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <roots>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="5220503293660940365">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
@@ -26,6 +27,14 @@
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="7946551912908771209">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="bnk3.7946551912908761959" resolveInfo="SubstituteNodeFunction_LinkReference" />
+    </node>
+    <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3785936898438265903">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="bnk3.3785936898438264232" resolveInfo="RGBAColorValue" />
+    </node>
+    <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3785936898441525209">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="bnk3.3785936898437444904" resolveInfo="TableStyleItemQuery" />
     </node>
   </roots>
   <root id="5220503293660940365">
@@ -260,5 +269,37 @@
       </node>
     </node>
   </root>
+  <root id="3785936898438265903">
+    <node role="property" roleId="tp1t.1213098023997" type="tp1t.NodePropertyConstraint" typeId="tp1t.1147467115080" id="3785936898438266060">
+      <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="bnk3.3785936898438264819" resolveInfo="value" />
+      <node role="propertyValidator" roleId="tp1t.1212097481299" type="tp1t.ConstraintFunction_PropertyValidator" typeId="tp1t.1212096972063" id="3785936898438266062">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3785936898438266063">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1225459940630">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.OrExpression" typeId="tpee.1080223426719" id="1225459731341">
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="1225461832376">
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1225461832377">
+                  <node role="operand" roleId="tpee.1197027771414" type="tp1t.ConstraintsFunctionParameter_node" typeId="tp1t.1147468365020" id="1225461832378" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1225461832379">
+                    <link role="property" roleId="tp25.1138056395725" targetNodeId="bnk3.3785936898438264819" resolveInfo="value" />
+                  </node>
+                </node>
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1225461832380" />
+              </node>
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1225459731347">
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1225459731351">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dmatches(java%dlang%dString)%cboolean" resolveInfo="matches" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1225459731352">
+                    <property name="value" nameId="tpee.1070475926801" value="([0-9a-fA-Z]{6}|[0-9a-fA-Z]{8})" />
+                  </node>
+                </node>
+                <node role="operand" roleId="tpee.1197027771414" type="tp1t.ConstraintsFunctionParameter_propertyValue" typeId="tp1t.1153138554286" id="1225462801212" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="3785936898441525209" />
 </model>
 
