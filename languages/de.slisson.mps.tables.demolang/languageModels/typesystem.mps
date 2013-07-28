@@ -22,12 +22,17 @@
         <node role="variable" roleId="tp2q.1153944400369" type="tp2q.ForEachVariable" typeId="tp2q.1153944193378" id="4032373061968641487">
           <property name="name" nameId="tpck.1169194664001" value="varValue" />
         </node>
-        <node role="inputSequence" roleId="tp2q.1153944424730" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4032373061968642012">
-          <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="4032373061968641512">
-            <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="4032373061968641310" resolveInfo="testCase" />
+        <node role="inputSequence" roleId="tp2q.1153944424730" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3785936898452131236">
+          <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4032373061968642012">
+            <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="4032373061968641512">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="4032373061968641310" resolveInfo="testCase" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="3785936898452123034">
+              <link role="link" roleId="tp25.1138056546658" targetNodeId="nnej.934534792594025995" />
+            </node>
           </node>
-          <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="4032373061968648387">
-            <link role="link" roleId="tp25.1138056546658" targetNodeId="nnej.1397920687865838789" />
+          <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkImplicitSelect" typeId="tp25.3562215692195599741" id="3785936898452216674">
+            <link role="link" roleId="tp25.3562215692195600259" targetNodeId="nnej.934534792594006925" />
           </node>
         </node>
         <node role="body" roleId="tpee.1154032183016" type="tpee.StatementList" typeId="tpee.1068580123136" id="4032373061968641489">

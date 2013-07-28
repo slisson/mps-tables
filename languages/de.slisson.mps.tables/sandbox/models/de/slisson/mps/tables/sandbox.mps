@@ -67,15 +67,6 @@
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.TestCaseComment" typeId="nnej.1397920687871005027" id="1652594944445395544">
           <property name="comment" nameId="nnej.1397920687871100413" value="Comment on test case 0" />
         </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795412">
-          <property name="value" nameId="tpee.1113006610751" value="10.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795413">
-          <property name="value" nameId="tpee.1113006610751" value="11.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795414">
-          <property name="value" nameId="tpee.1113006610751" value="12.0" />
-        </node>
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795415">
           <property name="value" nameId="tpee.1113006610751" value="13.0" />
         </node>
@@ -93,15 +84,6 @@
         <property name="name" nameId="tpck.1169194664001" value="TestCase1a dfg jdg djfg" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.TestCaseComment" typeId="nnej.1397920687871005027" id="6260631713575659966">
           <property name="comment" nameId="nnej.1397920687871100413" value="fdfghjh" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795481">
-          <property name="value" nameId="tpee.1113006610751" value="10.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795482">
-          <property name="value" nameId="tpee.1113006610751" value="11.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795483">
-          <property name="value" nameId="tpee.1113006610751" value="12.0" />
         </node>
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795484">
           <property name="value" nameId="tpee.1113006610751" value="13.0" />
@@ -141,15 +123,6 @@
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795567">
         <property name="name" nameId="tpck.1169194664001" value="TestCase2g ff" />
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795568">
-          <property name="value" nameId="tpee.1113006610751" value="10.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795569">
-          <property name="value" nameId="tpee.1113006610751" value="11.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795570">
-          <property name="value" nameId="tpee.1113006610751" value="12.0" />
-        </node>
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795571">
           <property name="value" nameId="tpee.1113006610751" value="13.0" />
         </node>
@@ -180,15 +153,6 @@
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.TestCaseComment" typeId="nnej.1397920687871005027" id="1652594944445118447">
           <property name="comment" nameId="nnej.1397920687871100413" value="This is a node annotation attached to a test case" />
         </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795673">
-          <property name="value" nameId="tpee.1113006610751" value="40.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795674">
-          <property name="value" nameId="tpee.1113006610751" value="41.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795675">
-          <property name="value" nameId="tpee.1113006610751" value="42.0" />
-        </node>
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795676">
           <property name="value" nameId="tpee.1113006610751" value="43.0" />
         </node>
@@ -211,15 +175,6 @@
         <property name="name" nameId="tpck.1169194664001" value="TestCase5 acde" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="7869003205684084728">
           <property name="comment" nameId="nnej.7869003205684092902" value="asdhfksdh gkhdg" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779281435253">
-          <property name="value" nameId="tpee.1113006610751" value="60.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779281435254">
-          <property name="value" nameId="tpee.1113006610751" value="61.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779281435255">
-          <property name="value" nameId="tpee.1113006610751" value="62.0" />
         </node>
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779281435256">
           <property name="value" nameId="tpee.1113006610751" value="63.0" />
@@ -248,15 +203,6 @@
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="3323012950585878442">
         <property name="name" nameId="tpck.1169194664001" value="TestCase6" />
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878443">
-          <property name="value" nameId="tpee.1113006610751" value="70.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878444">
-          <property name="value" nameId="tpee.1113006610751" value="71.0" />
-        </node>
-        <node role="variableValues" roleId="nnej.1397920687865838789" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878445">
-          <property name="value" nameId="tpee.1113006610751" value="72.0" />
-        </node>
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878446">
           <property name="value" nameId="tpee.1113006610751" value="73.0" />
         </node>
