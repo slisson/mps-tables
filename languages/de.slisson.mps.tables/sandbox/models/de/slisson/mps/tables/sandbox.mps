@@ -16,10 +16,60 @@
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281014140" nodeInfo="ng">
           <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4878629319582246195" resolveInfo="R3" />
         </node>
+        <node role="multilineDescription" roleId="nnej.2518382499585726737" type="nnej.SimpleMultilineText" typeId="nnej.2518382499585718146" id="2518382499586096519" nodeInfo="ng">
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096520" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="abgjdgkdgkjh" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096523" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="fghdfghdfhg" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096526" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="dfghfghfh" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096530" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="dhdhdhgh" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096535" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="dfhdfhsfwerttzetz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096541" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="ertetzrzrtz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096548" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="tztzrtzrtz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096556" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="ertzrzrtzrt" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096565" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="tzrtz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096575" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="sgd" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096586" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="rtzrtzrtz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096598" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="aeqweqewr" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096611" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="bnmbbmbnm" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096625" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="uiouuouio" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096640" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="hjkhkljhl" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096656" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="adasdads" />
+          </node>
+        </node>
       </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4022433319281014144" nodeInfo="ng">
         <property name="name" nameId="nnej.1397920687865362528" value="R1" />
-        <property name="description" nameId="nnej.1325130842798130132" value="This is the description 1 asd" />
+        <property name="description" nameId="nnej.1325130842798130132" value="This isfgh gh gh gh hskdhfkshdfk hn 1 asd" />
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281014145" nodeInfo="ng">
           <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
         </node>
@@ -29,6 +79,104 @@
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="7869003205687529802" nodeInfo="ng">
           <property name="comment" nameId="nnej.7869003205684092902" value="Non table aware annotation" />
         </node>
+        <node role="multilineDescription" roleId="nnej.2518382499585726737" type="nnej.SimpleMultilineText" typeId="nnej.2518382499585718146" id="2518382499586096673" nodeInfo="ng">
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096674" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="rtrtzrtz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096680" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="tzrtzruzr" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096684" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zrtz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096689" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="uz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096695" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="tzu" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096702" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="tzuitzi" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096710" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096719" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zuizui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096729" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096740" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zuizui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096752" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096765" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zuizui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096779" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096794" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="z" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096810" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="u" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096827" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zuizui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096845" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zuizui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096864" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096884" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zui" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096905" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="dfgfg" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096927" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="ghjgh" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096950" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="jgh" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096974" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="j" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096999" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="ghj" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097025" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="gj" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097052" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="g" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097080" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="jh" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097109" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="ghjghj" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097139" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="gjghj" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097170" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="gj" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097202" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="gjh" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096677" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="fghfhfh" />
+          </node>
+        </node>
       </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4022433319281014331" nodeInfo="ng">
         <property name="name" nameId="nnej.1397920687865362528" value="R2" />
@@ -36,12 +184,49 @@
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281014332" nodeInfo="ng">
           <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014331" resolveInfo="R2" />
         </node>
+        <node role="multilineDescription" roleId="nnej.2518382499585726737" type="nnej.SimpleMultilineText" typeId="nnej.2518382499585718146" id="2518382499586097235" nodeInfo="ng">
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097236" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="tzzrzututrtzetrtz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097239" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="vsdfsghdf" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097242" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="rtzrtzrzrtz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097246" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="rtzrtzrtz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097251" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="tzuuizi" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097257" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="zuizizi" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097264" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="tzuuztzuz" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097272" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="eret" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097281" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="rtzf" />
+          </node>
+        </node>
       </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4878629319582246195" nodeInfo="ng">
         <property name="name" nameId="nnej.1397920687865362528" value="R3" />
         <property name="description" nameId="nnej.1325130842798130132" value="Test" />
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4878629319582246206" nodeInfo="ng">
           <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
+        </node>
+        <node role="multilineDescription" roleId="nnej.2518382499585726737" type="nnej.SimpleMultilineText" typeId="nnej.2518382499585718146" id="2518382499586097291" nodeInfo="ng">
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097292" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="rttdfvsdsdf" />
+          </node>
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097356" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="fgfghfhfgh" />
+          </node>
         </node>
       </node>
     </node>
@@ -99,11 +284,17 @@
             </node>
           </node>
         </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="3451184986571486445" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3451184986571486444" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="7123" />
+          </node>
+        </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="4032373061955963111" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TestCase1" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="6260631713575404525" nodeInfo="ng">
-          <property name="comment" nameId="nnej.7869003205684092902" value="slghdfg" />
+          <property name="comment" nameId="nnej.7869003205684092902" value="slghdffg" />
         </node>
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4032373061955963280" nodeInfo="nn">
           <property name="value" nameId="tpee.1113006610751" value="14.0" />
@@ -113,8 +304,19 @@
         </node>
         <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7946551912918737702" nodeInfo="ng">
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
-          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912918737701" nodeInfo="nn">
-            <property name="value" nameId="tpee.1068580320021" value="32" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3451184986585317602" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3451184986585317605" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="12" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912918737701" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="32" />
+            </node>
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="3451184986570825039" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914348" resolveInfo="noOfUnits" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3451184986570825038" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="6" />
           </node>
         </node>
       </node>
@@ -130,18 +332,6 @@
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
           <node role="value" roleId="nnej.934534792594006925" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="934534792595791849" nodeInfo="nn">
             <property name="value" nameId="tpee.1113006610751" value="21.900" />
-          </node>
-        </node>
-        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="5137787392862669121" nodeInfo="ng">
-          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914348" resolveInfo="noOfUnits" />
-          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5137787392862669120" nodeInfo="nn">
-            <property name="value" nameId="tpee.1068580320021" value="1" />
-          </node>
-        </node>
-        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7946551912918732977" nodeInfo="ng">
-          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
-          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912918733019" nodeInfo="nn">
-            <property name="value" nameId="tpee.1068580320021" value="101" />
           </node>
         </node>
       </node>
@@ -165,6 +355,18 @@
             <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912917381494" nodeInfo="nn">
               <property name="value" nameId="tpee.1068580320021" value="32" />
             </node>
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="3451184986571493086" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914348" resolveInfo="noOfUnits" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3451184986571493085" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="57" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="3451184986571506817" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3451184986571506816" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="7" />
           </node>
         </node>
       </node>
@@ -216,6 +418,12 @@
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
           <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5137787392872086689" nodeInfo="nn">
             <property name="value" nameId="tpee.1068580320021" value="12" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="3451184986569321089" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3451184986569321088" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="5" />
           </node>
         </node>
       </node>

@@ -167,8 +167,8 @@
           <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.HeaderReference" typeId="bnk3.1397920687865064688" id="1397920687865838258" nodeInfo="ng">
             <link role="header" roleId="bnk3.1397920687865064692" targetNodeId="1397920687865288358" />
           </node>
-          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1325130842798133579" nodeInfo="ng">
-            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.1325130842798130132" resolveInfo="description" />
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="2518382499585726740" nodeInfo="ng">
+            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.2518382499585726737" />
           </node>
         </node>
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687865838276" nodeInfo="ng">
@@ -188,6 +188,15 @@
         <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderBottomWidthStyleItem" typeId="bnk3.3785936898437629812" id="3785936898444527087" nodeInfo="ng">
           <property name="value" nameId="bnk3.3785936898437424562" value="3" />
         </node>
+      </node>
+    </node>
+    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2518382499585726742" nodeInfo="nn">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2518382499585726743" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2518382499585726746" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="old description:" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2518382499585726751" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.1325130842798130132" resolveInfo="description" />
       </node>
     </node>
   </root>
@@ -1452,6 +1461,21 @@
           </node>
         </node>
       </node>
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2518382499585722103" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="StaticRow" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.2518382499585722093" resolveInfo="SimpleMultilineTextPart" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2518382499585726724" nodeInfo="ng">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.2518382499585722094" resolveInfo="chars" />
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2518382499585726731" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="StaticRow" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.2518382499585718146" resolveInfo="SimpleMultilineText" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2518382499585726733" nodeInfo="ng">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.2518382499585722096" />
+      <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2518382499585726735" nodeInfo="nn" />
     </node>
   </root>
 </model>
