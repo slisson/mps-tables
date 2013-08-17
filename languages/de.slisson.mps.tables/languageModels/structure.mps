@@ -616,5 +616,59 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-shade-color" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252045" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Concrete" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderBottomColorItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-bottom-color" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252046" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Concrete" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderBottomWidthStyleItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-bottom-width" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252047" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Concrete" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderLeftColorItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-left-color" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252048" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Concrete" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderLeftWidthStyleItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-left-width" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252049" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Concrete" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderRightColorItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-right-color" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252050" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Concrete" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderRightWidthStyleItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-right-width" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252051" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Concrete" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderTopColorItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-top-color" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252052" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Concrete" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderTopWidthStyleItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-top-width" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252053" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Concrete" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnShadeColor" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-shade-color" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
+  </root>
 </model>
 

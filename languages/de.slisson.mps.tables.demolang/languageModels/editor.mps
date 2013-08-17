@@ -592,6 +592,13 @@
           <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.HeaderReference" typeId="bnk3.1397920687865064688" id="1397920687866387688" nodeInfo="ng">
             <link role="header" roleId="bnk3.1397920687865064692" targetNodeId="1397920687865839022" />
           </node>
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="1925286362824399278" nodeInfo="ng">
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ColumnShadeColor" typeId="bnk3.1925286362824252053" id="1925286362824399922" nodeInfo="ng">
+              <node role="query" roleId="bnk3.3785936898438271388" type="bnk3.RGBAColorValue" typeId="bnk3.3785936898438264232" id="1925286362824399924" nodeInfo="ng">
+                <property name="value" nameId="bnk3.3785936898438264819" value="00aa0050" />
+              </node>
+            </node>
+          </node>
         </node>
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687866387710" nodeInfo="ng">
           <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="1397920687866387734" nodeInfo="ng">
