@@ -365,8 +365,13 @@
         </node>
         <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="3451184986571506817" nodeInfo="ng">
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
-          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3451184986571506816" nodeInfo="nn">
-            <property name="value" nameId="tpee.1068580320021" value="7" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="2518382499587468564" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2518382499587468567" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="1" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3451184986571506816" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="71" />
+            </node>
           </node>
         </node>
       </node>

@@ -342,6 +342,7 @@
         </node>
         <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="1397920687870997136" nodeInfo="ng">
           <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="nnej.1397920687865838778" />
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="1925286362815261501" nodeInfo="ng" />
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1397920687865838838" nodeInfo="nn" />
@@ -602,59 +603,39 @@
         </node>
       </node>
       <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="6260631713570592775" nodeInfo="ng">
-        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderBottomWidthStyleItem" typeId="bnk3.3785936898437629812" id="3785936898438215153" nodeInfo="ng">
-          <property name="value" nameId="bnk3.3785936898437424562" value="2" />
-        </node>
-        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderTopWidthStyleItem" typeId="bnk3.3785936898437629743" id="3785936898438225438" nodeInfo="ng">
-          <property name="value" nameId="bnk3.3785936898437424562" value="2" />
-        </node>
-        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderLeftWidthStyleItem" typeId="bnk3.3785936898437629002" id="3785936898438229772" nodeInfo="ng">
-          <property name="value" nameId="bnk3.3785936898437424562" value="0" />
-        </node>
-        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderRightWidthStyleItem" typeId="bnk3.3785936898437629674" id="3785936898438234108" nodeInfo="ng">
-          <property name="value" nameId="bnk3.3785936898437424562" value="0" />
-        </node>
-        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderBottomColorItem" typeId="bnk3.3785936898438628050" id="3785936898438923389" nodeInfo="ng">
-          <node role="query" roleId="bnk3.3785936898438271388" type="bnk3.RGBAColorValue" typeId="bnk3.3785936898438264232" id="3785936898438940577" nodeInfo="ng">
-            <property name="value" nameId="bnk3.3785936898438264819" value="0000ffff" />
-          </node>
-        </node>
-        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderTopColorItem" typeId="bnk3.3785936898438628373" id="3785936898439017596" nodeInfo="ng">
-          <property name="color" nameId="bnk3.1186403713874" value="black" />
-        </node>
-        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="3785936898439173903" nodeInfo="ng">
-          <node role="query" roleId="bnk3.3785936898438271388" type="bnk3.ColorQuery" typeId="bnk3.3785936898438264163" id="3785936898439190446" nodeInfo="ng">
-            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3785936898439190447" nodeInfo="sn">
-              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3785936898439200386" nodeInfo="nn">
-                <node role="expression" roleId="tpee.1068580123156" type="tpee.TernaryOperatorExpression" typeId="tpee.1163668896201" id="3785936898439248014" nodeInfo="nn">
-                  <node role="ifTrue" roleId="tpee.1163668922816" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3785936898439249733" nodeInfo="nn">
-                    <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="3785936898439262755" nodeInfo="nn">
+        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowShadeColor" typeId="bnk3.1925286362805506099" id="1925286362815719359" nodeInfo="ng">
+          <node role="query" roleId="bnk3.3785936898438271388" type="bnk3.ColorQuery" typeId="bnk3.3785936898438264163" id="1925286362815728621" nodeInfo="ng">
+            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1925286362815728622" nodeInfo="sn">
+              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1925286362815729779" nodeInfo="nn">
+                <node role="expression" roleId="tpee.1068580123156" type="tpee.TernaryOperatorExpression" typeId="tpee.1163668896201" id="1925286362815729780" nodeInfo="nn">
+                  <node role="ifTrue" roleId="tpee.1163668922816" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1925286362815729781" nodeInfo="nn">
+                    <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1925286362815729782" nodeInfo="nn">
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1t7x.~Color%d&lt;init&gt;(int,int,int,int)" resolveInfo="Color" />
-                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3785936898439264755" nodeInfo="nn">
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1925286362815729783" nodeInfo="nn">
                         <property name="value" nameId="tpee.1068580320021" value="255" />
                       </node>
-                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3785936898439269363" nodeInfo="nn">
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1925286362815729784" nodeInfo="nn">
                         <property name="value" nameId="tpee.1068580320021" value="100" />
                       </node>
-                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3785936898439277892" nodeInfo="nn">
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1925286362815729785" nodeInfo="nn">
                         <property name="value" nameId="tpee.1068580320021" value="100" />
                       </node>
-                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3785936898439290039" nodeInfo="nn">
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1925286362815729786" nodeInfo="nn">
                         <property name="value" nameId="tpee.1068580320021" value="50" />
                       </node>
                     </node>
                   </node>
-                  <node role="ifFalse" roleId="tpee.1163668934364" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3785936898439296389" nodeInfo="nn" />
-                  <node role="condition" roleId="tpee.1163668914799" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="3785936898439233825" nodeInfo="nn">
-                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3785936898439237865" nodeInfo="nn">
+                  <node role="ifFalse" roleId="tpee.1163668934364" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1925286362815729787" nodeInfo="nn" />
+                  <node role="condition" roleId="tpee.1163668914799" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="1925286362815729788" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1925286362815729789" nodeInfo="nn">
                       <property name="value" nameId="tpee.1068580320021" value="0" />
                     </node>
-                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.RemExpression" typeId="tpee.1153422105332" id="3785936898439223652" nodeInfo="nn">
-                      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3785936898439200928" nodeInfo="nn">
-                        <node role="operand" roleId="tpee.1197027771414" type="bnk3.QueryParameter_Node" typeId="bnk3.1397920687866011705" id="3785936898439200385" nodeInfo="ng" />
-                        <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetIndexInParentOperation" typeId="tp25.1179168000618" id="3785936898439205317" nodeInfo="nn" />
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.RemExpression" typeId="tpee.1153422105332" id="1925286362815729790" nodeInfo="nn">
+                      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1925286362815729791" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="bnk3.QueryParameter_Node" typeId="bnk3.1397920687866011705" id="1925286362815729792" nodeInfo="ng" />
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetIndexInParentOperation" typeId="tp25.1179168000618" id="1925286362815729793" nodeInfo="nn" />
                       </node>
-                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3785936898439223659" nodeInfo="nn">
+                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1925286362815729794" nodeInfo="nn">
                         <property name="value" nameId="tpee.1068580320021" value="2" />
                       </node>
                     </node>
@@ -663,6 +644,30 @@
               </node>
             </node>
           </node>
+        </node>
+        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderBottomWidthStyleItem" typeId="bnk3.1925286362805485372" id="1925286362815749852" nodeInfo="ng">
+          <property name="value" nameId="bnk3.3785936898437424562" value="1" />
+        </node>
+        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderBottomColorItem" typeId="bnk3.1925286362805485371" id="1925286362815759186" nodeInfo="ng">
+          <property name="color" nameId="bnk3.1186403713874" value="black" />
+        </node>
+        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderLeftWidthStyleItem" typeId="bnk3.1925286362805485374" id="1925286362819763890" nodeInfo="ng">
+          <property name="value" nameId="bnk3.3785936898437424562" value="1" />
+        </node>
+        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderLeftColorItem" typeId="bnk3.1925286362805485373" id="1925286362819754504" nodeInfo="ng">
+          <property name="color" nameId="bnk3.1186403713874" value="black" />
+        </node>
+        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderRightWidthStyleItem" typeId="bnk3.1925286362805485376" id="1925286362819782663" nodeInfo="ng">
+          <property name="value" nameId="bnk3.3785936898437424562" value="1" />
+        </node>
+        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderRightColorItem" typeId="bnk3.1925286362805485375" id="1925286362819792053" nodeInfo="ng">
+          <property name="color" nameId="bnk3.1186403713874" value="black" />
+        </node>
+        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderTopWidthStyleItem" typeId="bnk3.1925286362805485378" id="1925286362820240767" nodeInfo="ng">
+          <property name="value" nameId="bnk3.3785936898437424562" value="1" />
+        </node>
+        <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderTopColorItem" typeId="bnk3.1925286362805485377" id="1925286362820251269" nodeInfo="ng">
+          <property name="color" nameId="bnk3.1186403713874" value="black" />
         </node>
       </node>
     </node>
@@ -1323,10 +1328,17 @@
           </node>
         </node>
         <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="6260631713575404800" nodeInfo="ng">
-          <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="3785936898445060305" nodeInfo="ng">
-            <node role="query" roleId="bnk3.3785936898438271388" type="bnk3.RGBAColorValue" typeId="bnk3.3785936898438264232" id="3785936898445064997" nodeInfo="ng">
-              <property name="value" nameId="bnk3.3785936898438264819" value="0000ff30" />
-            </node>
+          <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderBottomWidthStyleItem" typeId="bnk3.1925286362805485372" id="1925286362819815540" nodeInfo="ng">
+            <property name="value" nameId="bnk3.3785936898437424562" value="3" />
+          </node>
+          <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderTopWidthStyleItem" typeId="bnk3.1925286362805485378" id="1925286362819815562" nodeInfo="ng">
+            <property name="value" nameId="bnk3.3785936898437424562" value="3" />
+          </node>
+          <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderLeftWidthStyleItem" typeId="bnk3.1925286362805485374" id="1925286362820679724" nodeInfo="ng">
+            <property name="value" nameId="bnk3.3785936898437424562" value="3" />
+          </node>
+          <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderRightWidthStyleItem" typeId="bnk3.1925286362805485376" id="1925286362820679734" nodeInfo="ng">
+            <property name="value" nameId="bnk3.3785936898437424562" value="3" />
           </node>
         </node>
       </node>
