@@ -268,6 +268,11 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="bnk3.Table" typeId="bnk3.1397920687864683158" id="1397920687865838904" nodeInfo="ng">
         <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="1397920687865839014" nodeInfo="ng">
           <property name="text" nameId="bnk3.1397920687864864274" value="ID" />
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="1925286362825526594" nodeInfo="ng">
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="1925286362825526596" nodeInfo="ng">
+              <property name="color" nameId="bnk3.1186403713874" value="blue" />
+            </node>
+          </node>
         </node>
         <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.HeadQuery" typeId="bnk3.1397920687865844319" id="1397920687865967123" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="vars" />
@@ -331,6 +336,11 @@
               <node role="expression" roleId="tpee.1068581517676" type="tpee.VariableReference" typeId="tpee.1068498886296" id="465866278355806416" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="465866278355717667" resolveInfo="result" />
               </node>
+            </node>
+          </node>
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="1925286362825384182" nodeInfo="ng">
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="1925286362825524365" nodeInfo="ng">
+              <property name="color" nameId="bnk3.1186403713874" value="orange" />
             </node>
           </node>
         </node>
