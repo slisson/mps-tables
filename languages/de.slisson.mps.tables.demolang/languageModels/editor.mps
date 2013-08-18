@@ -806,6 +806,14 @@
               </node>
             </node>
           </node>
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="8767719180161052322" nodeInfo="ng">
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="8767719180161052734" nodeInfo="ng">
+              <property name="color" nameId="bnk3.1186403713874" value="lightGray" />
+              <node role="query" roleId="bnk3.3785936898438271388" type="bnk3.RGBAColorValue" typeId="bnk3.3785936898438264232" id="8767719180161515111" nodeInfo="ng">
+                <property name="value" nameId="bnk3.3785936898438264819" value="aaaaff" />
+              </node>
+            </node>
+          </node>
         </node>
         <node role="rowHeader" roleId="bnk3.2285587715547822951" type="bnk3.HeadQuery" typeId="bnk3.1397920687865844319" id="6426882232036160302" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="transitionRow" />
@@ -816,6 +824,14 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6426882232036172409" nodeInfo="nn">
                   <link role="link" roleId="tp25.1138056516764" targetNodeId="nnej.1397920687866915092" />
                 </node>
+              </node>
+            </node>
+          </node>
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="8767719180161053188" nodeInfo="ng">
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="8767719180161053600" nodeInfo="ng">
+              <property name="color" nameId="bnk3.1186403713874" value="lightGray" />
+              <node role="query" roleId="bnk3.3785936898438271388" type="bnk3.RGBAColorValue" typeId="bnk3.3785936898438264232" id="8767719180161763758" nodeInfo="ng">
+                <property name="value" nameId="bnk3.3785936898438264819" value="aaaaff" />
               </node>
             </node>
           </node>
@@ -870,6 +886,14 @@
               </node>
             </node>
           </node>
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="8767719180160669167" nodeInfo="ng">
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="8767719180160677506" nodeInfo="ng">
+              <property name="color" nameId="bnk3.1186403713874" value="lightGray" />
+              <node role="query" roleId="bnk3.3785936898438271388" type="bnk3.RGBAColorValue" typeId="bnk3.3785936898438264232" id="8767719180161533822" nodeInfo="ng">
+                <property name="value" nameId="bnk3.3785936898438264819" value="aaaaff" />
+              </node>
+            </node>
+          </node>
         </node>
         <node role="rowHeaders" roleId="bnk3.1397920687864865685" type="bnk3.HeadQuery" typeId="bnk3.1397920687865844319" id="1397920687866922788" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="states" />
@@ -904,6 +928,14 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="8767719180160678401" nodeInfo="ng">
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="8767719180160679049" nodeInfo="ng">
+              <property name="color" nameId="bnk3.1186403713874" value="lightGray" />
+              <node role="query" roleId="bnk3.3785936898438271388" type="bnk3.RGBAColorValue" typeId="bnk3.3785936898438264232" id="8767719180161542356" nodeInfo="ng">
+                <property name="value" nameId="bnk3.3785936898438264819" value="aaaaff" />
               </node>
             </node>
           </node>
@@ -1296,33 +1328,15 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1397920687868135423" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="CellOriented" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.1397920687866914965" resolveInfo="Event" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2320605101350646957" nodeInfo="nn">
-      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="1652594944453772803" nodeInfo="nn">
-        <property name="color" nameId="tpc2.1186403713874" value="LIGHT_BLUE" />
-        <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="1652594944453977532" nodeInfo="ng">
-          <property name="value" nameId="tpc2.1225456424731" value="cccccc" />
-        </node>
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1397920687868135425" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-      </node>
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="2320605101350943142" nodeInfo="nn" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1397920687868135425" nodeInfo="ng">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1397920687868135433" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="CellOriented" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.1397920687866914986" resolveInfo="State" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2320605101350646933" nodeInfo="nn">
-      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="1652594944453977550" nodeInfo="nn">
-        <property name="color" nameId="tpc2.1186403713874" value="LIGHT_BLUE" />
-        <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="1652594944453977551" nodeInfo="ng">
-          <property name="value" nameId="tpc2.1225456424731" value="cccccc" />
-        </node>
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1397920687868135435" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-      </node>
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="2320605101350943158" nodeInfo="nn" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1397920687868135435" nodeInfo="ng">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1397920687871100379" nodeInfo="ng">
