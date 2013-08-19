@@ -684,5 +684,11 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-shade-color" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3208761769266637711" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
+    <property name="name" nameId="tpck.1169194664001" value="HeaderStyleQueryParameter_Index" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="columnIndex" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
 </model>
 

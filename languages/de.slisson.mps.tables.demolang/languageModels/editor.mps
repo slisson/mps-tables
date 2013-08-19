@@ -342,6 +342,23 @@
             <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="1925286362825524365" nodeInfo="ng">
               <property name="color" nameId="bnk3.1186403713874" value="orange" />
             </node>
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderTopWidthStyleItem" typeId="bnk3.3785936898437629743" id="8767719180169532975" nodeInfo="ng">
+              <node role="query" roleId="bnk3.1221064706952" type="bnk3.IntegerTableStyleItemQuery" typeId="bnk3.3785936898437444905" id="8767719180169536077" nodeInfo="ng">
+                <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8767719180169536078" nodeInfo="sn">
+                  <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8767719180169537828" nodeInfo="nn">
+                    <node role="expression" roleId="tpee.1068580123156" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8767719180169558080" nodeInfo="nn">
+                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8767719180169558085" nodeInfo="nn">
+                        <property name="value" nameId="tpee.1068580320021" value="2" />
+                      </node>
+                      <node role="leftExpression" roleId="tpee.1081773367580" type="bnk3.HeaderStyleQueryParameter_Index" typeId="bnk3.3208761769266637711" id="3208761769266886486" nodeInfo="ng" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderTopColorItem" typeId="bnk3.3785936898438628373" id="8767719180169548317" nodeInfo="ng">
+              <property name="color" nameId="bnk3.1186403713874" value="blue" />
+            </node>
           </node>
         </node>
         <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="1397920687865839022" nodeInfo="ng">
