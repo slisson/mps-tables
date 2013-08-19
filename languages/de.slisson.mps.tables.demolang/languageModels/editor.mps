@@ -1061,9 +1061,7 @@
             </node>
           </node>
           <node role="substituteNode" roleId="bnk3.7946551912909981380" type="bnk3.SubstituteNodeFunction" typeId="bnk3.7946551912908713904" id="7946551912919296633" nodeInfo="ng">
-            <node role="rolePath" roleId="bnk3.7946551912909694162" type="bnk3.SubstituteNodeFunction_LinkReference" typeId="bnk3.7946551912908761959" id="7946551912919306051" nodeInfo="ng">
-              <link role="link" roleId="bnk3.7946551912908762110" targetNodeId="nnej.1397920687866915016" />
-            </node>
+            <link role="cellRootConcept" roleId="bnk3.8767719180164875849" targetNodeId="nnej.1397920687866915007" resolveInfo="Transition" />
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7946551912919296635" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4945916817613263949" nodeInfo="nn">
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4945916817613386970" nodeInfo="nn">
