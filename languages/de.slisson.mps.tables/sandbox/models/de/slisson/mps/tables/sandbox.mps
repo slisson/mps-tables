@@ -689,6 +689,20 @@
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666767" resolveInfo="State0" />
       </node>
     </node>
+    <node role="stateMachine2" roleId="nnej.3208761769269148869" type="nnej.StateMachine2" typeId="nnej.3208761769267602859" id="3208761769269474751" nodeInfo="ng">
+      <node role="states" roleId="nnej.3208761769267604720" type="nnej.State2" typeId="nnej.3208761769267604633" id="4843673815483006194" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="State1" />
+      </node>
+      <node role="states" roleId="nnej.3208761769267604720" type="nnej.State2" typeId="nnej.3208761769267604633" id="4843673815483019547" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="State2" />
+      </node>
+      <node role="events" roleId="nnej.3208761769267604722" type="nnej.Event2" typeId="nnej.3208761769267604719" id="4843673815483006192" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Event1" />
+      </node>
+      <node role="events" roleId="nnej.3208761769267604722" type="nnej.Event2" typeId="nnej.3208761769267604719" id="4843673815483012870" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Event2" />
+      </node>
+    </node>
   </root>
 </model>
 
