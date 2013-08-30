@@ -1723,7 +1723,16 @@
                               <link role="link" roleId="tp25.1138056546658" targetNodeId="nnej.3208761769267604731" />
                             </node>
                           </node>
-                          <node role="operation" roleId="tpee.1197027833540" type="tp25.LinkList_AddNewChildOperation" typeId="tp25.1139184414036" id="3208761769268587994" nodeInfo="nn" />
+                          <node role="operation" roleId="tpee.1197027833540" type="tp2q.InsertElementOperation" typeId="tp2q.1225621920911" id="1106681690726222870" nodeInfo="nn">
+                            <node role="index" roleId="tp2q.1225621960341" type="bnk3.QueryParameter_ListIndex" typeId="bnk3.1106681690724963968" id="1106681690726229792" nodeInfo="ng" />
+                            <node role="element" roleId="tp2q.1225621943565" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1106681690726235248" nodeInfo="nn">
+                              <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="1106681690726241710" nodeInfo="nn">
+                                <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1106681690726241712" nodeInfo="in">
+                                  <link role="concept" roleId="tp25.1138405853777" targetNodeId="nnej.3208761769267604648" resolveInfo="Transition2" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
                         </node>
                         <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3208761769268587995" nodeInfo="nn">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3208761769268587983" resolveInfo="transition" />
@@ -1974,7 +1983,7 @@
         <property name="text" nameId="tpc2.1073389577007" value="-&gt;" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="3208761769269068585" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.3208761769267604735" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.3208761769267604733" />
         <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="3208761769269068586" nodeInfo="ng">
           <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3208761769269068614" nodeInfo="ng">
             <property name="readOnly" nameId="tpc2.1140017977771" value="true" />

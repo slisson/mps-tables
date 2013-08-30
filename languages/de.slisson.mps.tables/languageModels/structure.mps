@@ -690,5 +690,11 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="columnIndex" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1106681690724963968" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
+    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_ListIndex" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="listIndex" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
 </model>
 
