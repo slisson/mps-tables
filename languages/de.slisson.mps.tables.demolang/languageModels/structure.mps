@@ -234,6 +234,9 @@
       <property name="name" nameId="tpck.1169194664001" value="comment" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="6141801483938023514" nodeInfo="ng">
+      <property name="role" nameId="tpce.7588428831955550663" value="comment" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7869003205683674568" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="BaseConceptComment" />
@@ -241,6 +244,9 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7869003205684092902" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="comment" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="6141801483938023345" nodeInfo="ng">
+      <property name="role" nameId="tpce.7588428831955550663" value="comment" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="934534792593989294" nodeInfo="ig">

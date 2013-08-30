@@ -228,6 +228,20 @@
             <property name="chars" nameId="nnej.2518382499585722094" value="fgfghfhfgh" />
           </node>
         </node>
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="2999151175112895458" nodeInfo="ng">
+          <property name="comment" nameId="nnej.7869003205684092902" value="asdasd" />
+        </node>
+      </node>
+      <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="2999151175112895018" nodeInfo="ng">
+        <property name="name" nameId="nnej.1397920687865362528" value="asdasd" />
+        <node role="multilineDescription" roleId="nnej.2518382499585726737" type="nnej.SimpleMultilineText" typeId="nnej.2518382499585718146" id="2999151175112895093" nodeInfo="ng">
+          <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2999151175112895094" nodeInfo="ng">
+            <property name="chars" nameId="nnej.2518382499585722094" value="asdas" />
+          </node>
+        </node>
+        <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="2999151175112895097" nodeInfo="ng">
+          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="2999151175112895018" resolveInfo="asdasd" />
+        </node>
       </node>
     </node>
     <node role="rule" roleId="nnej.1397920687866493100" type="nnej.Rule" typeId="nnej.1397920687865838470" id="1397920687866914337" nodeInfo="ng">

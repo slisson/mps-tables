@@ -197,6 +197,9 @@
         <module file="${basedir}/languages/de.slisson.mps.tables/de.slisson.mps.tables.mpl" />
         <module file="${basedir}/languages/de.slisson.mps.tables/runtime/de.slisson.mps.tables.runtime.msd" />
       </chunk>
+      <jvmargs>
+        <arg value="-Xmx512m" />
+      </jvmargs>
     </generate>
   </target>
   
