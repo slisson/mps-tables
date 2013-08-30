@@ -31,6 +31,7 @@
         <version>0.0.1</version>
         <vendor url="https://github.com/slisson/mps-tables">Sascha Lisson</vendor>
         <depends>jetbrains.mps.core</depends>
+        <depends>jetbrains.mps.build</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -66,6 +67,27 @@
       <fileset dir="${basedir}/languages/de.slisson.mps.tables/runtime/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/de.slisson.mps.tables/runtime/de.slisson.mps.tables.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.slisson.mps.tables-runtime-models" prefix="module/models" />
+    </jar>
+    <mkdir dir="${build.tmp}/default/de.slisson.mps.tables.build.jar" />
+    <mkdir dir="${build.tmp}/default/de.slisson.mps.tables.build.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/de.slisson.mps.tables.build.jar/META-INF/module.xml">
+      <module namespace="de.slisson.mps.tables.build" type="solution" uuid="f635fc54-10fa-4740-93b9-f8dfe124ea1b">
+        <dependencies />
+        <sources jar="de.slisson.mps.tables.build-src.jar" descriptor="de.slisson.mps.tables.build.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/mps-tables.zip/mps-tables/languages/mps-tables/de.slisson.mps.tables.build.jar">
+      <fileset dir="${build.tmp}/java/out/de.slisson.mps.tables.build" />
+      <fileset dir="${basedir}/solutions/de.slisson.mps.tables.build" includes="icons/**, resources/**" />
+      <fileset dir="${build.tmp}/default/de.slisson.mps.tables.build.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-de.slisson.mps.tables.build-models">
+      <fileset dir="${basedir}/solutions/de.slisson.mps.tables.build/models" includes="**/*.mps, **/*.metadata, **/*.history" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/mps-tables.zip/mps-tables/languages/mps-tables/de.slisson.mps.tables.build-src.jar">
+      <fileset dir="${basedir}/solutions/de.slisson.mps.tables.build/source_gen" includes="**/*.java" />
+      <zipfileset file="${basedir}/solutions/de.slisson.mps.tables.build/de.slisson.mps.tables.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-de.slisson.mps.tables.build-models" prefix="module/models" />
     </jar>
     <mkdir dir="${build.tmp}/default/de.slisson.mps.tables.jar" />
     <mkdir dir="${build.tmp}/default/de.slisson.mps.tables.jar/META-INF" />
@@ -125,7 +147,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables, java.compile.de.slisson.mps.tables#2318718871439220866" />
+  <target name="compileJava" depends="java.compile.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables.build, java.compile.de.slisson.mps.tables, java.compile.de.slisson.mps.tables#2318718871439220866" />
   
   <target name="processResources" />
   
@@ -138,6 +160,7 @@
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
     <generate parallelMode="true" fork="true">
+      <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.jar" />
@@ -193,8 +216,14 @@
       <library file="${artifacts.mps}/lib/mps-openapi.jar" />
       <library file="${artifacts.mps}/lib/mps-platform.jar" />
       <library file="${artifacts.mps}/lib/mps-tuples.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
+      <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <chunk>
         <module file="${basedir}/languages/de.slisson.mps.tables/de.slisson.mps.tables.mpl" />
+        <module file="${basedir}/solutions/de.slisson.mps.tables.build/de.slisson.mps.tables.build.msd" />
         <module file="${basedir}/languages/de.slisson.mps.tables/runtime/de.slisson.mps.tables.runtime.msd" />
       </chunk>
       <jvmargs>
@@ -246,6 +275,18 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.de.slisson.mps.tables.build">
+    <mkdir dir="${basedir}/solutions/de.slisson.mps.tables.build/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/de.slisson.mps.tables.build" />
+    <javac destdir="${build.tmp}/java/out/de.slisson.mps.tables.build" fork="true" includeantruntime="false">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/solutions/de.slisson.mps.tables.build/source_gen" />
+      </src>
+      <classpath />
     </javac>
   </target>
   
@@ -347,6 +388,7 @@
   <target name="cleanSources">
     <delete dir="${basedir}/languages/de.slisson.mps.tables/source_gen" />
     <delete dir="${basedir}/languages/de.slisson.mps.tables/generator/source_gen" />
+    <delete dir="${basedir}/solutions/de.slisson.mps.tables.build/source_gen" />
     <delete dir="${basedir}/languages/de.slisson.mps.tables/runtime/source_gen" />
   </target>
 </project>
