@@ -234,6 +234,11 @@
       <property name="role" nameId="tpce.1071599776563" value="insertNew" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="4032373061957735279" resolveInfo="HeaderQuery_InsertNew" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1515263624310665819" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="delete" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1515263624310660132" resolveInfo="HeaderQuery_Delete" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865844320" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
     </node>
@@ -706,6 +711,11 @@
     <property name="name" nameId="tpck.1169194664001" value="QueryParameter_ListIndex" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="listIndex" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1515263624310660132" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
+    <property name="name" nameId="tpck.1169194664001" value="HeaderQuery_Delete" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
   </root>
 </model>
 
