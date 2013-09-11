@@ -501,7 +501,7 @@
                     <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="o1d4.7086036670726714752" resolveInfo="ModelChangeManager" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7086036670727202021" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="o1d4.7086036670726950735" resolveInfo="setNodeDeletionHandler" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="o1d4.7086036670726950735" resolveInfo="setNodeDeletionListener" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7086036670727203484" nodeInfo="nn">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="934534792594141775" resolveInfo="var" />
                     </node>
