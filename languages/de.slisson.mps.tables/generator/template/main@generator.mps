@@ -3356,6 +3356,7 @@
                           <property name="name" nameId="tpck.1169194664001" value="queryCellsSafely" />
                           <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7086036670720482034" nodeInfo="ir">
                             <property name="name" nameId="tpck.1169194664001" value="node" />
+                            <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="7086036670720482035" nodeInfo="in" />
                           </node>
                           <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7086036670720482036" nodeInfo="ir">
@@ -3527,6 +3528,7 @@
                           </node>
                           <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="9141956356713679812" nodeInfo="ir">
                             <property name="name" nameId="tpck.1169194664001" value="node" />
+                            <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="9141956356713679813" nodeInfo="in" />
                           </node>
                           <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="9141956356713679814" nodeInfo="ir">
