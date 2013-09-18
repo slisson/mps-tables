@@ -5,6 +5,8 @@
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="2d56439e-634d-4d25-9d30-963e89ecda48(de.slisson.mps.tables.demolang)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" />
+  <language namespace="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" />
   <import index="nnej" modelUID="r:41c447ce-0fca-4a98-ad9f-dc62c992880f(de.slisson.mps.tables.demolang.structure)" version="1" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
@@ -737,6 +739,90 @@
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666822" resolveInfo="State5" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666774" resolveInfo="Event1" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666767" resolveInfo="State0" />
+      </node>
+    </node>
+    <node role="decisionTable" roleId="nnej.4618647476140326862" type="nnej.DecisionTable" typeId="nnej.4618647476138240432" id="4618647476140768479" nodeInfo="ng">
+      <node role="yExpressions" roleId="nnej.4618647476138240632" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="4618647476140775064" nodeInfo="nn">
+        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476140775087" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="2" />
+        </node>
+        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476140771798" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="2" />
+        </node>
+      </node>
+      <node role="yExpressions" roleId="nnej.4618647476138240632" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="4618647476144511266" nodeInfo="nn">
+        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476144511292" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="3" />
+        </node>
+        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476144507997" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="3" />
+        </node>
+      </node>
+      <node role="xExpressions" roleId="nnej.4618647476138240630" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="4618647476140771749" nodeInfo="nn">
+        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476140771772" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="1" />
+        </node>
+        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476140768483" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="1" />
+        </node>
+      </node>
+      <node role="xExpressions" roleId="nnej.4618647476138240630" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="4618647476142746396" nodeInfo="nn">
+        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476142746422" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="2" />
+        </node>
+        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476142743127" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="2" />
+        </node>
+      </node>
+      <node role="xExpressions" roleId="nnej.4618647476138240630" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="4618647476142749726" nodeInfo="nn">
+        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476142749755" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="3" />
+        </node>
+        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476142746454" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="3" />
+        </node>
+      </node>
+      <node role="results" roleId="nnej.4618647476138240651" type="nnej.DecisionTableResult" typeId="nnej.4618647476138240641" id="4618647476144476842" nodeInfo="ng">
+        <link role="xExpression" roleId="nnej.4618647476138240642" targetNodeId="4618647476140771749" />
+        <link role="yExpression" roleId="nnej.4618647476138240644" targetNodeId="4618647476140775064" />
+        <node role="result" roleId="nnej.4618647476138240647" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476144476841" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="2" />
+        </node>
+      </node>
+      <node role="results" roleId="nnej.4618647476138240651" type="nnej.DecisionTableResult" typeId="nnej.4618647476138240641" id="4618647476144511317" nodeInfo="ng">
+        <link role="xExpression" roleId="nnej.4618647476138240642" targetNodeId="4618647476140771749" />
+        <link role="yExpression" roleId="nnej.4618647476138240644" targetNodeId="4618647476144511266" />
+        <node role="result" roleId="nnej.4618647476138240647" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476144511316" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="2" />
+        </node>
+      </node>
+      <node role="results" roleId="nnej.4618647476138240651" type="nnej.DecisionTableResult" typeId="nnej.4618647476138240641" id="4618647476144511330" nodeInfo="ng">
+        <link role="xExpression" roleId="nnej.4618647476138240642" targetNodeId="4618647476142746396" />
+        <link role="yExpression" roleId="nnej.4618647476138240644" targetNodeId="4618647476140775064" />
+        <node role="result" roleId="nnej.4618647476138240647" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476144511329" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="2" />
+        </node>
+      </node>
+      <node role="results" roleId="nnej.4618647476138240651" type="nnej.DecisionTableResult" typeId="nnej.4618647476138240641" id="4618647476144511345" nodeInfo="ng">
+        <link role="xExpression" roleId="nnej.4618647476138240642" targetNodeId="4618647476142746396" />
+        <link role="yExpression" roleId="nnej.4618647476138240644" targetNodeId="4618647476144511266" />
+        <node role="result" roleId="nnej.4618647476138240647" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476144511344" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="2" />
+        </node>
+      </node>
+      <node role="results" roleId="nnej.4618647476138240651" type="nnej.DecisionTableResult" typeId="nnej.4618647476138240641" id="4618647476146184106" nodeInfo="ng">
+        <link role="xExpression" roleId="nnej.4618647476138240642" targetNodeId="4618647476142749726" />
+        <link role="yExpression" roleId="nnej.4618647476138240644" targetNodeId="4618647476144511266" />
+        <node role="result" roleId="nnej.4618647476138240647" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476146184105" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="4" />
+        </node>
+      </node>
+      <node role="results" roleId="nnej.4618647476138240651" type="nnej.DecisionTableResult" typeId="nnej.4618647476138240641" id="4618647476146184125" nodeInfo="ng">
+        <link role="xExpression" roleId="nnej.4618647476138240642" targetNodeId="4618647476142749726" />
+        <link role="yExpression" roleId="nnej.4618647476138240644" targetNodeId="4618647476140775064" />
+        <node role="result" roleId="nnej.4618647476138240647" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4618647476146184124" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="5" />
+        </node>
       </node>
     </node>
   </root>
