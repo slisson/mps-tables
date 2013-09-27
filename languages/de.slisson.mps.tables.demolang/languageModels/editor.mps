@@ -485,11 +485,19 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="bnk3.Table" typeId="bnk3.1397920687864683158" id="1397920687865838904" nodeInfo="ng">
-        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="1397920687865839014" nodeInfo="ng">
-          <property name="text" nameId="bnk3.1397920687864864274" value="ID" />
-          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="1925286362825526594" nodeInfo="ng">
-            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="1925286362825526596" nodeInfo="ng">
-              <property name="color" nameId="bnk3.1186403713874" value="blue" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.EditorCellHeader" typeId="bnk3.6466068411884348300" id="6466068411886047367" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.6466068411884348445" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6466068411886059410" nodeInfo="nn">
+            <property name="text" nameId="tpc2.1073389577007" value="ID" />
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="6466068411886570894" nodeInfo="nn">
+              <property name="style" nameId="tpc2.1186403771423" value="BOLD_ITALIC" />
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontSizeStyleClassItem" typeId="tpc2.1186415722038" id="6466068411886571003" nodeInfo="nn">
+              <property name="value" nameId="tpc2.1221209241505" value="14" />
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="6466068411886571122" nodeInfo="nn">
+              <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="6466068411886571136" nodeInfo="ng">
+                <property name="value" nameId="tpc2.1225456424731" value="00aa00" />
+              </node>
             </node>
           </node>
         </node>
@@ -605,7 +613,7 @@
             <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="3160705326894380904" resolveInfo="am_TestCase" />
           </node>
           <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.HeaderReference" typeId="bnk3.1397920687865064688" id="1397920687866283923" nodeInfo="ng">
-            <link role="header" roleId="bnk3.1397920687865064692" targetNodeId="1397920687865839014" />
+            <link role="header" roleId="bnk3.1397920687865064692" targetNodeId="6466068411886047367" />
           </node>
         </node>
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCellQuery" typeId="bnk3.1397920687866927401" id="934534792594028635" nodeInfo="ng">
