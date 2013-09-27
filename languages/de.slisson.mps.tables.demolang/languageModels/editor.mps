@@ -215,7 +215,7 @@
               <property name="color" nameId="bnk3.1186403713874" value="green" />
             </node>
             <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="3785936898444590685" nodeInfo="ng">
-              <property name="color" nameId="bnk3.1186403713874" value="red" />
+              <property name="color" nameId="bnk3.1186403713874" value="DARK_GREEN" />
             </node>
           </node>
         </node>
