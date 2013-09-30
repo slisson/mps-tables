@@ -96,5 +96,11 @@
     </dependencies>
     <rename id="bnk3.1397920687864997153" type="CONCEPT" from="StaticRow" to="StaticHorizontal" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="15" />
+    </dependencies>
+    <rename id="bnk3.1118639624532200049" type="CONCEPT" from="TableCellQueryCanCreate" to="CanCreate_Query" />
+  </StructureModification>
 </history>
 
