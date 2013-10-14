@@ -64,6 +64,9 @@
         <property name="url" nameId="kdzh.7832771629084799701" value="https://github.com/slisson/mps-tables" />
       </node>
     </node>
+    <node role="parts" roleId="3ior.7389400916848080626" type="3ior.BuildSource_JavaOptions" typeId="3ior.927724900262033858" id="8405941697139477477" nodeInfo="ng">
+      <property name="generateDebugInfo" nameId="3ior.927724900262033861" value="true" />
+    </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="2475960130283269714" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="mps-tables" />
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Solution" typeId="kdzh.3189788309731840247" id="2475960130283269701" nodeInfo="ng">

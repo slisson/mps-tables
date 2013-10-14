@@ -242,7 +242,7 @@
   <target name="java.compile.de.slisson.mps.tables.runtime" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/de.slisson.mps.tables/runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.slisson.mps.tables.runtime" />
-    <javac destdir="${build.tmp}/java/out/de.slisson.mps.tables.runtime" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/de.slisson.mps.tables.runtime" fork="true" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/de.slisson.mps.tables/runtime/source_gen" />
@@ -277,24 +277,30 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/de.slisson.mps.tables.runtime">
+      <fileset dir="${basedir}/languages/de.slisson.mps.tables/runtime/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.de.slisson.mps.tables.build">
     <mkdir dir="${basedir}/solutions/de.slisson.mps.tables.build/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.slisson.mps.tables.build" />
-    <javac destdir="${build.tmp}/java/out/de.slisson.mps.tables.build" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/de.slisson.mps.tables.build" fork="true" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/solutions/de.slisson.mps.tables.build/source_gen" />
       </src>
       <classpath />
     </javac>
+    <copy todir="${build.tmp}/java/out/de.slisson.mps.tables.build">
+      <fileset dir="${basedir}/solutions/de.slisson.mps.tables.build/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.de.slisson.mps.tables" depends="java.compile.de.slisson.mps.tables.runtime, fetchDependencies">
     <mkdir dir="${basedir}/languages/de.slisson.mps.tables/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.slisson.mps.tables" />
-    <javac destdir="${build.tmp}/java/out/de.slisson.mps.tables" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/de.slisson.mps.tables" fork="true" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/de.slisson.mps.tables/source_gen" />
@@ -336,12 +342,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/de.slisson.mps.tables">
+      <fileset dir="${basedir}/languages/de.slisson.mps.tables/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.de.slisson.mps.tables#2318718871439220866" depends="java.compile.de.slisson.mps.tables, java.compile.de.slisson.mps.tables.runtime, fetchDependencies">
     <mkdir dir="${basedir}/languages/de.slisson.mps.tables/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.slisson.mps.tables#2318718871439220866" />
-    <javac destdir="${build.tmp}/java/out/de.slisson.mps.tables#2318718871439220866" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/de.slisson.mps.tables#2318718871439220866" fork="true" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/de.slisson.mps.tables/generator/source_gen" />
@@ -384,6 +393,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/de.slisson.mps.tables#2318718871439220866">
+      <fileset dir="${basedir}/languages/de.slisson.mps.tables/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="cleanSources">
