@@ -500,6 +500,11 @@
               </node>
             </node>
           </node>
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="3766799066933414433" nodeInfo="ng">
+            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="3766799066934289743" nodeInfo="ng">
+              <property name="color" nameId="bnk3.1186403713874" value="blue" />
+            </node>
+          </node>
         </node>
         <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.HeadQuery" typeId="bnk3.1397920687865844319" id="1397920687865967123" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="vars" />
