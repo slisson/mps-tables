@@ -1572,25 +1572,5 @@
       </node>
     </node>
   </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1118639624532961325" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="bnk3.1118639624532961319" resolveInfo="CanCreate_Columns" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1118639624532963390" nodeInfo="nn">
-      <property name="text" nameId="tpc2.1073389577007" value="columns" />
-      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="1118639624532963440" nodeInfo="nn">
-        <property name="flag" nameId="tpc2.1186414551515" value="true" />
-      </node>
-    </node>
-  </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1118639624532963449" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="bnk3.1118639624532961312" resolveInfo="CanCreate_Rows" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1118639624532963458" nodeInfo="nn">
-      <property name="text" nameId="tpc2.1073389577007" value="rows" />
-      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="1118639624532963508" nodeInfo="nn">
-        <property name="flag" nameId="tpc2.1186414551515" value="true" />
-      </node>
-    </node>
-  </root>
 </model>
 
