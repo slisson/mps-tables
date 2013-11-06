@@ -782,6 +782,14 @@
           <property name="value" nameId="tpee.1068580320021" value="3" />
         </node>
       </node>
+      <node role="xExpressions" roleId="nnej.4618647476138240630" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="2052181069991310666" nodeInfo="nn">
+        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2052181069991310711" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="4" />
+        </node>
+        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2052181069991307769" nodeInfo="nn">
+          <property name="value" nameId="tpee.1068580320021" value="4" />
+        </node>
+      </node>
       <node role="results" roleId="nnej.4618647476138240651" type="nnej.DecisionTableResult" typeId="nnej.4618647476138240641" id="4618647476144476842" nodeInfo="ng">
         <link role="xExpression" roleId="nnej.4618647476138240642" targetNodeId="4618647476140771749" />
         <link role="yExpression" roleId="nnej.4618647476138240644" targetNodeId="4618647476140775064" />
