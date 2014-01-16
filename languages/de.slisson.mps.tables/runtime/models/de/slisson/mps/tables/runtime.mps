@@ -27187,8 +27187,6 @@
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="3136049581224451060" nodeInfo="igu">
-      <property name="isVolatile" nameId="tpee.6468716278899126575" value="false" />
-      <property name="isTransient" nameId="tpee.6468716278899125786" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="EDITABLE_OR_NEXT_CELL" />
       <property name="isFinal" nameId="tpee.1176718929932" value="false" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3136049581224374908" nodeInfo="nn" />
@@ -27208,8 +27206,6 @@
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="3136049581228705284" nodeInfo="igu">
-      <property name="isVolatile" nameId="tpee.6468716278899126575" value="false" />
-      <property name="isTransient" nameId="tpee.6468716278899125786" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="EDITABLE_OR_PREV_CELL" />
       <property name="isFinal" nameId="tpee.1176718929932" value="false" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3136049581228705285" nodeInfo="nn" />
