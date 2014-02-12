@@ -500,11 +500,7 @@
               </node>
             </node>
           </node>
-          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="3766799066933414433" nodeInfo="ng">
-            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="3766799066934289743" nodeInfo="ng">
-              <property name="color" nameId="bnk3.1186403713874" value="blue" />
-            </node>
-          </node>
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="3766799066933414433" nodeInfo="ng" />
         </node>
         <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.HeadQuery" typeId="bnk3.1397920687865844319" id="1397920687865967123" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="vars" />
@@ -3277,6 +3273,18 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.4618647476138240647" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4618647476138240792" nodeInfo="nn" />
+    </node>
+  </root>
+  <root type="tpc2.StyleSheet" typeId="tpc2.1186402211651" id="6865425411203444541" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="TableStyles" />
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleSheetClass" typeId="tpc2.1186402373407" id="6865425411203446104" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="TableHeader" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="6865425411203446629" nodeInfo="ng">
+        <property name="color" nameId="bnk3.1186403713874" value="DARK_GREEN" />
+      </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="6865425411209788622" nodeInfo="nn">
+        <property name="color" nameId="tpc2.1186403713874" value="yellow" />
+      </node>
     </node>
   </root>
 </model>
