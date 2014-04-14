@@ -111,9 +111,6 @@
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281014145" nodeInfo="ng">
           <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
         </node>
-        <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281607254" nodeInfo="ng">
-          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014139" resolveInfo="R0" />
-        </node>
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="7869003205687529802" nodeInfo="ng">
           <property name="comment" nameId="nnej.7869003205684092902" value="Non table aware annotation" />
         </node>
@@ -311,6 +308,12 @@
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914348" resolveInfo="noOfUnits" />
           <node role="value" roleId="nnej.934534792594006925" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="934534792595791570" nodeInfo="nn">
             <property name="value" nameId="tpee.1113006610751" value="10.0" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="8582602727601226441" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8582602727601226440" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="10" />
           </node>
         </node>
       </node>
