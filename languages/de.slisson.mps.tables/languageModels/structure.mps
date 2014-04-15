@@ -786,5 +786,29 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
     <property name="name" nameId="tpck.1169194664001" value="TableCellQueryCanCreate" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1450914667648877318" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="GridQuery" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="GridQuery" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="gridquery" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1450914667648878270" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8791219374192652234" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1450914667648882274" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="GridQuery" />
+    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_Grid" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="grid" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8791219374191678801" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="GridQuery" />
+    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_SubstituteInfoFactory" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="substituteInfoFactory" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
 </model>
 
