@@ -111,9 +111,6 @@
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281014145" nodeInfo="ng">
           <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
         </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="7869003205687529802" nodeInfo="ng">
-          <property name="comment" nameId="nnej.7869003205684092902" value="Non table aware annotation" />
-        </node>
         <node role="multilineDescription" roleId="nnej.2518382499585726737" type="nnej.SimpleMultilineText" typeId="nnej.2518382499585718146" id="2518382499586096673" nodeInfo="ng">
           <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096674" nodeInfo="ng">
             <property name="chars" nameId="nnej.2518382499585722094" value="rtrtzrtz" />
@@ -262,9 +259,6 @@
           <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097356" nodeInfo="ng">
             <property name="chars" nameId="nnej.2518382499585722094" value="fgfghfhfgh" />
           </node>
-        </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="2999151175112895458" nodeInfo="ng">
-          <property name="comment" nameId="nnej.7869003205684092902" value="asdasd" />
         </node>
       </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="2999151175112895018" nodeInfo="ng">
