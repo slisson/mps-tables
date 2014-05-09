@@ -11,7 +11,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <root type="nnej.RootConcept" typeId="nnej.1397920687865224200" id="1397920687866914332" nodeInfo="ng">
-    <property name="useCase" nameId="nnej.2199447184387917444" value="0" />
+    <property name="useCase" nameId="nnej.2199447184387917444" value="1" />
     <node role="stateMachine2" roleId="nnej.3208761769269148869" type="nnej.StateMachine2" typeId="nnej.3208761769267602859" id="3208761769269474751" nodeInfo="ng">
       <node role="states" roleId="nnej.3208761769267604720" type="nnej.State2" typeId="nnej.3208761769267604633" id="1106681690721329136" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="state1" />
@@ -294,10 +294,10 @@
           <property name="comment" nameId="nnej.1397920687871100413" value="Comment on test case 0" />
         </node>
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795415" nodeInfo="nn">
-          <property name="value" nameId="tpee.1113006610751" value="13.0" />
+          <property name="value" nameId="tpee.1113006610751" value="13.1" />
         </node>
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795416" nodeInfo="nn">
-          <property name="value" nameId="tpee.1113006610751" value="14.0" />
+          <property name="value" nameId="tpee.1113006610751" value="14.1" />
         </node>
         <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="934534792595791381" nodeInfo="ng">
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914348" resolveInfo="noOfUnits" />
