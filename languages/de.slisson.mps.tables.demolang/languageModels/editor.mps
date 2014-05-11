@@ -585,6 +585,9 @@
       <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="4022433319281072253" nodeInfo="ng">
         <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="nnej.1397920687865457249" />
         <node role="addHints" roleId="bnk3.5861024100072578575" type="tpc2.ExplicitHintsSpecification" typeId="tpc2.4242538589859161874" id="9143045335059781765" nodeInfo="ng" />
+        <node role="columnHeaders" roleId="bnk3.2199447184406843652" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="2199447184407793680" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Requirements" />
+        </node>
       </node>
     </node>
   </root>
