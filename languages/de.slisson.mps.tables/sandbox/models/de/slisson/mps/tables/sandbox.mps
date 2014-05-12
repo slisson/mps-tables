@@ -11,7 +11,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <root type="nnej.RootConcept" typeId="nnej.1397920687865224200" id="1397920687866914332" nodeInfo="ng">
-    <property name="useCase" nameId="nnej.2199447184387917444" value="2" />
+    <property name="useCase" nameId="nnej.2199447184387917444" value="0" />
     <node role="stateMachine2" roleId="nnej.3208761769269148869" type="nnej.StateMachine2" typeId="nnej.3208761769267602859" id="3208761769269474751" nodeInfo="ng">
       <node role="states" roleId="nnej.3208761769267604720" type="nnej.State2" typeId="nnej.3208761769267604633" id="1106681690721329136" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="state1" />
@@ -290,9 +290,6 @@
       <link role="rule" roleId="nnej.1397920687865838781" targetNodeId="1397920687866914337" resolveInfo="calculatedPrice" />
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795411" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TestCase0" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.TestCaseComment" typeId="nnej.1397920687871005027" id="1652594944445395544" nodeInfo="ng">
-          <property name="comment" nameId="nnej.1397920687871100413" value="Comment on test case 0" />
-        </node>
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795415" nodeInfo="nn">
           <property name="value" nameId="tpee.1113006610751" value="13.1" />
         </node>
@@ -314,9 +311,6 @@
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795480" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TestCase1a dfg jdg djfg" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.TestCaseComment" typeId="nnej.1397920687871005027" id="6260631713575659966" nodeInfo="ng">
-          <property name="comment" nameId="nnej.1397920687871100413" value="fdfghjh" />
-        </node>
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795484" nodeInfo="nn">
           <property name="value" nameId="tpee.1113006610751" value="13.0" />
         </node>
@@ -344,9 +338,6 @@
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="8791219374210093495" nodeInfo="ng" />
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="4032373061955963111" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TestCase1" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="6260631713575404525" nodeInfo="ng">
-          <property name="comment" nameId="nnej.7869003205684092902" value="slghdffg" />
-        </node>
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4032373061955963280" nodeInfo="nn">
           <property name="value" nameId="tpee.1113006610751" value="14.0" />
         </node>
@@ -388,9 +379,6 @@
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795672" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TestCase3f" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.TestCaseComment" typeId="nnej.1397920687871005027" id="1652594944445118447" nodeInfo="ng">
-          <property name="comment" nameId="nnej.1397920687871100413" value="This is a node annotation attached to a test case" />
-        </node>
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795676" nodeInfo="nn">
           <property name="value" nameId="tpee.1113006610751" value="43.0" />
         </node>
@@ -428,9 +416,6 @@
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779281435252" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TestCase5 acde" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="7869003205684084728" nodeInfo="ng">
-          <property name="comment" nameId="nnej.7869003205684092902" value="asdhfksdh gkhdg" />
-        </node>
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779281435256" nodeInfo="nn">
           <property name="value" nameId="tpee.1113006610751" value="63.0" />
         </node>
