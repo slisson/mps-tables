@@ -630,120 +630,6 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="bnk3.Table" typeId="bnk3.1397920687864683158" id="1397920687865838904" nodeInfo="ng">
-        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.EditorCellHeader" typeId="bnk3.6466068411884348300" id="6466068411886047367" nodeInfo="ng">
-          <node role="editorCell" roleId="bnk3.6466068411884348445" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6466068411886059410" nodeInfo="nn">
-            <property name="text" nameId="tpc2.1073389577007" value="ID" />
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="6466068411886570894" nodeInfo="nn">
-              <property name="style" nameId="tpc2.1186403771423" value="BOLD_ITALIC" />
-            </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontSizeStyleClassItem" typeId="tpc2.1186415722038" id="6466068411886571003" nodeInfo="nn">
-              <property name="value" nameId="tpc2.1221209241505" value="14" />
-            </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="6466068411886571122" nodeInfo="nn">
-              <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="6466068411886571136" nodeInfo="ng">
-                <property name="value" nameId="tpc2.1225456424731" value="00aa00" />
-              </node>
-            </node>
-          </node>
-          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="3766799066933414433" nodeInfo="ng">
-            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="3766799066934289743" nodeInfo="ng">
-              <property name="color" nameId="bnk3.1186403713874" value="blue" />
-            </node>
-          </node>
-        </node>
-        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.HeadQuery" typeId="bnk3.1397920687865844319" id="1397920687865967123" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="vars" />
-          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1397920687865967125" nodeInfo="sn">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="465866278355717664" nodeInfo="nn">
-              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="465866278355717667" nodeInfo="nr">
-                <property name="name" nameId="tpck.1169194664001" value="result" />
-                <node role="type" roleId="tpee.5680397130376446158" type="tp2q.ListType" typeId="tp2q.1151688443754" id="465866278355717660" nodeInfo="in">
-                  <node role="elementType" roleId="tp2q.1151688676805" type="tpee.StringType" typeId="tpee.1225271177708" id="465866278355720671" nodeInfo="in" />
-                </node>
-                <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="465866278355743250" nodeInfo="nn">
-                  <node role="creator" roleId="tpee.1145553007750" type="tp2q.ListCreatorWithInit" typeId="tp2q.1160600644654" id="465866278355743246" nodeInfo="nn">
-                    <node role="elementType" roleId="tp2q.1237721435807" type="tpee.StringType" typeId="tpee.1225271177708" id="465866278355743247" nodeInfo="in" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="465866278355749309" nodeInfo="nn">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="465866278355755588" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="465866278355749308" nodeInfo="nn">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="465866278355717667" resolveInfo="result" />
-                </node>
-                <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddAllElementsOperation" typeId="tp2q.1160666733551" id="465866278355785108" nodeInfo="nn">
-                  <node role="argument" roleId="tp2q.1160666822012" type="tpee.DotExpression" typeId="tpee.1197027756228" id="465866278355795537" nodeInfo="nn">
-                    <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="465866278355795538" nodeInfo="nn">
-                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="465866278355795539" nodeInfo="nn">
-                        <link role="link" roleId="tp25.1138056546658" targetNodeId="nnej.1397920687865838589" />
-                      </node>
-                      <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="465866278355795540" nodeInfo="nn">
-                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="465866278355795541" nodeInfo="nn">
-                          <link role="link" roleId="tp25.1138056516764" targetNodeId="nnej.1397920687865838781" />
-                        </node>
-                        <node role="operand" roleId="tpee.1197027771414" type="bnk3.QueryParameter_Node" typeId="bnk3.1397920687866011705" id="465866278355795542" nodeInfo="ng" />
-                      </node>
-                    </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tp2q.SelectOperation" typeId="tp2q.1202128969694" id="465866278355795543" nodeInfo="nn">
-                      <node role="closure" roleId="tp2q.1204796294226" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="465866278355795544" nodeInfo="nn">
-                        <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="465866278355795545" nodeInfo="sn">
-                          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="465866278355795546" nodeInfo="nn">
-                            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="465866278355795547" nodeInfo="nn">
-                              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="465866278355795548" nodeInfo="nn">
-                                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="465866278355795550" resolveInfo="it" />
-                              </node>
-                              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="465866278355795549" nodeInfo="nn">
-                                <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node role="parameter" roleId="tp2c.1199569906740" type="tp2q.SmartClosureParameterDeclaration" typeId="tp2q.1203518072036" id="465866278355795550" nodeInfo="ig">
-                          <property name="name" nameId="tpck.1169194664001" value="it" />
-                          <node role="type" roleId="tpee.5680397130376446158" type="tpee.UndefinedType" typeId="tpee.4836112446988635817" id="465866278355795551" nodeInfo="in" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="465866278355803618" nodeInfo="nn">
-              <node role="expression" roleId="tpee.1068581517676" type="tpee.VariableReference" typeId="tpee.1068498886296" id="465866278355806416" nodeInfo="nn">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="465866278355717667" resolveInfo="result" />
-              </node>
-            </node>
-          </node>
-          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="1925286362825384182" nodeInfo="ng">
-            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="1925286362825524365" nodeInfo="ng">
-              <property name="color" nameId="bnk3.1186403713874" value="orange" />
-            </node>
-            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderTopWidthStyleItem" typeId="bnk3.3785936898437629743" id="8767719180169532975" nodeInfo="ng">
-              <node role="query" roleId="bnk3.1221064706952" type="bnk3.IntegerTableStyleItemQuery" typeId="bnk3.3785936898437444905" id="8767719180169536077" nodeInfo="ng">
-                <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8767719180169536078" nodeInfo="sn">
-                  <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8767719180169537828" nodeInfo="nn">
-                    <node role="expression" roleId="tpee.1068580123156" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8767719180169558080" nodeInfo="nn">
-                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8767719180169558085" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1068580320021" value="2" />
-                      </node>
-                      <node role="leftExpression" roleId="tpee.1081773367580" type="bnk3.HeaderStyleQueryParameter_Index" typeId="bnk3.3208761769266637711" id="3208761769266886486" nodeInfo="ng" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.BorderTopColorItem" typeId="bnk3.3785936898438628373" id="8767719180169548317" nodeInfo="ng">
-              <property name="color" nameId="bnk3.1186403713874" value="blue" />
-            </node>
-          </node>
-        </node>
-        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="1397920687865839022" nodeInfo="ng">
-          <property name="text" nameId="bnk3.1397920687864864274" value="expected" />
-        </node>
-        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="1397920687865839035" nodeInfo="ng">
-          <property name="text" nameId="bnk3.1397920687864864274" value="actual" />
-        </node>
         <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="1397920687870997136" nodeInfo="ng">
           <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="nnej.1397920687865838778" />
           <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="1925286362815261501" nodeInfo="ng" />
@@ -762,8 +648,26 @@
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
             <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="3160705326894380904" resolveInfo="am_TestCase" />
           </node>
-          <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.HeaderReference" typeId="bnk3.1397920687865064688" id="1397920687866283923" nodeInfo="ng">
-            <link role="header" roleId="bnk3.1397920687865064692" targetNodeId="6466068411886047367" />
+          <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.EditorCellHeader" typeId="bnk3.6466068411884348300" id="2522915415606835704" nodeInfo="ng">
+            <node role="editorCell" roleId="bnk3.6466068411884348445" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2522915415606835705" nodeInfo="nn">
+              <property name="text" nameId="tpc2.1073389577007" value="ID" />
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="2522915415606835706" nodeInfo="nn">
+                <property name="style" nameId="tpc2.1186403771423" value="BOLD_ITALIC" />
+              </node>
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontSizeStyleClassItem" typeId="tpc2.1186415722038" id="2522915415606835707" nodeInfo="nn">
+                <property name="value" nameId="tpc2.1221209241505" value="14" />
+              </node>
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="2522915415606835708" nodeInfo="nn">
+                <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="2522915415606835709" nodeInfo="ng">
+                  <property name="value" nameId="tpc2.1225456424731" value="00aa00" />
+                </node>
+              </node>
+            </node>
+            <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="2522915415606835710" nodeInfo="ng">
+              <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="2522915415606835711" nodeInfo="ng">
+                <property name="color" nameId="bnk3.1186403713874" value="blue" />
+              </node>
+            </node>
           </node>
         </node>
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.GridQuery" typeId="bnk3.1450914667648877318" id="1450914667649096246" nodeInfo="ng">
@@ -1046,8 +950,8 @@
           <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="1397920687866387685" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.1397920687865838792" />
           </node>
-          <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.HeaderReference" typeId="bnk3.1397920687865064688" id="1397920687866387688" nodeInfo="ng">
-            <link role="header" roleId="bnk3.1397920687865064692" targetNodeId="1397920687865839022" />
+          <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="2522915415606355144" nodeInfo="ng">
+            <property name="text" nameId="bnk3.1397920687864864274" value="expected" />
           </node>
           <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="1925286362824399278" nodeInfo="ng">
             <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.ColumnShadeColor" typeId="bnk3.1925286362824252053" id="1925286362824399922" nodeInfo="ng">
@@ -1061,8 +965,8 @@
           <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="1397920687866387734" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nnej.1397920687865838797" />
           </node>
-          <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.HeaderReference" typeId="bnk3.1397920687865064688" id="1397920687866387737" nodeInfo="ng">
-            <link role="header" roleId="bnk3.1397920687865064692" targetNodeId="1397920687865839035" />
+          <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="2522915415606355148" nodeInfo="ng">
+            <property name="text" nameId="bnk3.1397920687864864274" value="actual" />
           </node>
         </node>
       </node>
