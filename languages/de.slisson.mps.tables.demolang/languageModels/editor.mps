@@ -880,7 +880,7 @@
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1450914667650093577" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="bnk3.QueryParameter_Grid" typeId="bnk3.1450914667648882274" id="1450914667650092545" nodeInfo="ng" />
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1450914667650093973" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6dpw.1000503696468615646" resolveInfo="setColumnHeader" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6dpw.2522915415555345369" resolveInfo="setColumnHeader" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1450914667650104798" nodeInfo="nn">
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1450914667650070884" resolveInfo="x" />
                       </node>
