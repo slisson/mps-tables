@@ -714,6 +714,60 @@
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="5662204344887586482" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="4384308856523511627" nodeInfo="igu">
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="HORIZONTAL_ALIGNMENT" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="true" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4384308856523478563" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="qe68.~StyleAttribute" resolveInfo="StyleAttribute" />
+        <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4384308856523478765" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="4384308856523446776" resolveInfo="HorizontalAlignment" />
+        </node>
+      </node>
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4384308856523648023" nodeInfo="nn" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4384308856523479025" nodeInfo="nn">
+        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4384308856523509394" nodeInfo="nn">
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejnw.~SimpleStyleAttribute%d&lt;init&gt;(java%dlang%dString,java%dlang%dObject)" resolveInfo="SimpleStyleAttribute" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4384308856523512566" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="horizontal-alignment" />
+          </node>
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="4384308856523517092" nodeInfo="nn">
+            <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="4384308856523446778" resolveInfo="LEFT" />
+            <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="4384308856523446776" resolveInfo="HorizontalAlignment" />
+          </node>
+          <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4384308856523518109" nodeInfo="in">
+            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="4384308856523446776" resolveInfo="HorizontalAlignment" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="4384308856523518585" nodeInfo="igu">
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="VERTICAL_ALIGNMENT" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="true" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4384308856523518586" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="qe68.~StyleAttribute" resolveInfo="StyleAttribute" />
+        <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4384308856523528690" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="4384308856523446782" resolveInfo="VerticalAlignment" />
+        </node>
+      </node>
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4384308856523648248" nodeInfo="nn" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4384308856523518589" nodeInfo="nn">
+        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4384308856523518590" nodeInfo="nn">
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejnw.~SimpleStyleAttribute%d&lt;init&gt;(java%dlang%dString,java%dlang%dObject)" resolveInfo="SimpleStyleAttribute" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4384308856523518591" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="vertical-alignment" />
+          </node>
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="4384308856523522315" nodeInfo="nn">
+            <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="4384308856523446784" resolveInfo="TOP" />
+            <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="4384308856523446782" resolveInfo="VerticalAlignment" />
+          </node>
+          <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4384308856523530311" nodeInfo="in">
+            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="4384308856523446782" resolveInfo="VerticalAlignment" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5662204344884979405" nodeInfo="nn" />
   </root>
   <root type="tpee.Interface" typeId="tpee.1107796713796" id="8767719180170008808" nodeInfo="ig">
@@ -1202,6 +1256,40 @@
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="4002497382309730976" nodeInfo="ngu" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4002497382309730962" nodeInfo="nn" />
+  </root>
+  <root type="tpee.EnumClass" typeId="tpee.1083245097125" id="4384308856523446776" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="HorizontalAlignment" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="4384308856523446777" nodeInfo="ngu" />
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="4384308856523446778" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="LEFT" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lc.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="4384308856523446779" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="RIGHT" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lc.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="4384308856523446780" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="CENTER" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lc.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+    </node>
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4384308856523446781" nodeInfo="nn" />
+  </root>
+  <root type="tpee.EnumClass" typeId="tpee.1083245097125" id="4384308856523446782" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="VerticalAlignment" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="4384308856523446783" nodeInfo="ngu" />
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="4384308856523446784" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="TOP" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lc.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="4384308856523446785" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="BOTTOM" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lc.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="4384308856523446786" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="CENTER" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lc.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+    </node>
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4384308856523446787" nodeInfo="nn" />
   </root>
 </model>
 
