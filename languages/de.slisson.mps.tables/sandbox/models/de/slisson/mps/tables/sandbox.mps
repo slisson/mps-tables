@@ -11,7 +11,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <root type="nnej.RootConcept" typeId="nnej.1397920687865224200" id="1397920687866914332" nodeInfo="ng">
-    <property name="useCase" nameId="nnej.2199447184387917444" value="1" />
+    <property name="useCase" nameId="nnej.2199447184387917444" value="0" />
     <node role="stateMachine2" roleId="nnej.3208761769269148869" type="nnej.StateMachine2" typeId="nnej.3208761769267602859" id="3208761769269474751" nodeInfo="ng">
       <node role="states" roleId="nnej.3208761769267604720" type="nnej.State2" typeId="nnej.3208761769267604633" id="1106681690721329136" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="state1" />
@@ -105,12 +105,15 @@
             <property name="chars" nameId="nnej.2518382499585722094" value="adasdads" />
           </node>
         </node>
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="4265025203578769773" nodeInfo="ng">
+          <property name="comment" nameId="nnej.7869003205684092902" value="sdfghjhk" />
+        </node>
       </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4022433319281014144" nodeInfo="ng">
-        <property name="name" nameId="nnej.1397920687865362528" value="R1" />
+        <property name="name" nameId="nnej.1397920687865362528" value="R123" />
         <property name="description" nameId="nnej.1325130842798130132" value="This isfgh gh gh gh hskdhfkshdfk hn 1 asd" />
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4022433319281014145" nodeInfo="ng">
-          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
+          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R123" />
         </node>
         <node role="multilineDescription" roleId="nnej.2518382499585726737" type="nnej.SimpleMultilineText" typeId="nnej.2518382499585718146" id="2518382499586096673" nodeInfo="ng">
           <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586096674" nodeInfo="ng">
@@ -251,7 +254,7 @@
         <property name="name" nameId="nnej.1397920687865362528" value="R3" />
         <property name="description" nameId="nnej.1325130842798130132" value="Test" />
         <node role="Relationships" roleId="nnej.1397920687865456937" type="nnej.RefinesRel" typeId="nnej.1397920687865457012" id="4878629319582246206" nodeInfo="ng">
-          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R1" />
+          <link role="req" roleId="nnej.1397920687865457016" targetNodeId="4022433319281014144" resolveInfo="R123" />
         </node>
         <node role="multilineDescription" roleId="nnej.2518382499585726737" type="nnej.SimpleMultilineText" typeId="nnej.2518382499585718146" id="2518382499586097291" nodeInfo="ng">
           <node role="parts" roleId="nnej.2518382499585722096" type="nnej.SimpleMultilineTextPart" typeId="nnej.2518382499585722093" id="2518382499586097292" nodeInfo="ng">
