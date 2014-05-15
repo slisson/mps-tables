@@ -10,7 +10,7 @@
     <generator name="" generatorUID="de.slisson.mps.tables#2318718871439220866" uuid="0e33ea46-0324-418e-9821-28c609d2695f">
       <models>
         <modelRoot contentPath="${module}" type="default">
-          <sourceRoot path="${module}/generator/template" />
+          <sourceRoot location="generator/template" />
         </modelRoot>
       </models>
       <external-templates>
@@ -21,6 +21,7 @@
         <dependency reexport="false">da21218f-a674-474d-8b4e-d59e33007003(de.slisson.mps.tables.runtime)</dependency>
       </dependencies>
       <usedLanguages>
+        <usedLanguage>df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)</usedLanguage>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
         <usedLanguage>7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</usedLanguage>
@@ -40,6 +41,20 @@
             <generator generatorUID="0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)" />
             <external-mapping>
               <mapping-node modelUID="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" nodeID="1096629760203" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_together">
+          <greater-priority-mapping>
+            <generator generatorUID="0e33ea46-0324-418e-9821-28c609d2695f(de.slisson.mps.tables#2318718871439220866)" />
+            <external-mapping>
+              <mapping-node modelUID="r:9eebd85f-0264-4bca-b8dc-0e1b71e196f7(de.slisson.mps.tables.generator.template.main@generator)" nodeID="4839253578869694797" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)" />
+            <external-mapping>
+              <mapping-node modelUID="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" nodeID="1186404688558" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
