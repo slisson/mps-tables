@@ -763,6 +763,11 @@
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="4032373061963167369" resolveInfo="Event0a" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="3160705326882618602" resolveInfo="State7" />
       </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="4265025203597335668" nodeInfo="ng">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="4032373061963167618" resolveInfo="State2a" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
+        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+      </node>
     </node>
     <node role="decisionTable" roleId="nnej.4618647476140326862" type="nnej.DecisionTable" typeId="nnej.4618647476138240432" id="4618647476140768479" nodeInfo="ng">
       <node role="yExpressions" roleId="nnej.4618647476138240632" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="4618647476140775064" nodeInfo="nn">
