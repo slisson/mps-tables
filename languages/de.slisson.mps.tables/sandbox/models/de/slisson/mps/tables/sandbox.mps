@@ -285,6 +285,9 @@
       <node role="variables" roleId="nnej.1397920687865838589" type="nnej.Variable" typeId="nnej.1397920687865838585" id="3160705326883253048" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="rebateFactor" />
       </node>
+      <node role="variables" roleId="nnej.1397920687865838589" type="nnej.Variable" typeId="nnej.1397920687865838585" id="207763906601729803" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="abc" />
+      </node>
     </node>
     <node role="testSuite" roleId="nnej.1397920687866493249" type="nnej.TestSuite" typeId="nnej.1397920687865838768" id="7454638779280795407" nodeInfo="ng">
       <link role="rule" roleId="nnej.1397920687865838781" targetNodeId="1397920687866914337" resolveInfo="calculatedPrice" />

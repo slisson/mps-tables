@@ -826,28 +826,36 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
     <property name="name" nameId="tpck.1169194664001" value="VerticalAlignment" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="4384308856523539479" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523539479" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="TOP" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="TOP" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540022" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="BOTTOM" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="BOTTOM" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540025" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="CENTER" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="CENTER" />
     </node>
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="4384308856523540047" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
     <property name="name" nameId="tpck.1169194664001" value="HorizontalAlignment" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="4384308856523540048" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540048" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="LEFT" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="LEFT" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540049" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="RIGHT" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="RIGHT" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540052" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="CENTER" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="CENTER" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4384308856523540092" nodeInfo="ig">
@@ -868,6 +876,27 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4384308856523593885" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="alignment" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4384308856523540047" resolveInfo="HorizontalAlignment" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155811638124601791" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
+    <property name="name" nameId="tpck.1169194664001" value="HeaderGroup" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="group" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8155811638124638369" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="groupHeader" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8155811638124638371" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="childHeaders" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839151" resolveInfo="HeaderCollection" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8155811638124638367" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
     </node>
   </root>
 </model>
