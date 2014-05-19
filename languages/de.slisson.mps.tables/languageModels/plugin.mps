@@ -28,6 +28,7 @@
   <import index="nx1" modelUID="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" version="-1" />
   <import index="v2gd" modelUID="r:c6ef9172-b9db-4546-97ce-db76c1f2586f(de.slisson.mps.tables.runtime)" version="-1" />
   <import index="nmwl" modelUID="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#jetbrains.mps.plugins.applicationplugins(MPS.Workbench/jetbrains.mps.plugins.applicationplugins@java_stub)" version="-1" />
+  <import index="hm5v" modelUID="r:3d8b4628-659e-4af1-a607-3cc893005b62(de.slisson.mps.tables.runtime.cells)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp4k" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="35" implicit="yes" />
@@ -76,11 +77,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="4577721621834697478" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="gridCell" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4577721621834697479" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="v2gd.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="hm5v.2320605101351299462" resolveInfo="EditorCell_GridCell" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4577721621834703555" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v2gd.8293024336693313710" resolveInfo="getParentInstance" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v2gd.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hm5v.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hm5v.8293024336693313710" resolveInfo="getParentInstance" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4577721621834705017" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4577721621834705018" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4577721621834651045" resolveInfo="selection" />
@@ -102,7 +103,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4577721621834697478" resolveInfo="gridCell" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4577721621834761919" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v2gd.2320605101351615791" resolveInfo="getWrappedCell" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hm5v.2320605101351615791" resolveInfo="getWrappedCell" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4577721621834766880" nodeInfo="nn">
@@ -449,8 +450,8 @@
               <node role="condition" roleId="tpee.1068580123160" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="4577721621834814082" nodeInfo="nn">
                 <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="4577721621834817033" nodeInfo="nn" />
                 <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4577721621834806057" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v2gd.8293024336693313710" resolveInfo="getParentInstance" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v2gd.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hm5v.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hm5v.8293024336693313710" resolveInfo="getParentInstance" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4577721621834809456" nodeInfo="nn">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8293024336691634986" resolveInfo="selectedCell" />
                   </node>
@@ -808,11 +809,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="4577721621834874711" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="gridCell" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4577721621834874712" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="v2gd.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="hm5v.2320605101351299462" resolveInfo="EditorCell_GridCell" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4577721621834874713" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v2gd.8293024336693313710" resolveInfo="getParentInstance" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v2gd.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hm5v.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hm5v.8293024336693313710" resolveInfo="getParentInstance" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4577721621834874714" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4577721621834874715" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4577721621834874699" resolveInfo="selection" />
@@ -834,7 +835,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4577721621834874711" resolveInfo="gridCell" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4577721621834874723" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v2gd.2320605101351615791" resolveInfo="getWrappedCell" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hm5v.2320605101351615791" resolveInfo="getWrappedCell" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4577721621834874724" nodeInfo="nn">
@@ -1115,8 +1116,8 @@
               <node role="condition" roleId="tpee.1068580123160" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="4577721621834874859" nodeInfo="nn">
                 <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="4577721621834874860" nodeInfo="nn" />
                 <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4577721621834874861" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v2gd.8293024336693313710" resolveInfo="getParentInstance" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v2gd.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hm5v.2320605101351299462" resolveInfo="EditorCell_GridCell" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hm5v.8293024336693313710" resolveInfo="getParentInstance" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4577721621834874862" nodeInfo="nn">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4577721621834874764" resolveInfo="selectedCell" />
                   </node>
