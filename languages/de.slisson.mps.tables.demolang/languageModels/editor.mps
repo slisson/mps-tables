@@ -18,8 +18,8 @@
   <import index="oghc" modelUID="r:356c0504-b4a3-4458-9604-13fbb48838d7(de.slisson.mps.tables.runtime.style)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
   <import index="o1d4" modelUID="r:e726c074-6698-44f4-917f-83fa716c4c92(de.slisson.mps.tables.runtime.util)" version="-1" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
-  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
+  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
   <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="16" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -3277,7 +3277,7 @@
   </root>
   <root type="tpc2.StyleSheet" typeId="tpc2.1186402211651" id="6865425411203444541" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TableStyles" />
-    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleSheetClass" typeId="tpc2.1186402373407" id="6865425411203446104" nodeInfo="ng">
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleClass" typeId="tpc2.3383245079137382180" id="6865425411203446104" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="TableHeader" />
       <node role="styleItem" roleId="tpc2.1219418656006" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="6865425411203446629" nodeInfo="ng">
         <property name="color" nameId="bnk3.1186403713874" value="DARK_GREEN" />
