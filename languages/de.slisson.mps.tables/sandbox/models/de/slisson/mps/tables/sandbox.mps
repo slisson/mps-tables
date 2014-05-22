@@ -456,7 +456,7 @@
         </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="3323012950585878442" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase6" />
+        <property name="name" nameId="tpck.1169194664001" value="TestCase6aaa" />
         <node role="expected" roleId="nnej.1397920687865838792" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="3323012950585878446" nodeInfo="nn">
           <property name="value" nameId="tpee.1113006610751" value="73.0" />
         </node>
