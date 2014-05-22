@@ -3,8 +3,8 @@
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
+  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="16" implicit="yes" />
@@ -12,6 +12,9 @@
     <property name="name" nameId="tpck.1169194664001" value="Table" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="table" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6865425411219280760" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864864726" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="columnHeaders" />
@@ -407,6 +410,9 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="style" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4839253578871409978" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpc2.1219418625346" resolveInfo="IStyleContainer" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3785936898437886280" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="items" />
@@ -417,9 +423,6 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1186406756722" nodeInfo="ig">
       <property name="role" nameId="tpce.1071599776563" value="styleClass" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.1186402373407" resolveInfo="StyleSheetClass" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4839253578871409978" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpc2.1219418625346" resolveInfo="IStyleContainer" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5662204344885774100" nodeInfo="ig">
@@ -798,6 +801,16 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
     <property name="name" nameId="tpck.1169194664001" value="TableCellQueryCanCreate" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4384308856523593884" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
+    <property name="name" nameId="tpck.1169194664001" value="HorizontalAlignmentStyleItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="horizontal-alignment" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437150165" resolveInfo="TableStyleItem" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4384308856523593885" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="alignment" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4384308856523540047" resolveInfo="HorizontalAlignment" />
+    </node>
+  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1450914667648877318" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="GridQuery" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="GridQuery" />
@@ -816,12 +829,6 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="grid" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8791219374191678801" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="GridQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_SubstituteInfoFactory" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="substituteInfoFactory" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="4384308856523539249" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
     <property name="name" nameId="tpck.1169194664001" value="VerticalAlignment" />
@@ -838,44 +845,6 @@
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540025" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="CENTER" />
       <property name="internalValue" nameId="tpce.1083923523171" value="CENTER" />
-    </node>
-  </root>
-  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="4384308856523540047" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="HorizontalAlignment" />
-    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="4384308856523540048" />
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540048" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="LEFT" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="LEFT" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540049" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="RIGHT" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="RIGHT" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540052" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="CENTER" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="CENTER" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4384308856523540092" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="VerticalAlignmentStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="vertical-alignment" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437150165" resolveInfo="TableStyleItem" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4384308856523581138" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="alignment" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4384308856523539249" resolveInfo="VerticalAlignment" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4384308856523593884" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="HorizontalAlignmentStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="horizontal-alignment" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437150165" resolveInfo="TableStyleItem" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4384308856523593885" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="alignment" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4384308856523540047" resolveInfo="HorizontalAlignment" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155811638124601791" nodeInfo="ig">
@@ -898,6 +867,40 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8155811638124638367" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4384308856523540092" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
+    <property name="name" nameId="tpck.1169194664001" value="VerticalAlignmentStyleItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="vertical-alignment" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437150165" resolveInfo="TableStyleItem" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4384308856523581138" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="alignment" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4384308856523539249" resolveInfo="VerticalAlignment" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="4384308856523540047" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
+    <property name="name" nameId="tpck.1169194664001" value="HorizontalAlignment" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="4384308856523540048" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540048" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="LEFT" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="LEFT" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540049" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="RIGHT" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="RIGHT" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540052" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="CENTER" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="CENTER" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8791219374191678801" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="GridQuery" />
+    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_SubstituteInfoFactory" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="substituteInfoFactory" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
 </model>
 
