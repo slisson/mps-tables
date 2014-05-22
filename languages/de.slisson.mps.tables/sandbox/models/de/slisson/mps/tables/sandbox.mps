@@ -11,7 +11,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <root type="nnej.RootConcept" typeId="nnej.1397920687865224200" id="1397920687866914332" nodeInfo="ng">
-    <property name="useCase" nameId="nnej.2199447184387917444" value="0" />
+    <property name="useCase" nameId="nnej.2199447184387917444" value="2" />
     <node role="stateMachine2" roleId="nnej.3208761769269148869" type="nnej.StateMachine2" typeId="nnej.3208761769267602859" id="3208761769269474751" nodeInfo="ng">
       <node role="states" roleId="nnej.3208761769267604720" type="nnej.State2" typeId="nnej.3208761769267604633" id="1106681690721329136" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="state1" />
@@ -292,7 +292,7 @@
     <node role="testSuite" roleId="nnej.1397920687866493249" type="nnej.TestSuite" typeId="nnej.1397920687865838768" id="7454638779280795407" nodeInfo="ng">
       <link role="rule" roleId="nnej.1397920687865838781" targetNodeId="1397920687866914337" resolveInfo="calculatedPrice" />
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795411" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase0" />
+        <property name="name" nameId="tpck.1169194664001" value="TestCas1e0" />
         <node role="actual" roleId="nnej.1397920687865838797" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="7454638779280795415" nodeInfo="nn">
           <property name="value" nameId="tpee.1113006610751" value="13.1111111" />
         </node>
@@ -315,6 +315,12 @@
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
           <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4265025203592042305" nodeInfo="nn">
             <property name="value" nameId="tpee.1068580320021" value="10" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297250685" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="207763906601729803" resolveInfo="abc" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297250684" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
           </node>
         </node>
       </node>
@@ -349,6 +355,12 @@
             <property name="value" nameId="tpee.1113006610751" value="2.34" />
           </node>
         </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297249786" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="207763906601729803" resolveInfo="abc" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297249785" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
+          </node>
+        </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="4032373061955963111" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TestCase1" />
@@ -375,6 +387,18 @@
             <property name="value" nameId="tpee.1068580320021" value="6" />
           </node>
         </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297248901" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="207763906601729803" resolveInfo="abc" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297248900" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297251503" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297251502" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="1" />
+          </node>
+        </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779280795567" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TestCase2g ff" />
@@ -388,6 +412,24 @@
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
           <node role="value" roleId="nnej.934534792594006925" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="934534792595791849" nodeInfo="nn">
             <property name="value" nameId="tpee.1113006610751" value="21.900" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297248788" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="207763906601729803" resolveInfo="abc" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297248787" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297251376" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297251375" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="1" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297252450" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914348" resolveInfo="noOfUnits" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297252449" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="3" />
           </node>
         </node>
       </node>
@@ -427,6 +469,12 @@
             </node>
           </node>
         </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297247869" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="207763906601729803" resolveInfo="abc" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297247868" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="1" />
+          </node>
+        </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="7454638779281435252" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TestCase5 acde" />
@@ -452,6 +500,12 @@
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
           <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7946551912917390643" nodeInfo="nn">
             <property name="value" nameId="tpee.1068580320021" value="43" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297250826" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="207763906601729803" resolveInfo="abc" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297250825" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
           </node>
         </node>
       </node>
@@ -481,6 +535,12 @@
             <property name="value" nameId="tpee.1068580320021" value="5" />
           </node>
         </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297250967" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="207763906601729803" resolveInfo="abc" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297250966" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
+          </node>
+        </node>
       </node>
       <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="4265025203592045463" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="fgj" />
@@ -500,6 +560,18 @@
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
           <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4265025203592047445" nodeInfo="nn">
             <property name="value" nameId="tpee.1068580320021" value="2345" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297251108" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="207763906601729803" resolveInfo="abc" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297251107" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="7065220842297251235" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297251234" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="3" />
           </node>
         </node>
       </node>
