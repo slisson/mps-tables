@@ -8,11 +8,13 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="d870" modelUID="r:07128e74-f1f2-4270-a3b2-527db0c9fcc5(de.slisson.mps.tables.behavior)" version="-1" />
   <import index="tpen" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
-  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" />
+  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" />
   <import index="tpc5" modelUID="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" version="-1" />
   <import index="tpco" modelUID="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" version="-1" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
+  <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
+  <import index="oghc" modelUID="r:356c0504-b4a3-4458-9604-13fbb48838d7(de.slisson.mps.tables.runtime.style)" version="-1" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpdg" modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" implicit="yes" />
@@ -38,8 +40,23 @@
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1397920687864864347" nodeInfo="nn" />
     </node>
-    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="1925286362825161160" nodeInfo="ng">
-      <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="5662204344887343018" resolveInfo="IStylable_StyleComponent" />
+    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6731162717780291040" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6731162717780291051" nodeInfo="nn">
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="6731162717780291053" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="false" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6731162717780291055" nodeInfo="nn">
+          <property name="text" nameId="tpc2.1073389577007" value="id:" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6731162717780291065" nodeInfo="ng">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bnk3.6731162717780122510" resolveInfo="id" />
+        </node>
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="6731162717780291056" nodeInfo="nn" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="1925286362825161160" nodeInfo="ng">
+        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="5662204344887343018" resolveInfo="IStylable_StyleComponent" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="6731162717780291041" nodeInfo="nn" />
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1397920687864864678" nodeInfo="ng">
@@ -1824,6 +1841,298 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bnk3.4384308856523593885" resolveInfo="alignment" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="8155811638126661738" nodeInfo="nn" />
+    </node>
+  </root>
+  <root type="tpc2.StyleSheet" typeId="tpc2.1186402211651" id="6731162717776471390" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="TableStyleAttributes" />
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471391" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="border-left-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471392" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471393" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471394" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="border-right-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471395" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471396" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471397" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="border-bottom-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471398" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471399" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471400" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="border-top-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471401" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471402" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471403" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="border-left-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471404" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471405" nodeInfo="nn">
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471406" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="border-right-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471407" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471408" nodeInfo="nn">
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471409" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="border-top-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471410" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471411" nodeInfo="nn">
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471412" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="border-bottom-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471413" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471414" nodeInfo="nn">
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471415" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="row-border-left-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471416" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471417" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471418" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="row-border-right-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471419" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471420" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471421" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="row-border-bottom-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471422" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471423" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471424" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="row-border-top-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471425" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471426" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471427" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="row-border-left-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471428" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471429" nodeInfo="nn">
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471430" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="row-border-right-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471431" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471432" nodeInfo="nn">
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471433" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="row-border-top-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471434" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471435" nodeInfo="nn">
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471436" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="row-border-bottom-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471437" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471438" nodeInfo="nn">
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471439" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="column-border-left-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471440" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471441" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471442" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="column-border-right-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471443" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471444" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471445" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="column-border-bottom-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471446" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471447" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471448" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="column-border-top-width" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6731162717776471449" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6731162717776471450" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471451" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="column-border-left-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471452" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471453" nodeInfo="nn">
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471454" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="column-border-right-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471455" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471456" nodeInfo="nn">
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471457" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="column-border-top-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471458" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471459" nodeInfo="nn">
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471460" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="column-border-bottom-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471461" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6731162717776471462" nodeInfo="nn">
+        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dLIGHT_GRAY" resolveInfo="LIGHT_GRAY" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471463" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="shade-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471464" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.CastExpression" typeId="tpee.1070534934090" id="6731162717776471465" nodeInfo="nn">
+        <node role="type" roleId="tpee.1070534934091" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471466" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+        </node>
+        <node role="expression" roleId="tpee.1070534934092" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="6731162717776471467" nodeInfo="nn" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471468" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="row-shade-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471469" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.CastExpression" typeId="tpee.1070534934090" id="6731162717776471470" nodeInfo="nn">
+        <node role="type" roleId="tpee.1070534934091" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471471" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+        </node>
+        <node role="expression" roleId="tpee.1070534934092" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="6731162717776471472" nodeInfo="nn" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471473" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="column-shade-color" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471474" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.CastExpression" typeId="tpee.1070534934090" id="6731162717776471475" nodeInfo="nn">
+        <node role="type" roleId="tpee.1070534934091" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471476" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
+        </node>
+        <node role="expression" roleId="tpee.1070534934092" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="6731162717776471477" nodeInfo="nn" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471478" nodeInfo="ng">
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="horizontal-alignment" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471479" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="oghc.6731162717776450525" resolveInfo="HorizontalAlignment" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6731162717776471480" nodeInfo="nn">
+        <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="oghc.6731162717776450527" resolveInfo="LEFT" />
+        <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="oghc.6731162717776450525" resolveInfo="HorizontalAlignment" />
+      </node>
+    </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6731162717776471481" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="vertical-alignment" />
+      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6731162717776471482" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="oghc.6731162717776450531" resolveInfo="VerticalAlignment" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6731162717776471483" nodeInfo="nn">
+        <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="oghc.6731162717776450533" resolveInfo="TOP" />
+        <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="oghc.6731162717776450531" resolveInfo="VerticalAlignment" />
+      </node>
     </node>
   </root>
 </model>

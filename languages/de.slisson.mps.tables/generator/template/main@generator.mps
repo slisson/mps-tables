@@ -42,7 +42,8 @@
   <import index="ejnv" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.editor.runtime.style(MPS.Editor/jetbrains.mps.editor.runtime.style@java_stub)" version="-1" />
   <import index="6dpw" modelUID="r:ea653f2d-c829-4182-b311-a544ef1f4c1f(de.slisson.mps.tables.runtime.gridmodel)" version="-1" />
   <import index="sse1" modelUID="r:caea7020-da0a-4ba8-aff6-69334bbc9e02(de.slisson.mps.tables.runtime.simplegrid)" version="-1" />
-  <import index="k4nr" modelUID="r:0e2f5867-55a5-414f-800c-f91acca87ba5(de.slisson.mps.tables.styles.editor)" version="-1" />
+  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
+  <import index="reoo" modelUID="r:1e59a084-7ebe-4e95-89ab-c58a7e396583(de.slisson.mps.tables.editor)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tpf3" modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" implicit="yes" />
@@ -53,7 +54,6 @@
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
-  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
   <import index="tp68" modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="2" implicit="yes" />
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="2318718871439220867" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="main" />
@@ -7165,7 +7165,7 @@
                           <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6260631713569267545" nodeInfo="nn">
                             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="qe67.~Style%dset(jetbrains%dmps%dopenapi%deditor%dstyle%dStyleAttribute,java%dlang%dObject)%cvoid" resolveInfo="set" />
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="1877002314909354013" nodeInfo="ng">
-                              <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="k4nr.8372087084658304602" resolveInfo="border-bottom-width" />
+                              <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="reoo.6731162717776471397" resolveInfo="border-bottom-width" />
                             </node>
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6260631713569269009" nodeInfo="nn">
                               <property name="value" nameId="tpee.1068580320021" value="1" />
@@ -7200,7 +7200,7 @@
                           <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4839253578871964376" nodeInfo="nn">
                             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="qe67.~Style%dset(jetbrains%dmps%dopenapi%deditor%dstyle%dStyleAttribute,java%dlang%dObject)%cvoid" resolveInfo="set" />
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="1877002314909356325" nodeInfo="ng">
-                              <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="k4nr.8372087084658304602" resolveInfo="border-bottom-width" />
+                              <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="reoo.6731162717776471397" resolveInfo="border-bottom-width" />
                             </node>
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4839253578871964378" nodeInfo="nn">
                               <property name="value" nameId="tpee.1068580320021" value="1" />
@@ -7271,7 +7271,7 @@
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3785936898442872413" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="qe67.~Style%dset(jetbrains%dmps%dopenapi%deditor%dstyle%dStyleAttribute,java%dlang%dObject)%cvoid" resolveInfo="set" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="1877002314909370920" nodeInfo="ng">
-                <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="k4nr.8372087084658304602" resolveInfo="border-bottom-width" />
+                <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="reoo.6731162717776471397" resolveInfo="border-bottom-width" />
                 <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="1877002314909370921" nodeInfo="nn">
                   <property name="linkRole" nameId="tpck.1757699476691236116" value="attributeDeclaration" />
                   <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="1877002314909370922" nodeInfo="nn">
@@ -7537,11 +7537,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1877002314912733682" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="align" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1877002314912733683" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="k4nr.4384308856523446776" resolveInfo="HorizontalAlignment" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="oghc.6731162717776450525" resolveInfo="HorizontalAlignment" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="1877002314912733753" nodeInfo="nn">
-              <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="k4nr.4384308856523446778" resolveInfo="LEFT" />
-              <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="k4nr.4384308856523446776" resolveInfo="HorizontalAlignment" />
+              <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="oghc.6731162717776450527" resolveInfo="LEFT" />
+              <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="oghc.6731162717776450525" resolveInfo="HorizontalAlignment" />
               <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="1877002314912733781" nodeInfo="ng" />
               <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="1877002314912733807" nodeInfo="nn">
                 <property name="linkRole" nameId="tpck.1757699476691236116" value="enumConstantDeclaration" />
@@ -7571,11 +7571,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1877002314912748686" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="align" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1877002314912751276" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="k4nr.4384308856523446782" resolveInfo="VerticalAlignment" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="oghc.6731162717776450531" resolveInfo="VerticalAlignment" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="1877002314912754154" nodeInfo="nn">
-              <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="k4nr.4384308856523446784" resolveInfo="TOP" />
-              <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="k4nr.4384308856523446782" resolveInfo="VerticalAlignment" />
+              <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="oghc.6731162717776450533" resolveInfo="TOP" />
+              <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="oghc.6731162717776450531" resolveInfo="VerticalAlignment" />
               <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="1877002314912754398" nodeInfo="ng" />
               <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="1877002314912754424" nodeInfo="nn">
                 <property name="linkRole" nameId="tpck.1757699476691236116" value="enumConstantDeclaration" />
@@ -8402,7 +8402,7 @@
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4950903812121128103" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="qe67.~Style%dset(jetbrains%dmps%dopenapi%deditor%dstyle%dStyleAttribute,java%dlang%dObject)%cvoid" resolveInfo="set" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="8372087084660166347" nodeInfo="ng">
-                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="k4nr.8372087084658320334" resolveInfo="border-bottom-color" />
+                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="reoo.6731162717776471412" resolveInfo="border-bottom-color" />
                   <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="8372087084660169758" nodeInfo="nn">
                     <property name="linkRole" nameId="tpck.1757699476691236116" value="attributeDeclaration" />
                     <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="8372087084660169759" nodeInfo="nn">
@@ -8466,7 +8466,7 @@
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4839253578869809018" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="qe67.~Style%dset(jetbrains%dmps%dopenapi%deditor%dstyle%dStyleAttribute,java%dlang%dObject)%cvoid" resolveInfo="set" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="8372087084660208052" nodeInfo="ng">
-                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="k4nr.8372087084658320334" resolveInfo="border-bottom-color" />
+                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="reoo.6731162717776471412" resolveInfo="border-bottom-color" />
                   <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="8372087084660208053" nodeInfo="nn">
                     <property name="linkRole" nameId="tpck.1757699476691236116" value="attributeDeclaration" />
                     <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="8372087084660208054" nodeInfo="nn">
@@ -8561,7 +8561,7 @@
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4839253578869851295" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="qe67.~Style%dset(jetbrains%dmps%dopenapi%deditor%dstyle%dStyleAttribute,java%dlang%dObject)%cvoid" resolveInfo="set" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="8372087084660209273" nodeInfo="ng">
-                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="k4nr.8372087084658304602" resolveInfo="border-bottom-width" />
+                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="reoo.6731162717776471397" resolveInfo="border-bottom-width" />
                   <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="8372087084660209274" nodeInfo="nn">
                     <property name="linkRole" nameId="tpck.1757699476691236116" value="attributeDeclaration" />
                     <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="8372087084660209275" nodeInfo="nn">
@@ -8688,7 +8688,7 @@
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4839253578870438615" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="qe67.~Style%dset(jetbrains%dmps%dopenapi%deditor%dstyle%dStyleAttribute,java%dlang%dObject)%cvoid" resolveInfo="set" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="8372087084660277201" nodeInfo="ng">
-                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="k4nr.8372087084658304602" resolveInfo="border-bottom-width" />
+                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="reoo.6731162717776471397" resolveInfo="border-bottom-width" />
                   <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="8372087084660277202" nodeInfo="nn">
                     <property name="linkRole" nameId="tpck.1757699476691236116" value="attributeDeclaration" />
                     <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="8372087084660277203" nodeInfo="nn">
@@ -9573,7 +9573,7 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="bnk3.3785936898437150165" resolveInfo="TableStyleItem" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="6083395046987833670" nodeInfo="ng">
         <node role="templateNode" roleId="tpf8.1177093586806" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="1877002314916221323" nodeInfo="ng">
-          <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="k4nr.8372087084658320334" resolveInfo="border-bottom-color" />
+          <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="reoo.6731162717776471412" resolveInfo="border-bottom-color" />
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="1877002314916221324" nodeInfo="nn">
             <property name="linkRole" nameId="tpck.1757699476691236116" value="attributeDeclaration" />
             <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="1877002314916221325" nodeInfo="nn">
