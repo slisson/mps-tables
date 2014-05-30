@@ -105,6 +105,7 @@
             <property name="chars" nameId="nnej.2518382499585722094" value="adasdads" />
           </node>
         </node>
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="nnej.BaseConceptComment" typeId="nnej.7869003205683674568" id="1726923442410499323" nodeInfo="ng" />
       </node>
       <node role="requirements" roleId="nnej.1397920687865457249" type="nnej.Requirement" typeId="nnej.1397920687865362527" id="4022433319281014144" nodeInfo="ng">
         <property name="name" nameId="nnej.1397920687865362528" value="R123" />
@@ -572,6 +573,43 @@
           <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
           <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7065220842297251234" nodeInfo="nn">
             <property name="value" nameId="tpee.1068580320021" value="3" />
+          </node>
+        </node>
+      </node>
+      <node role="tests" roleId="nnej.1397920687865838778" type="nnej.TestCase" typeId="nnej.1397920687865838777" id="8154540067452967350" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="sddfg" />
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="8154540067452967837" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914344" resolveInfo="unitPrice" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8154540067452967836" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="10" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="8154540067452968046" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="1397920687866914348" resolveInfo="noOfUnits" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8154540067452968045" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="20" />
+          </node>
+        </node>
+        <node role="values" roleId="nnej.934534792594025995" type="nnej.VariableValue" typeId="nnej.934534792593989294" id="8154540067452968277" nodeInfo="ng">
+          <link role="variable" roleId="nnej.934534792594006923" targetNodeId="3160705326883253048" resolveInfo="rebateFactor" />
+          <node role="value" roleId="nnej.934534792594006925" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8154540067452968276" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="30" />
+          </node>
+        </node>
+        <node role="expected" roleId="nnej.1397920687865838792" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8154540067452970053" nodeInfo="nn">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8154540067452970056" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="1" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8154540067452968961" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="1" />
+          </node>
+        </node>
+        <node role="actual" roleId="nnej.1397920687865838797" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8154540067452972226" nodeInfo="nn">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8154540067452972229" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8154540067452971134" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
           </node>
         </node>
       </node>

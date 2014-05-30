@@ -1915,10 +1915,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="DynamicRow" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="nnej.1397920687871005027" resolveInfo="TestCaseComment" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="1397920687871100381" nodeInfo="ng">
-      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticHorizontal" typeId="bnk3.1397920687864997153" id="1652594944446410199" nodeInfo="ng">
-        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687871100434" nodeInfo="ng">
-          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="1397920687871100452" nodeInfo="ng" />
-        </node>
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticVertical" typeId="bnk3.1397920687864997163" id="1726923442410536189" nodeInfo="ng">
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687871100388" nodeInfo="ng">
           <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1397920687871100394" nodeInfo="nn">
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1397920687871100416" nodeInfo="ng">
@@ -1929,20 +1926,20 @@
           <node role="columnHeader" roleId="bnk3.1397920687865111420" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="1652594944446615479" nodeInfo="ng">
             <property name="text" nameId="bnk3.1397920687864864274" value="Comment" />
           </node>
+          <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="1726923442413630910" nodeInfo="ng">
+            <node role="styleItem" roleId="tpc2.1219418656006" type="bnk3.ShadeColor" typeId="bnk3.3785936898438629036" id="1726923442413640901" nodeInfo="ng">
+              <property name="color" nameId="bnk3.1186403713874" value="green" />
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="bnk3.BorderTopWidthStyleItem" typeId="bnk3.3785936898437629743" id="1726923442414591169" nodeInfo="ng">
+              <property name="value" nameId="bnk3.3785936898437424562" value="3" />
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="bnk3.BorderBottomWidthStyleItem" typeId="bnk3.3785936898437629812" id="1726923442414592510" nodeInfo="ng">
+              <property name="value" nameId="bnk3.3785936898437424562" value="3" />
+            </node>
+          </node>
         </node>
-        <node role="style" roleId="bnk3.5662204344887343006" type="bnk3.TableStyle" typeId="bnk3.5662204344885763446" id="6260631713575404800" nodeInfo="ng">
-          <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderBottomWidthStyleItem" typeId="bnk3.1925286362805485372" id="1925286362819815540" nodeInfo="ng">
-            <property name="value" nameId="bnk3.3785936898437424562" value="3" />
-          </node>
-          <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderTopWidthStyleItem" typeId="bnk3.1925286362805485378" id="1925286362819815562" nodeInfo="ng">
-            <property name="value" nameId="bnk3.3785936898437424562" value="3" />
-          </node>
-          <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderLeftWidthStyleItem" typeId="bnk3.1925286362805485374" id="1925286362820679724" nodeInfo="ng">
-            <property name="value" nameId="bnk3.3785936898437424562" value="3" />
-          </node>
-          <node role="items" roleId="bnk3.3785936898437886280" type="bnk3.RowBorderRightWidthStyleItem" typeId="bnk3.1925286362805485376" id="1925286362820679734" nodeInfo="ng">
-            <property name="value" nameId="bnk3.3785936898437424562" value="3" />
-          </node>
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="1397920687871100434" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="1397920687871100452" nodeInfo="ng" />
         </node>
       </node>
     </node>
