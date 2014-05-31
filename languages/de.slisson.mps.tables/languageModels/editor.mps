@@ -49,6 +49,7 @@
           <property name="text" nameId="tpc2.1073389577007" value="id:" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6731162717780291065" nodeInfo="ng">
+          <property name="allowEmptyText" nameId="tpc2.1140114345053" value="true" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bnk3.6731162717780122510" resolveInfo="id" />
         </node>
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="6731162717780291056" nodeInfo="nn" />
