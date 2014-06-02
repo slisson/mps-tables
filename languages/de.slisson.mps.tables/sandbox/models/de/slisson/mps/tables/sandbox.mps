@@ -846,11 +846,6 @@
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666781" resolveInfo="State2" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666785" resolveInfo="Event3" />
       </node>
-      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618873" nodeInfo="ng">
-        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666767" resolveInfo="State0" />
-        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
-        <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
-      </node>
       <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="3160705326882618909" nodeInfo="ng">
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666801" resolveInfo="State4" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
@@ -880,6 +875,14 @@
         <link role="from" roleId="nnej.1397920687866915092" targetNodeId="4032373061963167618" resolveInfo="State2a" />
         <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
         <link role="to" roleId="nnej.1397920687866915099" targetNodeId="1652594944444666796" resolveInfo="State3" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="55853096895458952" nodeInfo="ng">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666781" resolveInfo="State2" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
+      </node>
+      <node role="transitions" roleId="nnej.1397920687866915016" type="nnej.Transition" typeId="nnej.1397920687866915007" id="55853096895459893" nodeInfo="ng">
+        <link role="from" roleId="nnej.1397920687866915092" targetNodeId="1652594944444666796" resolveInfo="State3" />
+        <link role="trigger" roleId="nnej.1397920687866915087" targetNodeId="1652594944444666765" resolveInfo="Event0" />
       </node>
     </node>
     <node role="decisionTable" roleId="nnej.4618647476140326862" type="nnej.DecisionTable" typeId="nnej.4618647476138240432" id="4618647476140768479" nodeInfo="ng">
