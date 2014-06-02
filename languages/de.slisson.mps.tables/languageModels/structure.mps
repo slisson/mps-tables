@@ -132,6 +132,10 @@
     <property name="name" nameId="tpck.1169194664001" value="TableNodeCollection" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1795495746023683125" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="flatten" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864997171" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="childTableNodes" />
@@ -334,6 +338,16 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="rowHeader" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1795495746017148313" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="columnHeaderQuery" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1795495746017139323" resolveInfo="TableCellQueryGetColumnHeader" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1795495746017148344" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="rowHeaderQuery" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1795495746017145565" resolveInfo="TableCellQueryGetRowHeader" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687866927492" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
@@ -905,6 +919,16 @@
     <property name="name" nameId="tpck.1169194664001" value="QueryParameter_SubstituteInfoFactory" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="substituteInfoFactory" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1795495746017139323" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
+    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryGetColumnHeader" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1795495746017145565" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
+    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryGetRowHeader" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
   </root>
 </model>
 
