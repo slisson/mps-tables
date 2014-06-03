@@ -68,7 +68,7 @@
       <fileset dir="${basedir}/languages/de.slisson.mps.tables/runtime/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/mps-tables.zip/mps-tables/languages/mps-tables/de.slisson.mps.tables.runtime-src.jar">
-      <fileset dir="${basedir}/languages/de.slisson.mps.tables/runtime/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/languages/de.slisson.mps.tables/runtime/source_gen" />
       <zipfileset file="${basedir}/languages/de.slisson.mps.tables/runtime/de.slisson.mps.tables.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.slisson.mps.tables-runtime-models" prefix="module/models" />
     </jar>
@@ -89,7 +89,7 @@
       <fileset dir="${basedir}/solutions/de.slisson.mps.tables.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/mps-tables.zip/mps-tables/languages/mps-tables/de.slisson.mps.tables.build-src.jar">
-      <fileset dir="${basedir}/solutions/de.slisson.mps.tables.build/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/solutions/de.slisson.mps.tables.build/source_gen" />
       <zipfileset file="${basedir}/solutions/de.slisson.mps.tables.build/de.slisson.mps.tables.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-de.slisson.mps.tables.build-models" prefix="module/models" />
     </jar>
@@ -131,8 +131,8 @@
       <fileset dir="${basedir}/languages/de.slisson.mps.tables/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/mps-tables.zip/mps-tables/languages/mps-tables/de.slisson.mps.tables-src.jar">
-      <fileset dir="${basedir}/languages/de.slisson.mps.tables/generator/source_gen" includes="**/*.java" />
-      <fileset dir="${basedir}/languages/de.slisson.mps.tables/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/languages/de.slisson.mps.tables/generator/source_gen" />
+      <fileset dir="${basedir}/languages/de.slisson.mps.tables/source_gen" />
       <zipfileset file="${basedir}/languages/de.slisson.mps.tables/de.slisson.mps.tables.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.slisson.mps.tables-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.slisson.mps.tables-languageModels" prefix="module/languageModels" />
