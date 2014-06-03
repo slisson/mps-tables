@@ -184,6 +184,11 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5415748826124846205" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="filter" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5415748826124215290" resolveInfo="ChildFilter" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864997201" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="linkDeclaration" />
@@ -929,6 +934,18 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
     <property name="name" nameId="tpck.1169194664001" value="TableCellQueryGetRowHeader" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5415748826124215290" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ChildFilter" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="filter" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="keepElement" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5415748826124224454" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="filter" />
+    <property name="name" nameId="tpck.1169194664001" value="FilterParameter_element" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="element" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
 </model>
 
