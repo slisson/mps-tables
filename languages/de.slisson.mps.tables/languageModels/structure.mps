@@ -1,951 +1,1005 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="16">
-  <persistence version="8" />
-  <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
-  <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="16" implicit="yes" />
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864683158" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="Table" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="table" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6865425411219280760" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864864726" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="columnHeaders" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864865685" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="rowHeaders" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864865354" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="cells" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1397920687864864269" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IHeader" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865839131" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864864270" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="StaticHeader" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="&quot;" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1397920687864864274" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="text" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6731162717780122510" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="id" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687864864271" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864864269" resolveInfo="IHeader" />
-    </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1397920687864865353" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ITableNode" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5861024100072578575" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="addHints" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.4653693564097968040" resolveInfo="ContextHintsSpecification" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5861024100072578576" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="removeHints" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.4653693564097968040" resolveInfo="ContextHintsSpecification" />
-    </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687871108530" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687869277823" resolveInfo="IGeneratesFactoryMethod" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864997143" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="TableCell" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="cell" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687865064647" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="editorCell" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687865111420" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="columnHeader" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2285587715547822951" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="rowHeader" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687864997144" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5662204344887427633" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864997153" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="StaticHorizontal" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="horizontal" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1397920687864997170" resolveInfo="TableNodeCollection" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5220503293661425138" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="rowHeader" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6260631713569931276" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864997163" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="StaticVertical" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="vertical" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1397920687864997170" resolveInfo="TableNodeCollection" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5220503293661233944" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="columnHeader" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6260631713570009084" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864997170" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="TableNodeCollection" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1795495746023683125" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="flatten" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864997171" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="childTableNodes" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865665336" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687864997197" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ChildsHorizontal" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="horizontal%" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1397920687865064509" resolveInfo="ChildCollection" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687864997198" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865064415" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ChildsVertical" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="vertical%" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1397920687865064509" resolveInfo="ChildCollection" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865064416" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865064509" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ChildCollection" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687866284454" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="headers" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2199447184406843652" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="columnHeaders" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2199447184407180854" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="rowHeaders" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5415748826124846205" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="filter" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="5415748826124215290" resolveInfo="ChildFilter" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687864997201" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="linkDeclaration" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpce.1071489288298" resolveInfo="LinkDeclaration" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865064510" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6260631713569571452" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865064688" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="HeaderReference" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="#" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="header reference" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865839276" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687865064692" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="header" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865593407" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="PartialTable" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="partial table" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687865593523" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="cells" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6260631713574204598" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
-    </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1397920687865839100" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IHeaderNode" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687869419647" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687869277823" resolveInfo="IGeneratesFactoryMethod" />
-    </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1925286362824827321" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865839151" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="HeaderCollection" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="{" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6874252336974775034" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="childs" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865839152" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6874252336976250701" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687865844319" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="HeadQuery" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="query" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4032373061957777955" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="insertNew" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4032373061957735279" resolveInfo="HeaderQuery_InsertNew" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1515263624310665819" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="delete" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1515263624310660132" resolveInfo="HeaderQuery_Delete" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865844320" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687865844331" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687866011705" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
-    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_Node" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="node" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687866927401" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="TableCellQuery" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="query" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687866928141" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="columnCount" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687866927557" resolveInfo="TableCellQueryColumnCount" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687866928145" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="rowCount" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687866927536" resolveInfo="TableCellQueryRowCount" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687866929988" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="cells" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687866928166" resolveInfo="TableCellQueryGetCell" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1397920687867792071" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="create" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687867788774" resolveInfo="TableCellQueryCreate" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4032373061969775284" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="substituteInfo" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4032373061969726562" resolveInfo="TableCellQueryGetSubstituteInfo" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7946551912909981380" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="substituteNode" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="7946551912908713904" resolveInfo="SubstituteNodeFunction" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1118639624532245959" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="canCreate" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1118639624532963457" resolveInfo="TableCellQueryCanCreate" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="934534792595028981" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="columnHeader" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="934534792595028982" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="rowHeader" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1795495746017148313" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="columnHeaderQuery" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1795495746017139323" resolveInfo="TableCellQueryGetColumnHeader" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1795495746017148344" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="rowHeaderQuery" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1795495746017145565" resolveInfo="TableCellQueryGetRowHeader" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1397920687866927492" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687866927536" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryRowCount" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687866927557" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryColumnCount" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687866928166" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryGetCell" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3785936898452719116" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="displayType" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="3785936898452718941" resolveInfo="ListDisplayType" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687867563604" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_RowIndex" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="rowIndex" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687867564204" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_ColumnIndex" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="columnIndex" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1397920687867788774" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryCreate" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1397920687869277823" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IGeneratesFactoryMethod" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4032373061957735279" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
-    <property name="name" nameId="tpck.1169194664001" value="HeaderQuery_InsertNew" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4032373061957737357" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
-    <property name="name" nameId="tpck.1169194664001" value="Parameter_Index" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="index" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4032373061969726562" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryGetSubstituteInfo" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4032373061970539014" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_EditorContext" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="editorContext" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5662204344885760731" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IStylable" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5662204344887343006" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="style" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="5662204344885763446" resolveInfo="TableStyle" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5662204344885763446" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="TableStyle" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="style" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4839253578871409978" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpc2.1219418625346" resolveInfo="IStyleContainer" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3785936898437886280" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="items" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3785936898437150165" resolveInfo="TableStyleItem" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4839253578871418275" nodeInfo="ig" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1186406756722" nodeInfo="ig">
-      <property name="role" nameId="tpce.1071599776563" value="styleClass" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.1186402373407" resolveInfo="StyleSheetClass" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5662204344885774100" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="Parameter_Style" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="style" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7946551912908713904" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
-    <property name="name" nameId="tpck.1169194664001" value="SubstituteNodeFunction" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8767719180164875849" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="cellRootConcept" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpce.1169125787135" resolveInfo="AbstractConceptDeclaration" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8767719180164876002" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="conceptForMenu" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpce.1169125787135" resolveInfo="AbstractConceptDeclaration" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7946551912909694162" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="rolePath" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="7946551912908761959" resolveInfo="SubstituteNodeFunction_LinkReference" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7946551912908761959" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
-    <property name="name" nameId="tpck.1169194664001" value="SubstituteNodeFunction_LinkReference" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7946551912908762110" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="link" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpce.1071489288298" resolveInfo="LinkDeclaration" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7946551912910120072" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
-    <property name="name" nameId="tpck.1169194664001" value="SubstituteNodeFunction_CurrentNode" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="currentNode" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7946551912910240557" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
-    <property name="name" nameId="tpck.1169194664001" value="SubstituteNodeFunction_NewValue" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="newValue" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898437150165" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="TableStyleItem" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1186402475462" resolveInfo="StyleClassItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898437423425" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="IntegerTableStyleItem" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437150165" resolveInfo="TableStyleItem" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1221064706952" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="query" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3785936898437444905" resolveInfo="IntegerTableStyleItemQuery" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3785936898437424562" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="value" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898437444904" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="TableStyleItemQuery" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3785936898441525207" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1237545921771" resolveInfo="IContainsStatementList" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898437444905" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="IntegerTableStyleItemQuery" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437444904" resolveInfo="TableStyleItemQuery" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898437629002" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="BorderLeftWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="border-left-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898437629674" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="BorderRightWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="border-right-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898437629743" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="BorderTopWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="border-top-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898437629812" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="BorderBottomWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="border-bottom-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898438264163" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="ColorQuery" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="query" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437444904" resolveInfo="TableStyleItemQuery" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3785936898438270467" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3785936898438269685" resolveInfo="IColorValue" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898438264232" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="RGBAColorValue" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="#" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="#RRGGBBAA" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3785936898438264819" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="value" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3785936898438280059" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3785936898438269685" resolveInfo="IColorValue" />
-    </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3785936898438269685" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="IColorValue" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898438263806" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="ColorTableStyleItem" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437150165" resolveInfo="TableStyleItem" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1186403713874" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="color" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1083952545109" resolveInfo="_Colors_Enum" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3785936898438271388" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="query" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3785936898438269685" resolveInfo="IColorValue" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898438628050" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="BorderBottomColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="border-bottom-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898438628373" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="BorderTopColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="border-top-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898438628594" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="BorderLeftColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="border-left-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898438628815" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="BorderRightColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="border-right-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3785936898438629036" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ShadeColor" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="shade-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="3785936898452718941" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="ListDisplayType" />
-    <property name="memberIdentifierPolicy" nameId="tpce.1197591154882" value="derive_from_internal_value" />
-    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3785936898452719053" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="vertical list" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="vlist" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3785936898452719057" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="horizontal list" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="hlist" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3785936898452718942" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="vertical cells" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="vcells" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3785936898452719050" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="horizontal cells" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="hcells" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362805485371" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="RowBorderBottomColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-border-bottom-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362805485372" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="RowBorderBottomWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-border-bottom-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362805485373" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="RowBorderLeftColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-border-left-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362805485374" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="RowBorderLeftWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-border-left-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362805485375" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="RowBorderRightColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-border-right-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362805485376" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="RowBorderRightWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-border-right-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362805485377" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="RowBorderTopColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-border-top-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362805485378" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="RowBorderTopWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-border-top-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362805506099" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="RowShadeColor" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="row-shade-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252045" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderBottomColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-bottom-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252046" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderBottomWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-bottom-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252047" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderLeftColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-left-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252048" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderLeftWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-left-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252049" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderRightColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-right-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252050" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderRightWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-right-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252051" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderTopColorItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-top-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252052" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ColumnBorderTopWidthStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-border-top-width" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437423425" resolveInfo="IntegerTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1925286362824252053" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="ColumnShadeColor" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column-shade-color" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898438263806" resolveInfo="ColorTableStyleItem" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3208761769266637711" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
-    <property name="name" nameId="tpck.1169194664001" value="HeaderStyleQueryParameter_Index" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="columnIndex" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1106681690724963968" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery.Substitute" />
-    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_ListIndex" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="listIndex" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1515263624310660132" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header.Query" />
-    <property name="name" nameId="tpck.1169194664001" value="HeaderQuery_Delete" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6466068411884348300" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
-    <property name="name" nameId="tpck.1169194664001" value="EditorCellHeader" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="[" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6466068411884348445" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="editorCell" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6466068411885821622" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864864269" resolveInfo="IHeader" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1118639624532200049" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="CanCreate_Query" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="query" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1118639624533710513" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1118639624532963457" resolveInfo="TableCellQueryCanCreate" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1118639624532961312" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="CanCreate_Rows" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="rows" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1118639624533710517" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1118639624532963457" resolveInfo="TableCellQueryCanCreate" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1118639624532961319" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="CanCreate_Columns" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="columns" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1118639624533710515" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1118639624532963457" resolveInfo="TableCellQueryCanCreate" />
-    </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1118639624532963457" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryCanCreate" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4384308856523593884" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="HorizontalAlignmentStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="horizontal-alignment" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437150165" resolveInfo="TableStyleItem" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4384308856523593885" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="alignment" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4384308856523540047" resolveInfo="HorizontalAlignment" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1450914667648877318" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="GridQuery" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="GridQuery" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="gridquery" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1450914667648878270" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687864865353" resolveInfo="ITableNode" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8791219374192652234" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5662204344885760731" resolveInfo="IStylable" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1450914667648882274" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="GridQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_Grid" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="grid" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="4384308856523539249" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="VerticalAlignment" />
-    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="4384308856523539479" />
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523539479" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="TOP" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="TOP" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540022" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="BOTTOM" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="BOTTOM" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540025" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="CENTER" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="CENTER" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155811638124601791" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Header" />
-    <property name="name" nameId="tpck.1169194664001" value="HeaderGroup" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="group" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8155811638124638369" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="groupHeader" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8155811638124638371" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="childHeaders" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1397920687865839151" resolveInfo="HeaderCollection" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8155811638124638367" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1397920687865839100" resolveInfo="IHeaderNode" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4384308856523540092" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style.Items" />
-    <property name="name" nameId="tpck.1169194664001" value="VerticalAlignmentStyleItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="vertical-alignment" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3785936898437150165" resolveInfo="TableStyleItem" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4384308856523581138" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="alignment" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4384308856523539249" resolveInfo="VerticalAlignment" />
-    </node>
-  </root>
-  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="4384308856523540047" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Style" />
-    <property name="name" nameId="tpck.1169194664001" value="HorizontalAlignment" />
-    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="4384308856523540048" />
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540048" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="LEFT" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="LEFT" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540049" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="RIGHT" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="RIGHT" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4384308856523540052" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="CENTER" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="CENTER" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8791219374191678801" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="GridQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="QueryParameter_SubstituteInfoFactory" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="substituteInfoFactory" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1795495746017139323" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryGetColumnHeader" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1795495746017145565" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CellQuery" />
-    <property name="name" nameId="tpck.1169194664001" value="TableCellQueryGetRowHeader" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5415748826124215290" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ChildFilter" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="filter" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="keepElement" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5415748826124224454" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="filter" />
-    <property name="name" nameId="tpck.1169194664001" value="FilterParameter_element" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="element" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-  </root>
+<model ref="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" concise="true">
+  <persistence version="9" />
+  <languages>
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports>
+    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <reference id="1083241965437" name="defaultMember" index="Qgau1" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
+      </concept>
+      <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
+      <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
+      </concept>
+      <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
+        <property id="1071599776563" name="role" index="20kJfa" />
+        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
+        <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <reference id="1071599976176" name="target" index="20lvS9" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="1TIwiD" id="1dAqnm8m1Em">
+    <property role="TrG5h" value="Table" />
+    <property role="34LRSv" value="table" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="PrWs8" id="5X6T0_NE_dS" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8mHZm" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columnHeaders" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8mIel" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowHeaders" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8mI9a" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cells" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1dAqnm8mHSd">
+    <property role="TrG5h" value="IHeader" />
+    <property role="3GE5qa" value="Header" />
+    <node concept="PrWs8" id="1dAqnm8qrSr" role="PrDN$">
+      <ref role="PrY4T" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8mHSe">
+    <property role="TrG5h" value="StaticHeader" />
+    <property role="34LRSv" value="&quot;" />
+    <property role="3GE5qa" value="Header" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1dAqnm8mHSi" role="1TKVEl">
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5PDTdguCLIe" role="1TKVEl">
+      <property role="TrG5h" value="id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="1dAqnm8mHSf" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mHSd" resolve="IHeader" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1dAqnm8mI99">
+    <property role="TrG5h" value="ITableNode" />
+    <node concept="1TJgyj" id="55my_QKP5Sf" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="addHints" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpc2:42lfqf__buC" resolve="ContextHintsSpecification" />
+    </node>
+    <node concept="1TJgyj" id="55my_QKP5Sg" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="removeHints" />
+      <ref role="20lvS9" to="tpc2:42lfqf__buC" resolve="ContextHintsSpecification" />
+    </node>
+    <node concept="PrWs8" id="1dAqnm8IymM" role="PrDN$">
+      <ref role="PrY4T" node="1dAqnm8BzpZ" resolve="IGeneratesFactoryMethod" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8nekn">
+    <property role="TrG5h" value="TableCell" />
+    <property role="34LRSv" value="cell" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1dAqnm8nuN7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="editorCell" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8nEdW" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columnHeader" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="1YS2uFKenHB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowHeader" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="PrWs8" id="1dAqnm8neko" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+    <node concept="PrWs8" id="4UkcdCuG48L" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8nekx">
+    <property role="TrG5h" value="StaticHorizontal" />
+    <property role="34LRSv" value="horizontal" />
+    <ref role="1TJDcQ" node="1dAqnm8nekM" resolve="TableNodeCollection" />
+    <node concept="1TJgyj" id="4xMX1ofsyRM" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowHeader" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="PrWs8" id="5ryePYcSo0c" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8nekF">
+    <property role="TrG5h" value="StaticVertical" />
+    <property role="34LRSv" value="vertical" />
+    <ref role="1TJDcQ" node="1dAqnm8nekM" resolve="TableNodeCollection" />
+    <node concept="1TJgyj" id="4xMX1ofrOco" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columnHeader" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="PrWs8" id="5ryePYcSEZW" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8nekM">
+    <property role="TrG5h" value="TableNodeCollection" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1zEStSTtRgP" role="1TKVEl">
+      <property role="TrG5h" value="flatten" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8nekN" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="childTableNodes" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+    <node concept="PrWs8" id="1dAqnm8pLsS" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8neld">
+    <property role="TrG5h" value="ChildsHorizontal" />
+    <property role="34LRSv" value="horizontal%" />
+    <ref role="1TJDcQ" node="1dAqnm8nuKX" resolve="ChildCollection" />
+    <node concept="PrWs8" id="1dAqnm8nele" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8nuJv">
+    <property role="TrG5h" value="ChildsVertical" />
+    <property role="34LRSv" value="vertical%" />
+    <ref role="1TJDcQ" node="1dAqnm8nuKX" resolve="ChildCollection" />
+    <node concept="PrWs8" id="1dAqnm8nuJw" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8nuKX">
+    <property role="TrG5h" value="ChildCollection" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1dAqnm8s8AA" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="headers" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="1U60oYwNp44" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columnHeaders" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="1U60oYwOFoQ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowHeaders" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="4GCAHOdUghX" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="filter" />
+      <ref role="20lvS9" node="4GCAHOdRQfU" resolve="ChildFilter" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8nelh" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="linkDeclaration" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1dAqnm8nuKY" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+    <node concept="PrWs8" id="5ryePYcR09W" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8nuNK">
+    <property role="TrG5h" value="HeaderReference" />
+    <property role="3GE5qa" value="Header" />
+    <property role="34LRSv" value="#" />
+    <property role="R4oN_" value="header reference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1dAqnm8qrUG" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8nuNO" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="header" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8pvSZ">
+    <property role="TrG5h" value="PartialTable" />
+    <property role="34LRSv" value="partial table" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="1dAqnm8pvUN" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cells" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+    <node concept="PrWs8" id="5ryePYd8FiQ" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1dAqnm8qrRW">
+    <property role="TrG5h" value="IHeaderNode" />
+    <property role="3GE5qa" value="Header" />
+    <node concept="PrWs8" id="1dAqnm8C61Z" role="PrDN$">
+      <ref role="PrY4T" node="1dAqnm8BzpZ" resolve="IGeneratesFactoryMethod" />
+    </node>
+    <node concept="PrWs8" id="1ERZrWj4Y6T" role="PrDN$">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8qrSJ">
+    <property role="TrG5h" value="HeaderCollection" />
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="Header" />
+    <property role="34LRSv" value="{" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5XAg1h1LWbU" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="childs" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="PrWs8" id="1dAqnm8qrSK" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="PrWs8" id="5XAg1h1R$td" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8qt9v">
+    <property role="TrG5h" value="HeadQuery" />
+    <property role="3GE5qa" value="Header.Query" />
+    <property role="34LRSv" value="query" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="1TJgyj" id="3vPRuXRQfCz" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="insertNew" />
+      <ref role="20lvS9" node="3vPRuXRQ5dJ" resolve="HeaderQuery_InsertNew" />
+    </node>
+    <node concept="1TJgyj" id="1k7j3NO6V9r" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="delete" />
+      <ref role="20lvS9" node="1k7j3NO6TK$" resolve="HeaderQuery_Delete" />
+    </node>
+    <node concept="PrWs8" id="1dAqnm8qt9w" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="PrWs8" id="1dAqnm8qt9F" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8r60T">
+    <property role="3GE5qa" value="Header.Query" />
+    <property role="TrG5h" value="QueryParameter_Node" />
+    <property role="34LRSv" value="node" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8u_$D">
+    <property role="TrG5h" value="TableCellQuery" />
+    <property role="34LRSv" value="query" />
+    <property role="3GE5qa" value="CellQuery" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1dAqnm8u_Kd" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columnCount" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1dAqnm8u_B5" resolve="TableCellQueryColumnCount" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8u_Kh" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowCount" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1dAqnm8u_AK" resolve="TableCellQueryRowCount" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8uAd4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cells" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1dAqnm8u_KA" resolve="TableCellQueryGetCell" />
+    </node>
+    <node concept="1TJgyj" id="1dAqnm8xSF7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="create" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1dAqnm8xRRA" resolve="TableCellQueryCreate" />
+    </node>
+    <node concept="1TJgyj" id="3vPRuXS$0EO" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="substituteInfo" />
+      <ref role="20lvS9" node="3vPRuXSzOLy" resolve="TableCellQueryGetSubstituteInfo" />
+    </node>
+    <node concept="1TJgyj" id="6T7OHMQcOr4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="substituteNode" />
+      <ref role="20lvS9" node="6T7OHMQ7YYK" resolve="SubstituteNodeFunction" />
+    </node>
+    <node concept="1TJgyj" id="Y6dcZbUVR7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="canCreate" />
+      <ref role="20lvS9" node="Y6dcZbXF21" resolve="TableCellQueryCanCreate" />
+    </node>
+    <node concept="1TJgyj" id="NS8B56RFJP" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columnHeader" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="NS8B56RFJQ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowHeader" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="1zEStST4VQp" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columnHeaderQuery" />
+      <ref role="20lvS9" node="1zEStST4TDV" resolve="TableCellQueryGetColumnHeader" />
+    </node>
+    <node concept="1TJgyj" id="1zEStST4VQS" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowHeaderQuery" />
+      <ref role="20lvS9" node="1zEStST4Vbt" resolve="TableCellQueryGetRowHeader" />
+    </node>
+    <node concept="PrWs8" id="1dAqnm8u_A4" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8u_AK">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="TableCellQueryRowCount" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8u_B5">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="TableCellQueryColumnCount" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8u_KA">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="TableCellQueryGetCell" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="1TJgyi" id="3iamoNAkooc" role="1TKVEl">
+      <property role="TrG5h" value="displayType" />
+      <ref role="AX2Wp" node="3iamoNAkolt" resolve="ListDisplayType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8x0Tk">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="QueryParameter_RowIndex" />
+    <property role="34LRSv" value="rowIndex" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8x12G">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="QueryParameter_ColumnIndex" />
+    <property role="34LRSv" value="columnIndex" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1dAqnm8xRRA">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="TableCellQueryCreate" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="PlHQZ" id="1dAqnm8BzpZ">
+    <property role="TrG5h" value="IGeneratesFactoryMethod" />
+  </node>
+  <node concept="1TIwiD" id="3vPRuXRQ5dJ">
+    <property role="3GE5qa" value="Header.Query" />
+    <property role="TrG5h" value="HeaderQuery_InsertNew" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="3vPRuXRQ5Id">
+    <property role="3GE5qa" value="Header.Query" />
+    <property role="TrG5h" value="Parameter_Index" />
+    <property role="34LRSv" value="index" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3vPRuXSzOLy">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="TableCellQueryGetSubstituteInfo" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="3vPRuXSAV86">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="QueryParameter_EditorContext" />
+    <property role="34LRSv" value="editorContext" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="PlHQZ" id="4UkcdCu_Hbr">
+    <property role="TrG5h" value="IStylable" />
+    <property role="3GE5qa" value="Style" />
+    <node concept="1TJgyj" id="4UkcdCuFJuu" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="style" />
+      <ref role="20lvS9" node="4UkcdCu_HPQ" resolve="TableStyle" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4UkcdCu_HPQ">
+    <property role="TrG5h" value="TableStyle" />
+    <property role="3GE5qa" value="Style" />
+    <property role="34LRSv" value="style" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4cCuRQiEKOU" role="PzmwI">
+      <ref role="PrY4T" to="tpc2:hJF0Tl2" resolve="IStyleContainer" />
+    </node>
+    <node concept="1TJgyj" id="3iamoN_rN58" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3iamoN_oZnl" resolve="TableStyleItem" />
+      <node concept="asaX9" id="4cCuRQiEMQz" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="hgVmB5M" role="1TKVEi">
+      <property role="20kJfa" value="styleClass" />
+      <ref role="20lvS9" to="tpc2:hgV5SWv" resolve="StyleSheetClass" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4UkcdCu_Ksk">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="Parameter_Style" />
+    <property role="34LRSv" value="style" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="6T7OHMQ7YYK">
+    <property role="3GE5qa" value="CellQuery.Substitute" />
+    <property role="TrG5h" value="SubstituteNodeFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="1TJgyj" id="7AHcygo6Op9" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="cellRootConcept" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="7AHcygo6Ory" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="conceptForMenu" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="6T7OHMQbIji" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rolePath" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6T7OHMQ8aHB" resolve="SubstituteNodeFunction_LinkReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6T7OHMQ8aHB">
+    <property role="3GE5qa" value="CellQuery.Substitute" />
+    <property role="TrG5h" value="SubstituteNodeFunction_LinkReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6T7OHMQ8aJY" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="link" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6T7OHMQdmi8">
+    <property role="3GE5qa" value="CellQuery.Substitute" />
+    <property role="TrG5h" value="SubstituteNodeFunction_CurrentNode" />
+    <property role="34LRSv" value="currentNode" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="6T7OHMQdNGH">
+    <property role="3GE5qa" value="CellQuery.Substitute" />
+    <property role="TrG5h" value="SubstituteNodeFunction_NewValue" />
+    <property role="34LRSv" value="newValue" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_oZnl">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="TableStyleItem" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpc2:hgV6hR6" resolve="StyleClassItem" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_q251">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="IntegerTableStyleItem" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="3iamoN_oZnl" resolve="TableStyleItem" />
+    <node concept="1TJgyj" id="hLd8cI8" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="query" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="3iamoN_q7kD" resolve="IntegerTableStyleItemQuery" />
+    </node>
+    <node concept="1TJgyi" id="3iamoN_q2mM" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3iamoN_q7kC">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="TableStyleItemQuery" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="3iamoN_DFvn" role="PzmwI">
+      <ref role="PrY4T" to="tpee:i0zv2NF" resolve="IContainsStatementList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3iamoN_q7kD">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="IntegerTableStyleItemQuery" />
+    <ref role="1TJDcQ" node="3iamoN_q7kC" resolve="TableStyleItemQuery" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_qOha">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="BorderLeftWidthStyleItem" />
+    <property role="34LRSv" value="border-left-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_qOrE">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="BorderRightWidthStyleItem" />
+    <property role="34LRSv" value="border-right-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_qOsJ">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="BorderTopWidthStyleItem" />
+    <property role="34LRSv" value="border-top-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_qOtO">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="BorderBottomWidthStyleItem" />
+    <property role="34LRSv" value="border-bottom-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_tflz">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="ColorQuery" />
+    <property role="34LRSv" value="query" />
+    <ref role="1TJDcQ" node="3iamoN_q7kC" resolve="TableStyleItemQuery" />
+    <node concept="PrWs8" id="3iamoN_tgS3" role="PzmwI">
+      <ref role="PrY4T" node="3iamoN_tgFP" resolve="IColorValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3iamoN_tfmC">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="RGBAColorValue" />
+    <property role="34LRSv" value="#" />
+    <property role="R4oN_" value="#RRGGBBAA" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3iamoN_tfvN" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="3iamoN_tjdV" role="PzmwI">
+      <ref role="PrY4T" node="3iamoN_tgFP" resolve="IColorValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3iamoN_tgFP">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="IColorValue" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_tffY">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="ColorTableStyleItem" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="3iamoN_oZnl" resolve="TableStyleItem" />
+    <node concept="1TJgyi" id="hgVb0di" role="1TKVEl">
+      <property role="TrG5h" value="color" />
+      <ref role="AX2Wp" to="tpc2:fLwANPl" resolve="_Colors_Enum" />
+    </node>
+    <node concept="1TJgyj" id="3iamoN_th6s" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="query" />
+      <ref role="20lvS9" node="3iamoN_tgFP" resolve="IColorValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3iamoN_uCbi">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="BorderBottomColorItem" />
+    <property role="34LRSv" value="border-bottom-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_uCgl">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="BorderTopColorItem" />
+    <property role="34LRSv" value="border-top-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_uCjM">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="BorderLeftColorItem" />
+    <property role="34LRSv" value="border-left-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_uCnf">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="BorderRightColorItem" />
+    <property role="34LRSv" value="border-right-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="3iamoN_uCqG">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ShadeColor" />
+    <property role="34LRSv" value="shade-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="AxPO7" id="3iamoNAkolt">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="ListDisplayType" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="3iamoNAkond" role="M5hS2">
+      <property role="1uS6qo" value="vertical list" />
+      <property role="1uS6qv" value="vlist" />
+    </node>
+    <node concept="M4N5e" id="3iamoNAkonh" role="M5hS2">
+      <property role="1uS6qo" value="horizontal list" />
+      <property role="1uS6qv" value="hlist" />
+    </node>
+    <node concept="M4N5e" id="3iamoNAkolu" role="M5hS2">
+      <property role="1uS6qo" value="vertical cells" />
+      <property role="1uS6qv" value="vcells" />
+    </node>
+    <node concept="M4N5e" id="3iamoNAkona" role="M5hS2">
+      <property role="1uS6qo" value="horizontal cells" />
+      <property role="1uS6qv" value="hcells" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1ERZrWhVbWV">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="RowBorderBottomColorItem" />
+    <property role="34LRSv" value="row-border-bottom-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWhVbWW">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="RowBorderBottomWidthStyleItem" />
+    <property role="34LRSv" value="row-border-bottom-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWhVbWX">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="RowBorderLeftColorItem" />
+    <property role="34LRSv" value="row-border-left-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWhVbWY">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="RowBorderLeftWidthStyleItem" />
+    <property role="34LRSv" value="row-border-left-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWhVbWZ">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="RowBorderRightColorItem" />
+    <property role="34LRSv" value="row-border-right-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWhVbX0">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="RowBorderRightWidthStyleItem" />
+    <property role="34LRSv" value="row-border-right-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWhVbX1">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="RowBorderTopColorItem" />
+    <property role="34LRSv" value="row-border-top-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWhVbX2">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="RowBorderTopWidthStyleItem" />
+    <property role="34LRSv" value="row-border-top-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWhVh0N">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="RowShadeColor" />
+    <property role="34LRSv" value="row-shade-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWj2LEd">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ColumnBorderBottomColorItem" />
+    <property role="34LRSv" value="column-border-bottom-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWj2LEe">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ColumnBorderBottomWidthStyleItem" />
+    <property role="34LRSv" value="column-border-bottom-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWj2LEf">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ColumnBorderLeftColorItem" />
+    <property role="34LRSv" value="column-border-left-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWj2LEg">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ColumnBorderLeftWidthStyleItem" />
+    <property role="34LRSv" value="column-border-left-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWj2LEh">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ColumnBorderRightColorItem" />
+    <property role="34LRSv" value="column-border-right-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWj2LEi">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ColumnBorderRightWidthStyleItem" />
+    <property role="34LRSv" value="column-border-right-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWj2LEj">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ColumnBorderTopColorItem" />
+    <property role="34LRSv" value="column-border-top-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWj2LEk">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ColumnBorderTopWidthStyleItem" />
+    <property role="34LRSv" value="column-border-top-width" />
+    <ref role="1TJDcQ" node="3iamoN_q251" resolve="IntegerTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="1ERZrWj2LEl">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="ColumnShadeColor" />
+    <property role="34LRSv" value="column-shade-color" />
+    <ref role="1TJDcQ" node="3iamoN_tffY" resolve="ColorTableStyleItem" />
+  </node>
+  <node concept="1TIwiD" id="2M7NXghZuIf">
+    <property role="3GE5qa" value="Header.Query" />
+    <property role="TrG5h" value="HeaderStyleQueryParameter_Index" />
+    <property role="34LRSv" value="columnIndex" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="XrIi9v5Lq0">
+    <property role="3GE5qa" value="CellQuery.Substitute" />
+    <property role="TrG5h" value="QueryParameter_ListIndex" />
+    <property role="34LRSv" value="listIndex" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1k7j3NO6TK$">
+    <property role="3GE5qa" value="Header.Query" />
+    <property role="TrG5h" value="HeaderQuery_Delete" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5AW5JoZJqec">
+    <property role="3GE5qa" value="Header" />
+    <property role="TrG5h" value="EditorCellHeader" />
+    <property role="34LRSv" value="[" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5AW5JoZJqgt" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="editorCell" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+    <node concept="PrWs8" id="5AW5JoZP1UQ" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mHSd" resolve="IHeader" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="Y6dcZbUKDL">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="CanCreate_Query" />
+    <property role="34LRSv" value="query" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="Y6dcZc0xqL" role="PzmwI">
+      <ref role="PrY4T" node="Y6dcZbXF21" resolve="TableCellQueryCanCreate" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="Y6dcZbXEww">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="CanCreate_Rows" />
+    <property role="34LRSv" value="rows" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="Y6dcZc0xqP" role="PzmwI">
+      <ref role="PrY4T" node="Y6dcZbXF21" resolve="TableCellQueryCanCreate" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="Y6dcZbXEwB">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="CanCreate_Columns" />
+    <property role="34LRSv" value="columns" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="Y6dcZc0xqN" role="PzmwI">
+      <ref role="PrY4T" node="Y6dcZbXF21" resolve="TableCellQueryCanCreate" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="Y6dcZbXF21">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="TableCellQueryCanCreate" />
+  </node>
+  <node concept="1TIwiD" id="3NocqOaG1ys">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="HorizontalAlignmentStyleItem" />
+    <property role="34LRSv" value="horizontal-alignment" />
+    <ref role="1TJDcQ" node="3iamoN_oZnl" resolve="TableStyleItem" />
+    <node concept="1TJgyi" id="3NocqOaG1yt" role="1TKVEl">
+      <property role="TrG5h" value="alignment" />
+      <ref role="AX2Wp" node="3NocqOaFOpf" resolve="HorizontalAlignment" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1gyFNfOBoc6">
+    <property role="TrG5h" value="GridQuery" />
+    <property role="3GE5qa" value="GridQuery" />
+    <property role="34LRSv" value="gridquery" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="1gyFNfOBoqY" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+    <node concept="PrWs8" id="7C0FR5_ieZa" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1gyFNfOBppy">
+    <property role="3GE5qa" value="GridQuery" />
+    <property role="TrG5h" value="QueryParameter_Grid" />
+    <property role="34LRSv" value="grid" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="AxPO7" id="3NocqOaFOcL">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="VerticalAlignment" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <ref role="Qgau1" node="3NocqOaFOgn" />
+    <node concept="M4N5e" id="3NocqOaFOgn" role="M5hS2">
+      <property role="1uS6qo" value="TOP" />
+      <property role="1uS6qv" value="TOP" />
+    </node>
+    <node concept="M4N5e" id="3NocqOaFOoQ" role="M5hS2">
+      <property role="1uS6qo" value="BOTTOM" />
+      <property role="1uS6qv" value="BOTTOM" />
+    </node>
+    <node concept="M4N5e" id="3NocqOaFOoT" role="M5hS2">
+      <property role="1uS6qo" value="CENTER" />
+      <property role="1uS6qv" value="CENTER" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="74JgR$Tqu6Z">
+    <property role="3GE5qa" value="Header" />
+    <property role="TrG5h" value="HeaderGroup" />
+    <property role="34LRSv" value="group" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="74JgR$TqB2x" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="groupHeader" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+    <node concept="1TJgyj" id="74JgR$TqB2z" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="childHeaders" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1dAqnm8qrSJ" resolve="HeaderCollection" />
+    </node>
+    <node concept="PrWs8" id="74JgR$TqB2v" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3NocqOaFOpW">
+    <property role="3GE5qa" value="Style.Items" />
+    <property role="TrG5h" value="VerticalAlignmentStyleItem" />
+    <property role="34LRSv" value="vertical-alignment" />
+    <ref role="1TJDcQ" node="3iamoN_oZnl" resolve="TableStyleItem" />
+    <node concept="1TJgyi" id="3NocqOaFYri" role="1TKVEl">
+      <property role="TrG5h" value="alignment" />
+      <ref role="AX2Wp" node="3NocqOaFOcL" resolve="VerticalAlignment" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="3NocqOaFOpf">
+    <property role="3GE5qa" value="Style" />
+    <property role="TrG5h" value="HorizontalAlignment" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <ref role="Qgau1" node="3NocqOaFOpg" />
+    <node concept="M4N5e" id="3NocqOaFOpg" role="M5hS2">
+      <property role="1uS6qo" value="LEFT" />
+      <property role="1uS6qv" value="LEFT" />
+    </node>
+    <node concept="M4N5e" id="3NocqOaFOph" role="M5hS2">
+      <property role="1uS6qo" value="RIGHT" />
+      <property role="1uS6qv" value="RIGHT" />
+    </node>
+    <node concept="M4N5e" id="3NocqOaFOpk" role="M5hS2">
+      <property role="1uS6qo" value="CENTER" />
+      <property role="1uS6qv" value="CENTER" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7C0FR5_exlh">
+    <property role="3GE5qa" value="GridQuery" />
+    <property role="TrG5h" value="QueryParameter_SubstituteInfoFactory" />
+    <property role="34LRSv" value="substituteInfoFactory" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1zEStST4TDV">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="TableCellQueryGetColumnHeader" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="1zEStST4Vbt">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="TableCellQueryGetRowHeader" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4GCAHOdRQfU">
+    <property role="TrG5h" value="ChildFilter" />
+    <property role="3GE5qa" value="filter" />
+    <property role="34LRSv" value="keepElement" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4GCAHOdRSv6">
+    <property role="3GE5qa" value="filter" />
+    <property role="TrG5h" value="FilterParameter_element" />
+    <property role="34LRSv" value="element" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 
