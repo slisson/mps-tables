@@ -102,5 +102,17 @@
     </dependencies>
     <rename id="bnk3.1118639624532200049" type="CONCEPT" from="TableCellQueryCanCreate" to="CanCreate_Query" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="16" />
+    </dependencies>
+    <rename id="bnk3.3981577588227981882" type="CONCEPT" from="CellCreateExpression" to="CellCreateOperation" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="17" />
+    </dependencies>
+    <rename id="bnk3.3981577588228006907" type="CONCEPT" from="CellCreateExpressionInlineEditor" to="CellCreateOperationInlineEditor" />
+  </StructureModification>
 </history>
 
