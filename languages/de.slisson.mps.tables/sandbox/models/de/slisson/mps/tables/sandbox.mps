@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7b909ba9-e58e-4fbd-8829-ecfbd89930fa(de.slisson.mps.tables.sandbox)" concise="true">
+<model ref="r:7b909ba9-e58e-4fbd-8829-ecfbd89930fa(de.slisson.mps.tables.sandbox)">
   <persistence version="9" />
   <languages>
     <use id="7e450f4e-1ac3-41ef-a851-4598161bdb94" name="de.slisson.mps.tables" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="2d56439e-634d-4d25-9d30-963e89ecda48" name="de.slisson.mps.tables.demolang" version="-1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
-  <imports>
-    <import index="nnej" ref="r:41c447ce-0fca-4a98-ad9f-dc62c992880f(de.slisson.mps.tables.demolang.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-  </imports>
+  <imports />
   <registry>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
-        <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
         <property id="1113006610751" name="value" index="$nhwW" />
@@ -38,6 +26,52 @@
       </concept>
     </language>
     <language id="2d56439e-634d-4d25-9d30-963e89ecda48" name="de.slisson.mps.tables.demolang">
+      <concept id="1397920687865362527" name="de.slisson.mps.tables.demolang.structure.Requirement" flags="ng" index="2r114E">
+        <property id="1397920687865362528" name="name" index="2r114l" />
+        <property id="1325130842798130132" name="description" index="vx$MJ" />
+        <child id="1397920687865456937" name="Relationships" index="2r1o1s" />
+        <child id="2518382499585726737" name="multilineDescription" index="1UFgUr" />
+      </concept>
+      <concept id="1397920687865362508" name="de.slisson.mps.tables.demolang.structure.RequirementsCollection" flags="ng" index="2r114T">
+        <child id="1397920687865457249" name="requirements" index="2r1ock" />
+      </concept>
+      <concept id="1397920687865457012" name="de.slisson.mps.tables.demolang.structure.RefinesRel" flags="ng" index="2r1o01">
+        <reference id="1397920687865457016" name="req" index="2r1o0d" />
+      </concept>
+      <concept id="1397920687865224200" name="de.slisson.mps.tables.demolang.structure.RootConcept" flags="ng" index="2r1zlX">
+        <property id="2199447184387917444" name="useCase" index="21aGsb" />
+        <child id="1397920687866493249" name="testSuite" index="2r5t0O" />
+        <child id="1397920687866493100" name="rule" index="2r5t7p" />
+        <child id="1397920687866492228" name="requirementsCollection" index="2r5tKL" />
+        <child id="1397920687868193943" name="stateMachine" index="2rUWny" />
+        <child id="3208761769269148869" name="stateMachine2" index="YCZch" />
+        <child id="4618647476140326862" name="decisionTable" index="3I0oiA" />
+      </concept>
+      <concept id="1397920687865838585" name="de.slisson.mps.tables.demolang.structure.Variable" flags="ng" index="2r3Xac" />
+      <concept id="1397920687865838470" name="de.slisson.mps.tables.demolang.structure.Rule" flags="ng" index="2r3XbN">
+        <child id="1397920687865838589" name="variables" index="2r3Xa8" />
+      </concept>
+      <concept id="1397920687865838768" name="de.slisson.mps.tables.demolang.structure.TestSuite" flags="ng" index="2r3Xn5">
+        <reference id="1397920687865838781" name="rule" index="2r3Xn8" />
+        <child id="1397920687865838778" name="tests" index="2r3Xnf" />
+      </concept>
+      <concept id="1397920687865838777" name="de.slisson.mps.tables.demolang.structure.TestCase" flags="ng" index="2r3Xnc">
+        <child id="1397920687865838797" name="actual" index="2r3XmS" />
+        <child id="1397920687865838792" name="expected" index="2r3XmX" />
+        <child id="934534792594025995" name="values" index="1adOLU" />
+      </concept>
+      <concept id="1397920687866915007" name="de.slisson.mps.tables.demolang.structure.Transition" flags="ng" index="2r747a">
+        <reference id="1397920687866915092" name="from" index="2r741x" />
+        <reference id="1397920687866915099" name="to" index="2r741I" />
+        <reference id="1397920687866915087" name="trigger" index="2r741U" />
+      </concept>
+      <concept id="1397920687866914986" name="de.slisson.mps.tables.demolang.structure.State" flags="ng" index="2r747v" />
+      <concept id="1397920687866914965" name="de.slisson.mps.tables.demolang.structure.Event" flags="ng" index="2r747w" />
+      <concept id="1397920687866914791" name="de.slisson.mps.tables.demolang.structure.StateMachine" flags="ng" index="2r74Ui">
+        <child id="1397920687866915008" name="events" index="2r746P" />
+        <child id="1397920687866915011" name="states" index="2r746Q" />
+        <child id="1397920687866915016" name="transitions" index="2r746X" />
+      </concept>
       <concept id="7869003205683674568" name="de.slisson.mps.tables.demolang.structure.BaseConceptComment" flags="ng" index="A6MPL">
         <property id="7869003205684092902" name="comment" index="A0oXv" />
       </concept>
@@ -57,58 +91,6 @@
         <reference id="934534792594006923" name="variable" index="1adK7U" />
         <child id="934534792594006925" name="value" index="1adK7W" />
       </concept>
-      <concept id="2518382499585722093" name="de.slisson.mps.tables.demolang.structure.SimpleMultilineTextPart" flags="ng" index="1UFh5B">
-        <property id="2518382499585722094" name="chars" index="1UFh5$" />
-      </concept>
-      <concept id="2518382499585718146" name="de.slisson.mps.tables.demolang.structure.SimpleMultilineText" flags="ng" index="1UFI08">
-        <child id="2518382499585722096" name="parts" index="1UFh5U" />
-      </concept>
-      <concept id="1397920687865362527" name="de.slisson.mps.tables.demolang.structure.Requirement" flags="ng" index="2r114E">
-        <property id="1325130842798130132" name="description" index="vx$MJ" />
-        <property id="1397920687865362528" name="name" index="2r114l" />
-        <child id="2518382499585726737" name="multilineDescription" index="1UFgUr" />
-        <child id="1397920687865456937" name="Relationships" index="2r1o1s" />
-      </concept>
-      <concept id="1397920687865362508" name="de.slisson.mps.tables.demolang.structure.RequirementsCollection" flags="ng" index="2r114T">
-        <child id="1397920687865457249" name="requirements" index="2r1ock" />
-      </concept>
-      <concept id="1397920687865457012" name="de.slisson.mps.tables.demolang.structure.RefinesRel" flags="ng" index="2r1o01">
-        <reference id="1397920687865457016" name="req" index="2r1o0d" />
-      </concept>
-      <concept id="1397920687865224200" name="de.slisson.mps.tables.demolang.structure.RootConcept" flags="ng" index="2r1zlX">
-        <property id="2199447184387917444" name="useCase" index="21aGsb" />
-        <child id="3208761769269148869" name="stateMachine2" index="YCZch" />
-        <child id="1397920687866493249" name="testSuite" index="2r5t0O" />
-        <child id="1397920687866493100" name="rule" index="2r5t7p" />
-        <child id="1397920687866492228" name="requirementsCollection" index="2r5tKL" />
-        <child id="1397920687868193943" name="stateMachine" index="2rUWny" />
-        <child id="4618647476140326862" name="decisionTable" index="3I0oiA" />
-      </concept>
-      <concept id="1397920687865838585" name="de.slisson.mps.tables.demolang.structure.Variable" flags="ng" index="2r3Xac" />
-      <concept id="1397920687865838470" name="de.slisson.mps.tables.demolang.structure.Rule" flags="ng" index="2r3XbN">
-        <child id="1397920687865838589" name="variables" index="2r3Xa8" />
-      </concept>
-      <concept id="1397920687865838768" name="de.slisson.mps.tables.demolang.structure.TestSuite" flags="ng" index="2r3Xn5">
-        <reference id="1397920687865838781" name="rule" index="2r3Xn8" />
-        <child id="1397920687865838778" name="tests" index="2r3Xnf" />
-      </concept>
-      <concept id="1397920687865838777" name="de.slisson.mps.tables.demolang.structure.TestCase" flags="ng" index="2r3Xnc">
-        <child id="934534792594025995" name="values" index="1adOLU" />
-        <child id="1397920687865838797" name="actual" index="2r3XmS" />
-        <child id="1397920687865838792" name="expected" index="2r3XmX" />
-      </concept>
-      <concept id="1397920687866915007" name="de.slisson.mps.tables.demolang.structure.Transition" flags="ng" index="2r747a">
-        <reference id="1397920687866915092" name="from" index="2r741x" />
-        <reference id="1397920687866915099" name="to" index="2r741I" />
-        <reference id="1397920687866915087" name="trigger" index="2r741U" />
-      </concept>
-      <concept id="1397920687866914986" name="de.slisson.mps.tables.demolang.structure.State" flags="ng" index="2r747v" />
-      <concept id="1397920687866914965" name="de.slisson.mps.tables.demolang.structure.Event" flags="ng" index="2r747w" />
-      <concept id="1397920687866914791" name="de.slisson.mps.tables.demolang.structure.StateMachine" flags="ng" index="2r74Ui">
-        <child id="1397920687866915008" name="events" index="2r746P" />
-        <child id="1397920687866915011" name="states" index="2r746Q" />
-        <child id="1397920687866915016" name="transitions" index="2r746X" />
-      </concept>
       <concept id="4618647476138240641" name="de.slisson.mps.tables.demolang.structure.DecisionTableResult" flags="ng" index="3HSt7D">
         <reference id="4618647476138240642" name="xExpression" index="3HSt7E" />
         <reference id="4618647476138240644" name="yExpression" index="3HSt7G" />
@@ -118,6 +100,20 @@
         <child id="4618647476138240632" name="yExpressions" index="3HSt4g" />
         <child id="4618647476138240630" name="xExpressions" index="3HSt4u" />
         <child id="4618647476138240651" name="results" index="3HSt7z" />
+      </concept>
+      <concept id="2518382499585722093" name="de.slisson.mps.tables.demolang.structure.SimpleMultilineTextPart" flags="ng" index="1UFh5B">
+        <property id="2518382499585722094" name="chars" index="1UFh5$" />
+      </concept>
+      <concept id="2518382499585718146" name="de.slisson.mps.tables.demolang.structure.SimpleMultilineText" flags="ng" index="1UFI08">
+        <child id="2518382499585722096" name="parts" index="1UFh5U" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
