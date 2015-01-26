@@ -1860,20 +1860,23 @@
               <node concept="2c44tb" id="6T7OHMQdN3C" role="lGtFl">
                 <property role="2qtEX8" value="concept" />
                 <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
-                <node concept="2OqwBi" id="6T7OHMQdtai" role="2c44t1">
-                  <node concept="2OqwBi" id="6T7OHMQdq8v" role="2Oq$k0">
-                    <node concept="13iPFW" id="6T7OHMQdpVe" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="6T7OHMQdsQ0" role="2OqNvi">
-                      <node concept="1xMEDy" id="6T7OHMQdsQ2" role="1xVPHs">
-                        <node concept="chp4Y" id="6T7OHMQdsQH" role="ri$Ld">
-                          <ref role="cht4Q" to="bnk3:6T7OHMQ7YYK" resolve="SubstituteNodeFunction" />
+                <node concept="2OqwBi" id="4B3dBZNnd_x" role="2c44t1">
+                  <node concept="2OqwBi" id="6T7OHMQdtai" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6T7OHMQdq8v" role="2Oq$k0">
+                      <node concept="13iPFW" id="6T7OHMQdpVe" role="2Oq$k0" />
+                      <node concept="2Xjw5R" id="6T7OHMQdsQ0" role="2OqNvi">
+                        <node concept="1xMEDy" id="6T7OHMQdsQ2" role="1xVPHs">
+                          <node concept="chp4Y" id="6T7OHMQdsQH" role="ri$Ld">
+                            <ref role="cht4Q" to="bnk3:6T7OHMQ7YYK" resolve="SubstituteNodeFunction" />
+                          </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="2qgKlT" id="7AHcygoggji" role="2OqNvi">
+                      <ref role="37wK5l" node="7AHcygo6MWw" resolve="getCellRootConcept" />
+                    </node>
                   </node>
-                  <node concept="2qgKlT" id="7AHcygoggji" role="2OqNvi">
-                    <ref role="37wK5l" node="7AHcygo6MWw" resolve="getCellRootConcept" />
-                  </node>
+                  <node concept="FGMqu" id="4B3dBZNneA_" role="2OqNvi" />
                 </node>
               </node>
             </node>
