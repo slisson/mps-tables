@@ -19,6 +19,7 @@
     <import index="1t7x" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <import index="oghc" ref="r:356c0504-b4a3-4458-9604-13fbb48838d7(de.slisson.mps.tables.runtime.style)" />
     <import index="hm5v" ref="r:3d8b4628-659e-4af1-a607-3cc893005b62(de.slisson.mps.tables.runtime.cells)" />
+    <import index="t3eg" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.language(MPS.OpenAPI/org.jetbrains.mps.openapi.language@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -166,6 +167,7 @@
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -227,6 +229,7 @@
       <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC">
         <reference id="1139880128956" name="concept" index="1A9B2P" />
       </concept>
+      <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1240170042401" name="jetbrains.mps.lang.smodel.structure.SEnumMemberType" flags="in" index="2ZThk1">
         <reference id="1240170836027" name="enum" index="2ZWj4r" />
       </concept>
@@ -1681,8 +1684,8 @@
                           <ref role="37wK5l" to="d870:7AHcygo6MWw" resolve="getCellRootConcept" />
                         </node>
                       </node>
-                      <node concept="3TrcHB" id="7AHcygo7iLO" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      <node concept="liA8E" id="3eolunV1qsi" role="2OqNvi">
+                        <ref role="37wK5l" to="t3eg:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
                       </node>
                     </node>
                   </node>
@@ -1698,11 +1701,14 @@
           <node concept="3clFbS" id="7AHcygo7iLR" role="2VODD2">
             <node concept="3clFbF" id="7AHcygo7iLS" role="3cqZAp">
               <node concept="3y3z36" id="7AHcygodZoX" role="3clFbG">
-                <node concept="2OqwBi" id="7AHcygodZPf" role="3uHU7w">
-                  <node concept="pncrf" id="7AHcygodZCt" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="7AHcygoe3e$" role="2OqNvi">
-                    <ref role="37wK5l" to="d870:7AHcygo6MWw" resolve="getCellRootConcept" />
+                <node concept="2OqwBi" id="3eolunV1pxf" role="3uHU7w">
+                  <node concept="2OqwBi" id="7AHcygodZPf" role="2Oq$k0">
+                    <node concept="pncrf" id="7AHcygodZCt" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="7AHcygoe3e$" role="2OqNvi">
+                      <ref role="37wK5l" to="d870:7AHcygo6MWw" resolve="getCellRootConcept" />
+                    </node>
                   </node>
+                  <node concept="FGMqu" id="3eolunV1q5A" role="2OqNvi" />
                 </node>
                 <node concept="2OqwBi" id="7AHcygo7iLU" role="3uHU7B">
                   <node concept="pncrf" id="7AHcygo7iLV" role="2Oq$k0" />
