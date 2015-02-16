@@ -50,8 +50,8 @@
     <import index="vsqj" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="reoo" ref="r:1e59a084-7ebe-4e95-89ab-c58a7e396583(de.slisson.mps.tables.editor)" />
-    <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -1259,6 +1259,36 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="53E8YBfd$G1" role="jymVt" />
+    <node concept="3clFb_" id="53E8YBfdibR" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="requestRelayout" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="53E8YBfdibS" role="1B3o_S" />
+      <node concept="3cqZAl" id="53E8YBfdibU" role="3clF45" />
+      <node concept="3clFbS" id="53E8YBfdibW" role="3clF47">
+        <node concept="3clFbF" id="53E8YBfdibZ" role="3cqZAp">
+          <node concept="3nyPlj" id="53E8YBfdibY" role="3clFbG">
+            <ref role="37wK5l" to="jsgz:~EditorCell_Collection.requestRelayout():void" resolve="requestRelayout" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="53E8YBfdKjc" role="3cqZAp">
+          <node concept="2EnYce" id="53E8YBfdNu2" role="3clFbG">
+            <node concept="1rXfSq" id="53E8YBfdKja" role="2Oq$k0">
+              <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getParent():jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="getParent" />
+            </node>
+            <node concept="liA8E" id="53E8YBfdNmn" role="2OqNvi">
+              <ref role="37wK5l" to="jsgz:~EditorCell_Collection.requestRelayout():void" resolve="requestRelayout" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="53E8YBfdibX" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="53E8YBfd$Vz" role="jymVt" />
     <node concept="3Tm1VV" id="7Nzu1Mc$A9c" role="1B3o_S" />
     <node concept="3uibUv" id="7Nzu1Mc$A9B" role="1zkMxy">
       <ref role="3uigEE" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
