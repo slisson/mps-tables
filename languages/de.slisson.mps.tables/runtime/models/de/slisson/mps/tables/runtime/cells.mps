@@ -4483,29 +4483,20 @@
         </node>
       </node>
       <node concept="3clFbS" id="1Aocu$ARmOw" role="3clF47">
-        <node concept="3clFbF" id="NS8B56UG5w" role="3cqZAp">
-          <node concept="2OqwBi" id="NS8B56UIU5" role="3clFbG">
-            <node concept="37vLTw" id="NS8B56UG5v" role="2Oq$k0">
-              <ref role="3cqZAo" node="1Aocu$ARmOs" resolve="collection" />
-            </node>
-            <node concept="liA8E" id="NS8B56ULRk" role="2OqNvi">
-              <ref role="37wK5l" to="nu8v:~EditorCell.setWidth(int):void" resolve="setWidth" />
-              <node concept="3cmrfG" id="NS8B56ULSO" role="37wK5m">
-                <property role="3cmrfH" value="0" />
+        <node concept="3clFbF" id="6yc1IGtoVLp" role="3cqZAp">
+          <node concept="2OqwBi" id="6yc1IGtoW6D" role="3clFbG">
+            <node concept="1eOMI4" id="6yc1IGtoVV$" role="2Oq$k0">
+              <node concept="10QFUN" id="6yc1IGtoVV_" role="1eOMHV">
+                <node concept="37vLTw" id="6yc1IGtoVVz" role="10QFUP">
+                  <ref role="3cqZAo" node="1Aocu$ARmOs" resolve="collection" />
+                </node>
+                <node concept="3uibUv" id="6yc1IGtoVYg" role="10QFUM">
+                  <ref role="3uigEE" node="2Jt5bYCPbd1" resolve="PartialTableEditor" />
+                </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="NS8B56ULZv" role="3cqZAp">
-          <node concept="2OqwBi" id="NS8B56UMoQ" role="3clFbG">
-            <node concept="37vLTw" id="NS8B56ULZu" role="2Oq$k0">
-              <ref role="3cqZAo" node="1Aocu$ARmOs" resolve="collection" />
-            </node>
-            <node concept="liA8E" id="NS8B56UNUI" role="2OqNvi">
-              <ref role="37wK5l" to="nu8v:~EditorCell.setHeight(int):void" resolve="setHeight" />
-              <node concept="3cmrfG" id="NS8B56UNWe" role="37wK5m">
-                <property role="3cmrfH" value="0" />
-              </node>
+            <node concept="liA8E" id="6yc1IGtoXTk" role="2OqNvi">
+              <ref role="37wK5l" node="20OswHDP7p3" resolve="updateBounds" />
             </node>
           </node>
         </node>
@@ -4776,6 +4767,16 @@
             <property role="TrG5h" value="partialTable" />
           </node>
           <node concept="3clFbS" id="2Z_4Bnb_F$$" role="2LFqv$">
+            <node concept="3clFbF" id="6yc1IGtnoLC" role="3cqZAp">
+              <node concept="2OqwBi" id="6yc1IGtnoUX" role="3clFbG">
+                <node concept="2GrUjf" id="6yc1IGtnoLA" role="2Oq$k0">
+                  <ref role="2Gs0qQ" node="2Z_4Bnb_F$z" resolve="partialTable" />
+                </node>
+                <node concept="liA8E" id="6yc1IGtns8R" role="2OqNvi">
+                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.relayout():void" resolve="relayout" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="2Z_4Bnb_F$_" role="3cqZAp">
               <node concept="2OqwBi" id="2Z_4Bnb_F$A" role="3clFbG">
                 <node concept="2GrUjf" id="2Z_4Bnb_F$B" role="2Oq$k0">
@@ -6105,6 +6106,16 @@
                           <node concept="37vLTw" id="1U60oYwhWcn" role="37wK5m">
                             <ref role="3cqZAo" node="1U60oYwhSGb" resolve="posY" />
                           </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="6yc1IGtlnzZ" role="3cqZAp">
+                      <node concept="2OqwBi" id="6yc1IGtlohO" role="3clFbG">
+                        <node concept="37vLTw" id="6yc1IGtlnzX" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1U60oYwhV0s" resolve="cell" />
+                        </node>
+                        <node concept="liA8E" id="6yc1IGtlpVX" role="2OqNvi">
+                          <ref role="37wK5l" to="jsgz:~EditorCell_Basic.relayout():void" resolve="relayout" />
                         </node>
                       </node>
                     </node>
