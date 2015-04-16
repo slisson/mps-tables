@@ -50,8 +50,8 @@
     <import index="vsqj" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="reoo" ref="r:1e59a084-7ebe-4e95-89ab-c58a7e396583(de.slisson.mps.tables.editor)" />
-    <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -28094,8 +28094,8 @@
                         </node>
                         <node concept="liA8E" id="6wiZ2IXTAdz" role="2OqNvi">
                           <ref role="37wK5l" to="k7g3:~Deque.add(java.lang.Object):boolean" resolve="add" />
-                          <node concept="37vLTw" id="6wiZ2IXTAgG" role="37wK5m">
-                            <ref role="3cqZAo" node="6wiZ2IXTy39" resolve="nextCell" />
+                          <node concept="2GrUjf" id="5oYr_132_1p" role="37wK5m">
+                            <ref role="2Gs0qQ" node="6wiZ2IXT$4c" resolve="childCell" />
                           </node>
                         </node>
                       </node>
