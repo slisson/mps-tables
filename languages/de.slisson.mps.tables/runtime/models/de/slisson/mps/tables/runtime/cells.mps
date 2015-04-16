@@ -28016,6 +28016,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1yAlWL_Why4" role="3cqZAp">
+          <node concept="2OqwBi" id="1yAlWL_WhYG" role="3clFbG">
+            <node concept="37vLTw" id="1yAlWL_Why2" role="2Oq$k0">
+              <ref role="3cqZAo" node="6wiZ2IXSZgI" resolve="cellsToMove" />
+            </node>
+            <node concept="liA8E" id="1yAlWL_WjXT" role="2OqNvi">
+              <ref role="37wK5l" to="k7g3:~Deque.add(java.lang.Object):boolean" resolve="add" />
+              <node concept="37vLTw" id="1yAlWL_Wk0B" role="37wK5m">
+                <ref role="3cqZAo" node="6wiZ2IXSWI3" resolve="cell" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="2$JKZl" id="6wiZ2IXTpT_" role="3cqZAp">
           <node concept="3clFbS" id="6wiZ2IXTpTB" role="2LFqv$">
             <node concept="3cpWs8" id="6wiZ2IXTy38" role="3cqZAp">
