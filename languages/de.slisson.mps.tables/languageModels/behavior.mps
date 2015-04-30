@@ -3332,6 +3332,9 @@
               <node concept="3TUQnm" id="7CiSlGydDgr" role="HW$Y0">
                 <ref role="3TV0OU" to="bnk3:1dAqnm8x0Tk" resolve="QueryParameter_RowIndex" />
               </node>
+              <node concept="3TUQnm" id="7CiSlGyv41j" role="HW$Y0">
+                <ref role="3TV0OU" to="bnk3:7CiSlGyv3h9" resolve="QueryParameter_QueryResult" />
+              </node>
             </node>
           </node>
         </node>
@@ -3411,6 +3414,32 @@
     </node>
     <node concept="13hLZK" id="7CiSlGymgj6" role="13h7CW">
       <node concept="3clFbS" id="7CiSlGymgj7" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7CiSlGyv3kf">
+    <property role="3GE5qa" value="CellQuery" />
+    <ref role="13h7C2" to="bnk3:7CiSlGyv3h9" resolve="QueryParameter_QueryResult" />
+    <node concept="13hLZK" id="7CiSlGyv3kg" role="13h7CW">
+      <node concept="3clFbS" id="7CiSlGyv3kh" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7CiSlGyv3X4" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="7CiSlGyv3X5" role="1B3o_S" />
+      <node concept="3clFbS" id="7CiSlGyv3Xa" role="3clF47">
+        <node concept="3clFbF" id="7CiSlGyv3Zj" role="3cqZAp">
+          <node concept="2c44tf" id="7CiSlGyv3Zh" role="3clFbG">
+            <node concept="3uibUv" id="7CiSlGyv401" role="2c44tc">
+              <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="7CiSlGyv3Xb" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
     </node>
   </node>
 </model>

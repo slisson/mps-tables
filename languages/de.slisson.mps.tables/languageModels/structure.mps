@@ -1036,5 +1036,11 @@
     <property role="TrG5h" value="CellCreateOperationInlineEditor" />
     <ref role="1TJDcQ" to="tpc2:fPsVBsF" resolve="InlineEditorComponent" />
   </node>
+  <node concept="1TIwiD" id="7CiSlGyv3h9">
+    <property role="3GE5qa" value="CellQuery" />
+    <property role="TrG5h" value="QueryParameter_QueryResult" />
+    <property role="34LRSv" value="queryResult" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 
