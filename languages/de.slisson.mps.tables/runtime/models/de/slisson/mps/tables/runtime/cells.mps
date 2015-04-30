@@ -7410,30 +7410,24 @@
                 <ref role="1PxDUh" to="ejnv:~StyleAttributes" resolve="StyleAttributes" />
                 <ref role="3cqZAo" to="ejnv:~StyleAttributes.SELECTABLE" resolve="SELECTABLE" />
               </node>
-              <node concept="3clFbT" id="HfK$99q0rm" role="37wK5m">
-                <property role="3clFbU" value="false" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="HfK$99sJVi" role="3cqZAp">
-          <node concept="2OqwBi" id="HfK$99sQWK" role="3clFbG">
-            <node concept="2OqwBi" id="HfK$99sMH0" role="2Oq$k0">
-              <node concept="37vLTw" id="HfK$99sJVh" role="2Oq$k0">
-                <ref role="3cqZAo" node="20OswHE0fyJ" resolve="myWrappedEditorCell" />
-              </node>
-              <node concept="liA8E" id="HfK$99sQDM" role="2OqNvi">
-                <ref role="37wK5l" to="nu8v:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
-              </node>
-            </node>
-            <node concept="liA8E" id="HfK$99sUJv" role="2OqNvi">
-              <ref role="37wK5l" to="qe67:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
-              <node concept="10M0yZ" id="HfK$99sUL_" role="37wK5m">
-                <ref role="1PxDUh" to="ejnv:~StyleAttributes" resolve="StyleAttributes" />
-                <ref role="3cqZAo" to="ejnv:~StyleAttributes.SELECTABLE" resolve="SELECTABLE" />
-              </node>
-              <node concept="3clFbT" id="HfK$99sUXP" role="37wK5m">
-                <property role="3clFbU" value="true" />
+              <node concept="3fqX7Q" id="7CiSlGxYc67" role="37wK5m">
+                <node concept="2OqwBi" id="7CiSlGxYciU" role="3fr31v">
+                  <node concept="2OqwBi" id="7CiSlGxYc7M" role="2Oq$k0">
+                    <node concept="37vLTw" id="7CiSlGxYc7N" role="2Oq$k0">
+                      <ref role="3cqZAo" node="20OswHE0fyJ" resolve="myWrappedEditorCell" />
+                    </node>
+                    <node concept="liA8E" id="7CiSlGxYc7O" role="2OqNvi">
+                      <ref role="37wK5l" to="nu8v:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7CiSlGxYcEz" role="2OqNvi">
+                    <ref role="37wK5l" to="qe67:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                    <node concept="10M0yZ" id="7CiSlGxYcK1" role="37wK5m">
+                      <ref role="1PxDUh" to="ejnv:~StyleAttributes" resolve="StyleAttributes" />
+                      <ref role="3cqZAo" to="ejnv:~StyleAttributes.SELECTABLE" resolve="SELECTABLE" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
