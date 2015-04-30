@@ -416,6 +416,9 @@
     <node concept="PrWs8" id="1dAqnm8u_A4" role="PzmwI">
       <ref role="PrY4T" node="1dAqnm8mI99" resolve="ITableNode" />
     </node>
+    <node concept="PrWs8" id="7CiSlGy4kkJ" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1dAqnm8u_AK">
     <property role="3GE5qa" value="CellQuery" />

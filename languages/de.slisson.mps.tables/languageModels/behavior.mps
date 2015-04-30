@@ -3307,5 +3307,41 @@
       <node concept="3THzug" id="3t1pVyvZd3f" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="7CiSlGydAuU">
+    <property role="3GE5qa" value="CellQuery" />
+    <ref role="13h7C2" to="bnk3:1dAqnm8u_$D" resolve="TableCellQuery" />
+    <node concept="13hLZK" id="7CiSlGydAuV" role="13h7CW">
+      <node concept="3clFbS" id="7CiSlGydAuW" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7CiSlGydBq7" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getAdditionalStyleQueryParameters" />
+      <ref role="13i0hy" node="4UkcdCuFJHc" resolve="getAdditionalStyleQueryParameters" />
+      <node concept="3Tm1VV" id="7CiSlGydBq8" role="1B3o_S" />
+      <node concept="3clFbS" id="7CiSlGydBqg" role="3clF47">
+        <node concept="3clFbF" id="7CiSlGydBuC" role="3cqZAp">
+          <node concept="2ShNRf" id="7CiSlGydBuA" role="3clFbG">
+            <node concept="Tc6Ow" id="7CiSlGydCNr" role="2ShVmc">
+              <node concept="3THzug" id="7CiSlGydD5S" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="7CiSlGydDeM" role="HW$Y0">
+                <ref role="3TV0OU" to="bnk3:1dAqnm8x12G" resolve="QueryParameter_ColumnIndex" />
+              </node>
+              <node concept="3TUQnm" id="7CiSlGydDgr" role="HW$Y0">
+                <ref role="3TV0OU" to="bnk3:1dAqnm8x0Tk" resolve="QueryParameter_RowIndex" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="7CiSlGydBqh" role="3clF45">
+        <node concept="3THzug" id="7CiSlGydBqi" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -4277,6 +4277,52 @@
                                         </node>
                                       </node>
                                     </node>
+                                    <node concept="3clFbH" id="7CiSlGya5On" role="3cqZAp" />
+                                    <node concept="3SKdUt" id="7CiSlGyaaVw" role="3cqZAp">
+                                      <node concept="3SKdUq" id="7CiSlGyac2N" role="3SKWNk">
+                                        <property role="3SKdUp" value="style" />
+                                      </node>
+                                    </node>
+                                    <node concept="3clFbF" id="7CiSlGyhNfa" role="3cqZAp">
+                                      <node concept="2OqwBi" id="7CiSlGyhQk3" role="3clFbG">
+                                        <node concept="2OqwBi" id="7CiSlGyhO2i" role="2Oq$k0">
+                                          <node concept="37vLTw" id="7CiSlGyhNf8" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="4n8LGKd0wT7" resolve="grid" />
+                                          </node>
+                                          <node concept="liA8E" id="7CiSlGyhPPD" role="2OqNvi">
+                                            <ref role="37wK5l" to="6dpw:4UkcdCtMnDB" resolve="getElement" />
+                                            <node concept="37vLTw" id="7CiSlGyhPQN" role="37wK5m">
+                                              <ref role="3cqZAo" node="XrIi9uNYqn" resolve="x" />
+                                            </node>
+                                            <node concept="37vLTw" id="7CiSlGyhQiv" role="37wK5m">
+                                              <ref role="3cqZAo" node="XrIi9uO0y6" resolve="y" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="liA8E" id="7CiSlGyhQIe" role="2OqNvi">
+                                          <ref role="37wK5l" to="6dpw:3olMEllwadv" resolve="setStyle" />
+                                          <node concept="2OqwBi" id="7CiSlGyhQJZ" role="37wK5m">
+                                            <node concept="2ShNRf" id="7CiSlGyhQK0" role="2Oq$k0">
+                                              <node concept="HV5vD" id="7CiSlGyhQK1" role="2ShVmc">
+                                                <ref role="HV5vE" to="oghc:7AHcygoswPK" resolve="TableStyleFactoryDummy" />
+                                              </node>
+                                              <node concept="5jKBG" id="7CiSlGyhQK2" role="lGtFl">
+                                                <ref role="v9R2y" node="4UkcdCuFKlk" resolve="reduce_IStylable" />
+                                              </node>
+                                            </node>
+                                            <node concept="liA8E" id="7CiSlGyhQK3" role="2OqNvi">
+                                              <ref role="37wK5l" to="oghc:7AHcygoswSE" resolve="createStyle" />
+                                              <node concept="37vLTw" id="7CiSlGyhQK4" role="37wK5m">
+                                                <ref role="3cqZAo" node="XrIi9uNYqn" resolve="x" />
+                                              </node>
+                                              <node concept="37vLTw" id="7CiSlGyhQK5" role="37wK5m">
+                                                <ref role="3cqZAo" node="XrIi9uO0y6" resolve="y" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
                                   </node>
                                   <node concept="3cpWsn" id="7VuKdVa2Oer" role="1Duv9x">
                                     <property role="TrG5h" value="yi" />

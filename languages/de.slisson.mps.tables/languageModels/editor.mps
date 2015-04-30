@@ -1426,6 +1426,10 @@
     <node concept="3EZMnI" id="7VyBODhKjJ0" role="6VMZX">
       <property role="3EZMnw" value="true" />
       <property role="3EZMnz" value="true" />
+      <node concept="PMmxH" id="7CiSlGy2t2j" role="3EZMnx">
+        <ref role="PMmxG" node="4UkcdCuFJuE" resolve="IStylable_StyleComponent" />
+      </node>
+      <node concept="3F0ifn" id="7CiSlGy2sLI" role="3EZMnx" />
       <node concept="3EZMnI" id="7VyBODhKjJ1" role="3EZMnx">
         <node concept="VPM3Z" id="7VyBODhKjJ2" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -1459,12 +1463,6 @@
           <ref role="1ERwB7" to="tpc5:55my_QKPFFX" resolve="CellModel_RefNode_RemoveHint_Actions" />
         </node>
         <node concept="2iRfu4" id="7VyBODhKjJc" role="2iSdaV" />
-      </node>
-      <node concept="VPXOz" id="7VyBODhKjJd" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
-      <node concept="pVoyu" id="7VyBODhKjJe" role="3F10Kt">
-        <property role="VOm3f" value="true" />
       </node>
       <node concept="2EHx9g" id="7VyBODhKjJf" role="2iSdaV" />
     </node>
