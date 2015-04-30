@@ -12,6 +12,7 @@
     <dependency reexport="false">da21218f-a674-474d-8b4e-d59e33007003(de.slisson.mps.tables.runtime)</dependency>
     <dependency reexport="false">707c4fde-f79a-44b5-b3d7-b5cef8844ccf(jetbrains.mps.lang.test.runtime)</dependency>
     <dependency reexport="false">5b1f863d-65a0-41a6-a801-33896be24202(jetbrains.mps.ide.editor)</dependency>
+    <dependency reexport="false">2d56439e-634d-4d25-9d30-963e89ecda48(de.slisson.mps.tables.demolang)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>2d56439e-634d-4d25-9d30-963e89ecda48(de.slisson.mps.tables.demolang)</usedLanguage>
@@ -20,8 +21,11 @@
     <usedLanguage>8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)</usedLanguage>
     <usedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</usedLanguage>
     <usedLanguage>df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)</usedLanguage>
+    <usedLanguage>c6cfed73-685b-4891-8bdd-b38a1dcb107a(de.slisson.mps.structurecheck)</usedLanguage>
+    <usedLanguage>7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</usedLanguage>
   </usedLanguages>
   <languageVersions>
+    <language id="c6cfed73-685b-4891-8bdd-b38a1dcb107a" fqName="de.slisson.mps.structurecheck" version="-1" />
     <language id="2d56439e-634d-4d25-9d30-963e89ecda48" fqName="de.slisson.mps.tables.demolang" version="0" />
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
     <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
