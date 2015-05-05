@@ -578,6 +578,8 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6Y0V2RJgRip" role="jymVt" />
+    <node concept="2tJIrI" id="630t2b85PBz" role="jymVt" />
+    <node concept="2tJIrI" id="630t2b85Qse" role="jymVt" />
     <node concept="3clFb_" id="6Y0V2RJiAgN" role="jymVt">
       <property role="TrG5h" value="getSelectedGridCells" />
       <node concept="_YKpA" id="6Y0V2RJiG$V" role="3clF45">
@@ -1159,6 +1161,68 @@
       </node>
       <node concept="2AHcQZ" id="6Y0V2RJikn1" role="2AJF6D">
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="630t2b85S9A" role="jymVt">
+      <property role="TrG5h" value="getStartRow" />
+      <node concept="10Oyi0" id="630t2b85S9B" role="3clF45" />
+      <node concept="3Tm1VV" id="630t2b85S9C" role="1B3o_S" />
+      <node concept="3clFbS" id="630t2b85S9D" role="3clF47">
+        <node concept="3clFbF" id="630t2b85S9E" role="3cqZAp">
+          <node concept="37vLTw" id="630t2b85S9_" role="3clFbG">
+            <ref role="3cqZAo" node="6Y0V2RJh4bV" resolve="myStartRow" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="630t2b85S9G" role="jymVt">
+      <property role="TrG5h" value="getStartColumn" />
+      <node concept="10Oyi0" id="630t2b85S9H" role="3clF45" />
+      <node concept="3Tm1VV" id="630t2b85S9I" role="1B3o_S" />
+      <node concept="3clFbS" id="630t2b85S9J" role="3clF47">
+        <node concept="3clFbF" id="630t2b85S9K" role="3cqZAp">
+          <node concept="37vLTw" id="630t2b85S9F" role="3clFbG">
+            <ref role="3cqZAo" node="6Y0V2RJh5le" resolve="myStartColumn" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="630t2b85S9M" role="jymVt">
+      <property role="TrG5h" value="getEndRow" />
+      <node concept="10Oyi0" id="630t2b85S9N" role="3clF45" />
+      <node concept="3Tm1VV" id="630t2b85S9O" role="1B3o_S" />
+      <node concept="3clFbS" id="630t2b85S9P" role="3clF47">
+        <node concept="3clFbF" id="630t2b85S9Q" role="3cqZAp">
+          <node concept="37vLTw" id="630t2b85S9L" role="3clFbG">
+            <ref role="3cqZAo" node="6Y0V2RJh6qd" resolve="myEndRow" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="630t2b85S9S" role="jymVt">
+      <property role="TrG5h" value="getEndColumn" />
+      <node concept="10Oyi0" id="630t2b85S9T" role="3clF45" />
+      <node concept="3Tm1VV" id="630t2b85S9U" role="1B3o_S" />
+      <node concept="3clFbS" id="630t2b85S9V" role="3clF47">
+        <node concept="3clFbF" id="630t2b85S9W" role="3cqZAp">
+          <node concept="37vLTw" id="630t2b85S9R" role="3clFbG">
+            <ref role="3cqZAo" node="6Y0V2RJh6qa" resolve="myEndColumn" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="630t2b85S9Y" role="jymVt">
+      <property role="TrG5h" value="getTable" />
+      <node concept="3uibUv" id="630t2b85S9Z" role="3clF45">
+        <ref role="3uigEE" to="hm5v:1dAqnm8$zBn" resolve="TableEditor" />
+      </node>
+      <node concept="3Tm1VV" id="630t2b85Sa0" role="1B3o_S" />
+      <node concept="3clFbS" id="630t2b85Sa1" role="3clF47">
+        <node concept="3clFbF" id="630t2b85Sa2" role="3cqZAp">
+          <node concept="37vLTw" id="630t2b85S9X" role="3clFbG">
+            <ref role="3cqZAo" node="6Y0V2RJgZML" resolve="myTable" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

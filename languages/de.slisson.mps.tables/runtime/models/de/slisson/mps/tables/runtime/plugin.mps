@@ -16,6 +16,7 @@
     <import index="r9fo" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.util(MPS.OpenAPI/org.jetbrains.mps.util@java_stub)" />
     <import index="hm5v" ref="r:3d8b4628-659e-4af1-a607-3cc893005b62(de.slisson.mps.tables.runtime.cells)" />
     <import index="9p8b" ref="r:2a738fcb-23b4-4d1d-9f52-870528559e28(de.slisson.mps.tables.runtime.selection)" />
+    <import index="6tp1" ref="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -181,7 +182,7 @@
     <property role="TrG5h" value="TableRangeSelectionHandler" />
     <node concept="3Tm1VV" id="6Y0V2RJgInJ" role="1B3o_S" />
     <node concept="3uibUv" id="6Y0V2RJgIoP" role="1zkMxy">
-      <ref role="3uigEE" to="8jfv:3mjtVpITv5Q" resolve="AbstractDragSelectionMouseListener" />
+      <ref role="3uigEE" to="6tp1:630t2b8eexZ" resolve="AbstractDragSelectionHandler" />
     </node>
     <node concept="3clFb_" id="6Y0V2RJgIpn" role="jymVt">
       <property role="1EzhhJ" value="false" />
