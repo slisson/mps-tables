@@ -25057,99 +25057,119 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="2c3czgqp5YG" role="3cqZAp">
-              <node concept="2OqwBi" id="2c3czgqp6aL" role="3clFbG">
-                <node concept="37vLTw" id="2c3czgqp5YF" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
-                </node>
-                <node concept="liA8E" id="2c3czgqp720" role="2OqNvi">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
-                  <node concept="Rm8GO" id="2c3czgqp773" role="37wK5m">
-                    <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT" resolve="INSERT" />
-                    <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
-                  </node>
-                  <node concept="2ShNRf" id="2c3czgqpH2A" role="37wK5m">
-                    <node concept="1pGfFk" id="2c3czgqpHGa" role="2ShVmc">
-                      <ref role="37wK5l" node="2c3czgqpwdy" resolve="RowCreateHandlerAdapter" />
-                      <node concept="37vLTw" id="2c3czgqpHRb" role="37wK5m">
-                        <ref role="3cqZAo" node="2c3czgqpspe" resolve="leftCreateHandler" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="2c3czgqpIyX" role="3cqZAp">
-              <node concept="2OqwBi" id="2c3czgqpIN2" role="3clFbG">
-                <node concept="37vLTw" id="2c3czgqpIyW" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
-                </node>
-                <node concept="liA8E" id="2c3czgqpJQP" role="2OqNvi">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
-                  <node concept="Rm8GO" id="2c3czgqpJW1" role="37wK5m">
-                    <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
-                    <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
-                  </node>
-                  <node concept="2OqwBi" id="2c3czgqpKjg" role="37wK5m">
-                    <node concept="37vLTw" id="2c3czgqpK8S" role="2Oq$k0">
+            <node concept="3clFbJ" id="3GoYdkxccZB" role="3cqZAp">
+              <node concept="3clFbS" id="3GoYdkxccZD" role="3clFbx">
+                <node concept="3clFbF" id="2c3czgqp5YG" role="3cqZAp">
+                  <node concept="2OqwBi" id="2c3czgqp6aL" role="3clFbG">
+                    <node concept="37vLTw" id="2c3czgqp5YF" role="2Oq$k0">
                       <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
                     </node>
-                    <node concept="liA8E" id="2c3czgqpKON" role="2OqNvi">
-                      <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getAction(jetbrains.mps.openapi.editor.cells.CellActionType):jetbrains.mps.openapi.editor.cells.CellAction" resolve="getAction" />
-                      <node concept="Rm8GO" id="2c3czgqpLbb" role="37wK5m">
+                    <node concept="liA8E" id="2c3czgqp720" role="2OqNvi">
+                      <ref role="37wK5l" to="jsgz:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
+                      <node concept="Rm8GO" id="2c3czgqp773" role="37wK5m">
                         <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT" resolve="INSERT" />
                         <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
                       </node>
+                      <node concept="2ShNRf" id="2c3czgqpH2A" role="37wK5m">
+                        <node concept="1pGfFk" id="2c3czgqpHGa" role="2ShVmc">
+                          <ref role="37wK5l" node="2c3czgqpwdy" resolve="RowCreateHandlerAdapter" />
+                          <node concept="37vLTw" id="2c3czgqpHRb" role="37wK5m">
+                            <ref role="3cqZAo" node="2c3czgqpspe" resolve="leftCreateHandler" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="2c3czgqpLWP" role="3cqZAp">
-              <node concept="2OqwBi" id="2c3czgqpLWQ" role="3clFbG">
-                <node concept="37vLTw" id="2c3czgqpMCB" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2c3czgqp3ci" resolve="right" />
-                </node>
-                <node concept="liA8E" id="2c3czgqpLWS" role="2OqNvi">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
-                  <node concept="Rm8GO" id="2c3czgqpLWT" role="37wK5m">
-                    <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
-                    <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT" resolve="INSERT" />
-                  </node>
-                  <node concept="2ShNRf" id="2c3czgqpLWU" role="37wK5m">
-                    <node concept="1pGfFk" id="2c3czgqpLWV" role="2ShVmc">
-                      <ref role="37wK5l" node="2c3czgqpwdy" resolve="RowCreateHandlerAdapter" />
-                      <node concept="37vLTw" id="2c3czgqpNg6" role="37wK5m">
-                        <ref role="3cqZAo" node="2c3czgqpuOi" resolve="rightCreateHandler" />
+                <node concept="3clFbF" id="2c3czgqpIyX" role="3cqZAp">
+                  <node concept="2OqwBi" id="2c3czgqpIN2" role="3clFbG">
+                    <node concept="37vLTw" id="2c3czgqpIyW" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
+                    </node>
+                    <node concept="liA8E" id="2c3czgqpJQP" role="2OqNvi">
+                      <ref role="37wK5l" to="jsgz:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
+                      <node concept="Rm8GO" id="2c3czgqpJW1" role="37wK5m">
+                        <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
+                        <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                      </node>
+                      <node concept="2OqwBi" id="2c3czgqpKjg" role="37wK5m">
+                        <node concept="37vLTw" id="2c3czgqpK8S" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
+                        </node>
+                        <node concept="liA8E" id="2c3czgqpKON" role="2OqNvi">
+                          <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getAction(jetbrains.mps.openapi.editor.cells.CellActionType):jetbrains.mps.openapi.editor.cells.CellAction" resolve="getAction" />
+                          <node concept="Rm8GO" id="2c3czgqpLbb" role="37wK5m">
+                            <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT" resolve="INSERT" />
+                            <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="3clFbF" id="2c3czgqpLWX" role="3cqZAp">
-              <node concept="2OqwBi" id="2c3czgqpLWY" role="3clFbG">
-                <node concept="37vLTw" id="2c3czgqpMWa" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2c3czgqp3ci" resolve="right" />
+              <node concept="3y3z36" id="3GoYdkxce1G" role="3clFbw">
+                <node concept="10Nm6u" id="3GoYdkxce2b" role="3uHU7w" />
+                <node concept="37vLTw" id="3GoYdkxcdcP" role="3uHU7B">
+                  <ref role="3cqZAo" node="2c3czgqpspe" resolve="leftCreateHandler" />
                 </node>
-                <node concept="liA8E" id="2c3czgqpLX0" role="2OqNvi">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
-                  <node concept="Rm8GO" id="2c3czgqpLX1" role="37wK5m">
-                    <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
-                    <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
-                  </node>
-                  <node concept="2OqwBi" id="2c3czgqpLX2" role="37wK5m">
-                    <node concept="37vLTw" id="2c3czgqpLX3" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3GoYdkxceAz" role="3cqZAp">
+              <node concept="3clFbS" id="3GoYdkxceA_" role="3clFbx">
+                <node concept="3clFbF" id="2c3czgqpLWP" role="3cqZAp">
+                  <node concept="2OqwBi" id="2c3czgqpLWQ" role="3clFbG">
+                    <node concept="37vLTw" id="2c3czgqpMCB" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2c3czgqp3ci" resolve="right" />
                     </node>
-                    <node concept="liA8E" id="2c3czgqpLX4" role="2OqNvi">
-                      <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getAction(jetbrains.mps.openapi.editor.cells.CellActionType):jetbrains.mps.openapi.editor.cells.CellAction" resolve="getAction" />
-                      <node concept="Rm8GO" id="2c3czgqpLX5" role="37wK5m">
+                    <node concept="liA8E" id="2c3czgqpLWS" role="2OqNvi">
+                      <ref role="37wK5l" to="jsgz:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
+                      <node concept="Rm8GO" id="2c3czgqpLWT" role="37wK5m">
                         <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
                         <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT" resolve="INSERT" />
                       </node>
+                      <node concept="2ShNRf" id="2c3czgqpLWU" role="37wK5m">
+                        <node concept="1pGfFk" id="2c3czgqpLWV" role="2ShVmc">
+                          <ref role="37wK5l" node="2c3czgqpwdy" resolve="RowCreateHandlerAdapter" />
+                          <node concept="37vLTw" id="2c3czgqpNg6" role="37wK5m">
+                            <ref role="3cqZAo" node="2c3czgqpuOi" resolve="rightCreateHandler" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
+                </node>
+                <node concept="3clFbF" id="2c3czgqpLWX" role="3cqZAp">
+                  <node concept="2OqwBi" id="2c3czgqpLWY" role="3clFbG">
+                    <node concept="37vLTw" id="2c3czgqpMWa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2c3czgqp3ci" resolve="right" />
+                    </node>
+                    <node concept="liA8E" id="2c3czgqpLX0" role="2OqNvi">
+                      <ref role="37wK5l" to="jsgz:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
+                      <node concept="Rm8GO" id="2c3czgqpLX1" role="37wK5m">
+                        <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                        <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
+                      </node>
+                      <node concept="2OqwBi" id="2c3czgqpLX2" role="37wK5m">
+                        <node concept="37vLTw" id="2c3czgqpLX3" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
+                        </node>
+                        <node concept="liA8E" id="2c3czgqpLX4" role="2OqNvi">
+                          <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getAction(jetbrains.mps.openapi.editor.cells.CellActionType):jetbrains.mps.openapi.editor.cells.CellAction" resolve="getAction" />
+                          <node concept="Rm8GO" id="2c3czgqpLX5" role="37wK5m">
+                            <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                            <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT" resolve="INSERT" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="3GoYdkxcsEw" role="3clFbw">
+                <node concept="10Nm6u" id="3GoYdkxcsEZ" role="3uHU7w" />
+                <node concept="37vLTw" id="3GoYdkxcsDf" role="3uHU7B">
+                  <ref role="3cqZAo" node="2c3czgqpuOi" resolve="rightCreateHandler" />
                 </node>
               </node>
             </node>
