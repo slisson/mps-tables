@@ -369,6 +369,7 @@
       </concept>
       <concept id="5820409030208923287" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingLinkOperation" flags="nn" index="25OxAV" />
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1173122760281" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorsOperation" flags="nn" index="z$bX8" />
       <concept id="1143224066846" name="jetbrains.mps.lang.smodel.structure.Node_InsertNextSiblingOperation" flags="nn" index="HtI8k">
         <child id="1143224066849" name="insertedNode" index="HtI8F" />
@@ -384,6 +385,7 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
+      <concept id="334628810661441841" name="jetbrains.mps.lang.smodel.structure.AsSConcept" flags="nn" index="1rGIog" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1172323065820" name="jetbrains.mps.lang.smodel.structure.Node_GetConceptOperation" flags="nn" index="3NT_Vc" />
       <concept id="1140133623887" name="jetbrains.mps.lang.smodel.structure.Node_DeleteOperation" flags="nn" index="1PgB_6" />
@@ -398,7 +400,6 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
-      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3THzug" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -25732,17 +25733,20 @@
           <node concept="3cpWs8" id="5AW5JoZGMEz" role="3cqZAp">
             <node concept="3cpWsn" id="5AW5JoZGMEA" role="3cpWs9">
               <property role="TrG5h" value="targetConcept" />
-              <node concept="3THzug" id="5AW5JoZGMEx" role="1tU5fm" />
-              <node concept="2OqwBi" id="5AW5JoZGNX4" role="33vP2m">
-                <node concept="2OqwBi" id="5AW5JoZGNdq" role="2Oq$k0">
-                  <node concept="37vLTw" id="5AW5JoZGNaG" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5AW5JoZDdtC" resolve="nodeOfRow" />
+              <node concept="3bZ5Sz" id="1a1JAUSCaXd" role="1tU5fm" />
+              <node concept="2OqwBi" id="1a1JAUSCbl8" role="33vP2m">
+                <node concept="2OqwBi" id="5AW5JoZGNX4" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5AW5JoZGNdq" role="2Oq$k0">
+                    <node concept="37vLTw" id="5AW5JoZGNaG" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5AW5JoZDdtC" resolve="nodeOfRow" />
+                    </node>
+                    <node concept="25OxAV" id="5AW5JoZGNEc" role="2OqNvi" />
                   </node>
-                  <node concept="25OxAV" id="5AW5JoZGNEc" role="2OqNvi" />
+                  <node concept="3TrEf2" id="5AW5JoZGODM" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpce:fA0lvVK" />
+                  </node>
                 </node>
-                <node concept="3TrEf2" id="5AW5JoZGODM" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tpce:fA0lvVK" />
-                </node>
+                <node concept="1rGIog" id="1a1JAUSCbRE" role="2OqNvi" />
               </node>
             </node>
           </node>
@@ -25767,7 +25771,7 @@
                       <node concept="2GrUjf" id="5AW5JoZGUhZ" role="2Oq$k0">
                         <ref role="2Gs0qQ" node="5AW5JoZGFQE" resolve="nodeToPaste" />
                       </node>
-                      <node concept="3NT_Vc" id="5AW5JoZGUi0" role="2OqNvi" />
+                      <node concept="2yIwOk" id="1a1JAUSC7yl" role="2OqNvi" />
                     </node>
                     <node concept="2Zo12i" id="5AW5JoZGUi1" role="2OqNvi">
                       <node concept="25Kdxt" id="5AW5JoZGUi2" role="2Zo12j">
@@ -25893,13 +25897,8 @@
             <node concept="2GrKxI" id="5AW5JoZDIq$" role="2Gsz3X">
               <property role="TrG5h" value="nodeToPaste" />
             </node>
-            <node concept="2OqwBi" id="5AW5JoZDIzy" role="2GsD0m">
-              <node concept="37vLTw" id="5AW5JoZDIw6" role="2Oq$k0">
-                <ref role="3cqZAo" node="5AW5JoZDmP4" resolve="pasteNodeData" />
-              </node>
-              <node concept="liA8E" id="5AW5JoZDJ1D" role="2OqNvi">
-                <ref role="37wK5l" to="k04z:~PasteNodeData.getNodes():java.util.List" resolve="getNodes" />
-              </node>
+            <node concept="37vLTw" id="1a1JAUSDHqA" role="2GsD0m">
+              <ref role="3cqZAo" node="5AW5JoZDSEs" resolve="nodesToPaste" />
             </node>
             <node concept="3clFbS" id="5AW5JoZDIqC" role="2LFqv$">
               <node concept="3clFbJ" id="5AW5JoZDUdg" role="3cqZAp">
@@ -25910,11 +25909,8 @@
                         <ref role="3cqZAo" node="5AW5JoZCTeJ" resolve="nodeOfRow" />
                       </node>
                       <node concept="HtX7F" id="5AW5JoZDUN$" role="2OqNvi">
-                        <node concept="10QFUN" id="5AW5JoZE4CM" role="HtX7I">
-                          <node concept="3Tqbb2" id="5AW5JoZE4JN" role="10QFUM" />
-                          <node concept="2GrUjf" id="5AW5JoZDUSH" role="10QFUP">
-                            <ref role="2Gs0qQ" node="5AW5JoZDIq$" resolve="nodeToPaste" />
-                          </node>
+                        <node concept="2GrUjf" id="5AW5JoZDUSH" role="HtX7I">
+                          <ref role="2Gs0qQ" node="5AW5JoZDIq$" resolve="nodeToPaste" />
                         </node>
                       </node>
                     </node>
@@ -25931,11 +25927,8 @@
                           <ref role="3cqZAo" node="5AW5JoZCTeJ" resolve="nodeOfRow" />
                         </node>
                         <node concept="HtI8k" id="5AW5JoZE5lq" role="2OqNvi">
-                          <node concept="10QFUN" id="5AW5JoZE5rj" role="HtI8F">
-                            <node concept="3Tqbb2" id="5AW5JoZE5E4" role="10QFUM" />
-                            <node concept="2GrUjf" id="5AW5JoZE95i" role="10QFUP">
-                              <ref role="2Gs0qQ" node="5AW5JoZDIq$" resolve="nodeToPaste" />
-                            </node>
+                          <node concept="2GrUjf" id="5AW5JoZE95i" role="HtI8F">
+                            <ref role="2Gs0qQ" node="5AW5JoZDIq$" resolve="nodeToPaste" />
                           </node>
                         </node>
                       </node>
