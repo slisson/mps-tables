@@ -7861,7 +7861,7 @@
                 <ref role="3cqZAo" node="3olMEll$wgs" resolve="grid" />
               </node>
               <node concept="liA8E" id="3olMEll$whw" role="2OqNvi">
-                <ref role="37wK5l" to="6dpw:6eBFmDEVvdE" resolve="setRowHeaders" />
+                <ref role="37wK5l" to="6dpw:6eBFmDETTLI" resolve="setColumnHeaders" />
                 <node concept="3cmrfG" id="3olMEll$whx" role="37wK5m">
                   <property role="3cmrfH" value="0" />
                 </node>
