@@ -47,7 +47,7 @@
     <import index="sse1" ref="r:caea7020-da0a-4ba8-aff6-69334bbc9e02(de.slisson.mps.tables.runtime.simplegrid)" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="reoo" ref="r:1e59a084-7ebe-4e95-89ab-c58a7e396583(de.slisson.mps.tables.editor)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="4lbv" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.update(MPS.Editor/jetbrains.mps.openapi.editor.update@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -6854,6 +6854,71 @@
                     </node>
                     <node concept="37vLTw" id="DXnsYPSEpt" role="37wK5m">
                       <ref role="3cqZAo" node="DXnsYPDrT5" resolve="placeholder" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs8" id="31k9kuNWHus" role="3cqZAp">
+                <node concept="3cpWsn" id="31k9kuNWHut" role="3cpWs9">
+                  <property role="TrG5h" value="rowCreateHandler" />
+                  <node concept="3uibUv" id="31k9kuNWHur" role="1tU5fm">
+                    <ref role="3uigEE" to="6dpw:7C0FR5AJOLF" resolve="IRowCreateHandler" />
+                  </node>
+                  <node concept="2ShNRf" id="31k9kuNWHuu" role="33vP2m">
+                    <node concept="YeOm9" id="31k9kuNWHuv" role="2ShVmc">
+                      <node concept="1Y3b0j" id="31k9kuNWHuw" role="YeSDq">
+                        <property role="2bfB8j" value="true" />
+                        <ref role="1Y3XeK" to="6dpw:7C0FR5AJOLF" resolve="IRowCreateHandler" />
+                        <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
+                        <node concept="3Tm1VV" id="31k9kuNWHux" role="1B3o_S" />
+                        <node concept="3clFb_" id="31k9kuNWHuy" role="jymVt">
+                          <property role="1EzhhJ" value="false" />
+                          <property role="TrG5h" value="create" />
+                          <node concept="3cqZAl" id="31k9kuNWHuz" role="3clF45" />
+                          <node concept="3Tm1VV" id="31k9kuNWHu$" role="1B3o_S" />
+                          <node concept="3clFbS" id="31k9kuNWHu_" role="3clF47">
+                            <node concept="3clFbF" id="31k9kuNWHuA" role="3cqZAp">
+                              <node concept="2OqwBi" id="31k9kuNWHuB" role="3clFbG">
+                                <node concept="37vLTw" id="31k9kuNWHuC" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3olMEllIEVk" resolve="insertAction" />
+                                </node>
+                                <node concept="liA8E" id="31k9kuNWHuD" role="2OqNvi">
+                                  <ref role="37wK5l" to="6dpw:3vPRuXRTtq4" resolve="insertNew" />
+                                  <node concept="3cmrfG" id="31k9kuNWHuE" role="37wK5m">
+                                    <property role="3cmrfH" value="0" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="31k9kuNWIBN" role="3cqZAp">
+                <node concept="2OqwBi" id="31k9kuNWITC" role="3clFbG">
+                  <node concept="37vLTw" id="31k9kuNWIBL" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3olMEllIEVJ" resolve="grid" />
+                  </node>
+                  <node concept="liA8E" id="31k9kuNWKjF" role="2OqNvi">
+                    <ref role="37wK5l" to="6dpw:7C0FR5Beni9" resolve="setLeftRowCreateHandler" />
+                    <node concept="37vLTw" id="31k9kuNWKlh" role="37wK5m">
+                      <ref role="3cqZAo" node="31k9kuNWHut" resolve="rowCreateHandler" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="31k9kuNWqds" role="3cqZAp">
+                <node concept="2OqwBi" id="31k9kuNWquE" role="3clFbG">
+                  <node concept="37vLTw" id="31k9kuNWqdq" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3olMEllIEVJ" resolve="grid" />
+                  </node>
+                  <node concept="liA8E" id="31k9kuNWrPN" role="2OqNvi">
+                    <ref role="37wK5l" to="6dpw:7C0FR5Benin" resolve="setRightRowCreateHandler" />
+                    <node concept="37vLTw" id="31k9kuNWHuF" role="37wK5m">
+                      <ref role="3cqZAo" node="31k9kuNWHut" resolve="rowCreateHandler" />
                     </node>
                   </node>
                 </node>
