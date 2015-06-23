@@ -23386,48 +23386,98 @@
                     <node concept="3cpWs8" id="3GKqtdr6A9a" role="3cqZAp">
                       <node concept="3cpWsn" id="3GKqtdr6A9b" role="3cpWs9">
                         <property role="TrG5h" value="insertAction" />
-                        <node concept="3uibUv" id="3GKqtdr6A9c" role="1tU5fm">
-                          <ref role="3uigEE" to="nu8v:~CellAction" resolve="CellAction" />
-                        </node>
-                        <node concept="2EnYce" id="3GKqtdr6Bhg" role="33vP2m">
-                          <node concept="2OqwBi" id="3GKqtdr6Azj" role="2Oq$k0">
-                            <node concept="37vLTw" id="3GKqtdr6Axt" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3GKqtdr6x3_" resolve="element" />
-                            </node>
-                            <node concept="liA8E" id="3GKqtdr6AEe" role="2OqNvi">
-                              <ref role="37wK5l" node="3GKqtdqRN0t" resolve="getInsertAction" />
-                            </node>
+                        <node concept="3uibUv" id="31k9kuNNlse" role="1tU5fm">
+                          <ref role="3uigEE" node="7C0FR5AJF$W" resolve="PriorizedValue" />
+                          <node concept="3uibUv" id="31k9kuNNl_y" role="11_B2D">
+                            <ref role="3uigEE" to="nu8v:~CellAction" resolve="CellAction" />
                           </node>
-                          <node concept="liA8E" id="3GKqtdr6Bcm" role="2OqNvi">
-                            <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
+                        </node>
+                        <node concept="2OqwBi" id="3GKqtdr6Azj" role="33vP2m">
+                          <node concept="37vLTw" id="3GKqtdr6Axt" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3GKqtdr6x3_" resolve="element" />
+                          </node>
+                          <node concept="liA8E" id="3GKqtdr6AEe" role="2OqNvi">
+                            <ref role="37wK5l" node="3GKqtdqRN0t" resolve="getInsertAction" />
                           </node>
                         </node>
                       </node>
                     </node>
                     <node concept="3clFbJ" id="3GKqtdr6BHE" role="3cqZAp">
                       <node concept="3clFbS" id="3GKqtdr6BHH" role="3clFbx">
-                        <node concept="3clFbF" id="3GKqtdr6zJj" role="3cqZAp">
-                          <node concept="2OqwBi" id="3GKqtdr6zKw" role="3clFbG">
-                            <node concept="37vLTw" id="3GKqtdr6zJi" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3GKqtdr6zaw" resolve="cell" />
+                        <node concept="3clFbJ" id="31k9kuNNlIL" role="3cqZAp">
+                          <node concept="3clFbS" id="31k9kuNNlIN" role="3clFbx">
+                            <node concept="3clFbF" id="3GKqtdr6zJj" role="3cqZAp">
+                              <node concept="2OqwBi" id="3GKqtdr6zKw" role="3clFbG">
+                                <node concept="37vLTw" id="3GKqtdr6zJi" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3GKqtdr6zaw" resolve="cell" />
+                                </node>
+                                <node concept="liA8E" id="3GKqtdr6zQR" role="2OqNvi">
+                                  <ref role="37wK5l" to="nu8v:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
+                                  <node concept="Rm8GO" id="3GKqtdr6zTe" role="37wK5m">
+                                    <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT" resolve="INSERT" />
+                                    <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                                  </node>
+                                  <node concept="2OqwBi" id="31k9kuNNrmw" role="37wK5m">
+                                    <node concept="37vLTw" id="3GKqtdr6DEE" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3GKqtdr6A9b" resolve="insertAction" />
+                                    </node>
+                                    <node concept="liA8E" id="31k9kuNNrML" role="2OqNvi">
+                                      <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                             </node>
-                            <node concept="liA8E" id="3GKqtdr6zQR" role="2OqNvi">
-                              <ref role="37wK5l" to="nu8v:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
-                              <node concept="Rm8GO" id="3GKqtdr6zTe" role="37wK5m">
-                                <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT" resolve="INSERT" />
-                                <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                          </node>
+                          <node concept="22lmx$" id="31k9kuNNmnA" role="3clFbw">
+                            <node concept="2d3UOw" id="31k9kuNNnmU" role="3uHU7w">
+                              <node concept="3cmrfG" id="31k9kuNNnti" role="3uHU7w">
+                                <property role="3cmrfH" value="0" />
                               </node>
-                              <node concept="37vLTw" id="3GKqtdr6DEE" role="37wK5m">
-                                <ref role="3cqZAo" node="3GKqtdr6A9b" resolve="insertAction" />
+                              <node concept="2OqwBi" id="31k9kuNNmzl" role="3uHU7B">
+                                <node concept="37vLTw" id="31k9kuNNmtS" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3GKqtdr6A9b" resolve="insertAction" />
+                                </node>
+                                <node concept="liA8E" id="31k9kuNNmWY" role="2OqNvi">
+                                  <ref role="37wK5l" node="7C0FR5Bcbrf" resolve="getPriority" />
+                                </node>
                               </node>
+                            </node>
+                            <node concept="3clFbC" id="31k9kuNNmdF" role="3uHU7B">
+                              <node concept="2OqwBi" id="31k9kuNNlOp" role="3uHU7B">
+                                <node concept="37vLTw" id="31k9kuNNlND" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3GKqtdr6zaw" resolve="cell" />
+                                </node>
+                                <node concept="liA8E" id="31k9kuNNlZs" role="2OqNvi">
+                                  <ref role="37wK5l" to="nu8v:~EditorCell.getAction(jetbrains.mps.openapi.editor.cells.CellActionType):jetbrains.mps.openapi.editor.cells.CellAction" resolve="getAction" />
+                                  <node concept="Rm8GO" id="31k9kuNNm1Q" role="37wK5m">
+                                    <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT" resolve="INSERT" />
+                                    <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="10Nm6u" id="31k9kuNNmiY" role="3uHU7w" />
                             </node>
                           </node>
                         </node>
                       </node>
-                      <node concept="3y3z36" id="3GKqtdr6C8z" role="3clFbw">
-                        <node concept="10Nm6u" id="3GKqtdr6C8L" role="3uHU7w" />
-                        <node concept="37vLTw" id="3GKqtdr6C7A" role="3uHU7B">
-                          <ref role="3cqZAo" node="3GKqtdr6A9b" resolve="insertAction" />
+                      <node concept="1Wc70l" id="31k9kuNNrVt" role="3clFbw">
+                        <node concept="3y3z36" id="31k9kuNNsuE" role="3uHU7w">
+                          <node concept="10Nm6u" id="31k9kuNNsxa" role="3uHU7w" />
+                          <node concept="2OqwBi" id="31k9kuNNs6a" role="3uHU7B">
+                            <node concept="37vLTw" id="31k9kuNNs4x" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3GKqtdr6A9b" resolve="insertAction" />
+                            </node>
+                            <node concept="liA8E" id="31k9kuNNss1" role="2OqNvi">
+                              <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3y3z36" id="3GKqtdr6C8z" role="3uHU7B">
+                          <node concept="37vLTw" id="3GKqtdr6C7A" role="3uHU7B">
+                            <ref role="3cqZAo" node="3GKqtdr6A9b" resolve="insertAction" />
+                          </node>
+                          <node concept="10Nm6u" id="3GKqtdr6C8L" role="3uHU7w" />
                         </node>
                       </node>
                     </node>
@@ -23440,48 +23490,98 @@
                     <node concept="3cpWs8" id="3GKqtdr6DZR" role="3cqZAp">
                       <node concept="3cpWsn" id="3GKqtdr6DZS" role="3cpWs9">
                         <property role="TrG5h" value="insertBeforeAction" />
-                        <node concept="3uibUv" id="3GKqtdr6DZT" role="1tU5fm">
-                          <ref role="3uigEE" to="nu8v:~CellAction" resolve="CellAction" />
-                        </node>
-                        <node concept="2EnYce" id="3GKqtdr6DZU" role="33vP2m">
-                          <node concept="2OqwBi" id="3GKqtdr6DZV" role="2Oq$k0">
-                            <node concept="37vLTw" id="3GKqtdr6DZW" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3GKqtdr6x3_" resolve="element" />
-                            </node>
-                            <node concept="liA8E" id="3GKqtdr6DZX" role="2OqNvi">
-                              <ref role="37wK5l" node="3GKqtdqRN0y" resolve="getInsertBeforeAction" />
-                            </node>
+                        <node concept="3uibUv" id="31k9kuNNnS$" role="1tU5fm">
+                          <ref role="3uigEE" node="7C0FR5AJF$W" resolve="PriorizedValue" />
+                          <node concept="3uibUv" id="31k9kuNNo6B" role="11_B2D">
+                            <ref role="3uigEE" to="nu8v:~CellAction" resolve="CellAction" />
                           </node>
-                          <node concept="liA8E" id="3GKqtdr6DZY" role="2OqNvi">
-                            <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
+                        </node>
+                        <node concept="2OqwBi" id="3GKqtdr6DZV" role="33vP2m">
+                          <node concept="37vLTw" id="3GKqtdr6DZW" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3GKqtdr6x3_" resolve="element" />
+                          </node>
+                          <node concept="liA8E" id="3GKqtdr6DZX" role="2OqNvi">
+                            <ref role="37wK5l" node="3GKqtdqRN0y" resolve="getInsertBeforeAction" />
                           </node>
                         </node>
                       </node>
                     </node>
                     <node concept="3clFbJ" id="3GKqtdr6ERF" role="3cqZAp">
                       <node concept="3clFbS" id="3GKqtdr6ERI" role="3clFbx">
-                        <node concept="3clFbF" id="3GKqtdr6Fjq" role="3cqZAp">
-                          <node concept="2OqwBi" id="3GKqtdr6Fk5" role="3clFbG">
-                            <node concept="37vLTw" id="3GKqtdr6Fjp" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3GKqtdr6zaw" resolve="cell" />
+                        <node concept="3clFbJ" id="31k9kuNNqwC" role="3cqZAp">
+                          <node concept="3clFbS" id="31k9kuNNqwE" role="3clFbx">
+                            <node concept="3clFbF" id="3GKqtdr6Fjq" role="3cqZAp">
+                              <node concept="2OqwBi" id="3GKqtdr6Fk5" role="3clFbG">
+                                <node concept="37vLTw" id="3GKqtdr6Fjp" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3GKqtdr6zaw" resolve="cell" />
+                                </node>
+                                <node concept="liA8E" id="3GKqtdr6FpM" role="2OqNvi">
+                                  <ref role="37wK5l" to="nu8v:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
+                                  <node concept="Rm8GO" id="3GKqtdr6Fs3" role="37wK5m">
+                                    <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
+                                    <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                                  </node>
+                                  <node concept="2OqwBi" id="31k9kuNNt91" role="37wK5m">
+                                    <node concept="37vLTw" id="3GKqtdr6FMp" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3GKqtdr6DZS" resolve="insertBeforeAction" />
+                                    </node>
+                                    <node concept="liA8E" id="31k9kuNNt_v" role="2OqNvi">
+                                      <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                             </node>
-                            <node concept="liA8E" id="3GKqtdr6FpM" role="2OqNvi">
-                              <ref role="37wK5l" to="nu8v:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
-                              <node concept="Rm8GO" id="3GKqtdr6Fs3" role="37wK5m">
-                                <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
-                                <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                          </node>
+                          <node concept="22lmx$" id="31k9kuNNqC6" role="3clFbw">
+                            <node concept="2d3UOw" id="31k9kuNNqC7" role="3uHU7w">
+                              <node concept="3cmrfG" id="31k9kuNNqC8" role="3uHU7w">
+                                <property role="3cmrfH" value="0" />
                               </node>
-                              <node concept="37vLTw" id="3GKqtdr6FMp" role="37wK5m">
-                                <ref role="3cqZAo" node="3GKqtdr6DZS" resolve="insertBeforeAction" />
+                              <node concept="2OqwBi" id="31k9kuNNqC9" role="3uHU7B">
+                                <node concept="37vLTw" id="31k9kuNNqHz" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3GKqtdr6DZS" resolve="insertBeforeAction" />
+                                </node>
+                                <node concept="liA8E" id="31k9kuNNqCb" role="2OqNvi">
+                                  <ref role="37wK5l" node="7C0FR5Bcbrf" resolve="getPriority" />
+                                </node>
                               </node>
+                            </node>
+                            <node concept="3clFbC" id="31k9kuNNqCc" role="3uHU7B">
+                              <node concept="2OqwBi" id="31k9kuNNqCd" role="3uHU7B">
+                                <node concept="37vLTw" id="31k9kuNNqCe" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3GKqtdr6zaw" resolve="cell" />
+                                </node>
+                                <node concept="liA8E" id="31k9kuNNqCf" role="2OqNvi">
+                                  <ref role="37wK5l" to="nu8v:~EditorCell.getAction(jetbrains.mps.openapi.editor.cells.CellActionType):jetbrains.mps.openapi.editor.cells.CellAction" resolve="getAction" />
+                                  <node concept="Rm8GO" id="31k9kuNNqPg" role="37wK5m">
+                                    <ref role="Rm8GQ" to="nu8v:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
+                                    <ref role="1Px2BO" to="nu8v:~CellActionType" resolve="CellActionType" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="10Nm6u" id="31k9kuNNqCh" role="3uHU7w" />
                             </node>
                           </node>
                         </node>
                       </node>
-                      <node concept="3y3z36" id="3GKqtdr6Fiw" role="3clFbw">
-                        <node concept="10Nm6u" id="3GKqtdr6FiI" role="3uHU7w" />
-                        <node concept="37vLTw" id="3GKqtdr6Fhz" role="3uHU7B">
-                          <ref role="3cqZAo" node="3GKqtdr6DZS" resolve="insertBeforeAction" />
+                      <node concept="1Wc70l" id="31k9kuNNsyE" role="3clFbw">
+                        <node concept="3y3z36" id="31k9kuNNt5s" role="3uHU7w">
+                          <node concept="10Nm6u" id="31k9kuNNt6p" role="3uHU7w" />
+                          <node concept="2OqwBi" id="31k9kuNNsHs" role="3uHU7B">
+                            <node concept="37vLTw" id="31k9kuNNsFG" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3GKqtdr6DZS" resolve="insertBeforeAction" />
+                            </node>
+                            <node concept="liA8E" id="31k9kuNNt3j" role="2OqNvi">
+                              <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3y3z36" id="3GKqtdr6Fiw" role="3uHU7B">
+                          <node concept="37vLTw" id="3GKqtdr6Fhz" role="3uHU7B">
+                            <ref role="3cqZAo" node="3GKqtdr6DZS" resolve="insertBeforeAction" />
+                          </node>
+                          <node concept="10Nm6u" id="3GKqtdr6FiI" role="3uHU7w" />
                         </node>
                       </node>
                     </node>
