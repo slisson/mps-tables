@@ -2850,6 +2850,9 @@
               <node concept="3TUQnm" id="7C0FR5_fvY2" role="HW$Y0">
                 <ref role="3TV0OU" to="bnk3:7C0FR5_exlh" resolve="QueryParameter_SubstituteInfoFactory" />
               </node>
+              <node concept="3TUQnm" id="1ESicmR3IAz" role="HW$Y0">
+                <ref role="3TV0OU" to="bnk3:3vPRuXSAV86" resolve="QueryParameter_EditorContext" />
+              </node>
             </node>
           </node>
         </node>

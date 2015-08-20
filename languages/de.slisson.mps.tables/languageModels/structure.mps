@@ -8,8 +8,8 @@
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -855,6 +855,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
+    <node concept="1TJgyj" id="1ESicmRcbXO" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="idExpr" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="5AW5JoZP1UQ" role="PzmwI">
       <ref role="PrY4T" node="1dAqnm8mHSd" resolve="IHeader" />
     </node>
@@ -1045,6 +1050,11 @@
     <property role="TrG5h" value="QueryParameter_QueryResult" />
     <property role="34LRSv" value="queryResult" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1ESicmRelHz">
+    <property role="TrG5h" value="ThisNodeExpression" />
+    <property role="34LRSv" value="thisNode" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>
 
